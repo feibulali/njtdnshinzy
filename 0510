@@ -5,165 +5,525 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: FR法国(youtube阿伟科技), server: hopev2ray2.ddns.net, port: 443, type: vmess, uuid: c232cb40-ed11-11ed-a048-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hopev2ray2.ddns.net, network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
-  - {name: GB英国(youtube阿伟科技), server: 164.132.185.2, port: 49904, type: vmess, uuid: 5b27aee5-4dbb-47f8-a060-02d9425809f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技), server: sd-wan-hk-2.cloudspeed.online, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aws-china-media/QAcTKp3Ic-M.mp4, headers: {Host: sd-wan-hk-2.cloudspeed.online}}, udp: true}
-  - {name: HK香港(youtube阿伟科技2), server: 16.162.48.221, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: HK香港(youtube阿伟科技2) 2, server: 43.198.97.210, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: HK香港(youtube阿伟科技2) 3, server: hk6.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: HK香港(youtube阿伟科技2) 4, server: 16.163.94.236, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: HK香港(youtube阿伟科技2) 5, server: hk80.8b750e3e20aa.sanfen004.me, port: 80, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US_分享日记, server: 198.2.205.76, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1683629314915, headers: {Host: www.77993560.xyz}}, udp: true}
+  - {name: CN_分享日记, server: 223.167.41.208, port: 63088, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: US_分享日记 2, server: HKG.MIFJUN.ORG, port: 8080, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: HKG.MIFJUN.ORG}}, udp: true}
+  - {name: CN_分享日记 2, server: 223.167.41.49, port: 63072, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ag01-cdn.myn1des.com}}, udp: true}
+  - {name: US_分享日记 3, server: 192.74.236.140, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_分享日记, server: 8.219.216.27, port: 2095, type: vmess, uuid: 19350d64-6868-4a64-e501-9c0df903d788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: h3.mamadcucu.com}}, udp: true}
+  - {name: US_分享日记 4, server: 38.63.0.68, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1683543024453, headers: {Host: www.19458162.xyz}}, udp: true}
+  - {name: US_分享日记 5, server: visa.com, port: 80, type: vmess, uuid: 373f2d71-79ca-47a4-974f-79b2590e8c60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
+  - {name: US_分享日记 6, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
+  - {name: TW_分享日记, server: CHT.MIFJUN.ORG, port: 8082, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 7, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: RO_分享日记, server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: CN_分享日记 3, server: m.lwvzmdu.cn, port: 16635, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: US_分享日记 8, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: US_分享日记 9, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: hk.yxjnode.com}}, udp: true}
+  - {name: US_分享日记 10, server: d.mamadcucu.com, port: 2082, type: vmess, uuid: 38c8e734-f87f-4c74-b5ed-63e10ce54b93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i5.mamadcucu.com}}, udp: true}
+  - {name: US_分享日记 11, server: yx.glucy.top, port: 443, type: vmess, uuid: a875b3de-131d-4425-f0bf-b56e30d5b571, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: eu3.glucy.top}}, udp: true}
+  - {name: US_分享日记 12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 373f2d71-79ca-47a4-974f-79b2590e8c60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
+  - {name: KR_分享日记, server: kr07.wxfz.gq, port: 443, type: vmess, uuid: 95b2d587-b23c-49aa-da6a-9ccdb82b5675, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/cctv13.m3u8?ed=2048", headers: {Host: kr07.wxfz.gq}}, udp: true}
+  - {name: US_分享日记 13, server: d.mamadcucu.com, port: 8880, type: vmess, uuid: c1808f79-f54d-440c-dbb1-cd21a2f0ef8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i2.mamadcucu.com}}, udp: true}
+  - {name: CN_分享日记 4, server: t.cccao.cyou, port: 16635, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: US_分享日记 14, server: 140.99.48.24, port: 57102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 15, server: 107.167.12.26, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 16, server: 45.86.11.147, port: 39182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 17, server: 38.40.158.246, port: 45002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 18, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 373f2d71-79ca-47a4-974f-79b2590e8c60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技), server: nljs.stablize.top, port: 443, type: trojan, password: a591da13-bd6d-4ba1-8fd0-3d4ca7522bf2, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: 38.40.158.246, port: 45002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技), server: 38.63.0.68, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.19458162.xyz, network: ws, ws-opts: {path: /path/1683543024453, headers: {Host: www.19458162.xyz}}, udp: true}
+  - {name: GB英国(youtube阿伟科技), server: ukjs.stablize.top, port: 443, type: trojan, password: 0b456902-6aaf-4bce-a248-bc2a2d9eeedb, skip-cert-verify: true, udp: true}
+  - {name: JP日本(youtube阿伟科技), server: jp1.1f4826f463aa.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技) 2, server: 107.167.12.26, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技), server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: Dusseldorf.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: DE德国(youtube阿伟科技) 2, server: d.mamadcucu.com, port: 8880, type: vmess, uuid: c1808f79-f54d-440c-dbb1-cd21a2f0ef8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i2.mamadcucu.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技) 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2), server: 16.162.74.222, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: DE德国(youtube阿伟科技) 3, server: 223.167.41.49, port: 63084, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01-cdn.airport-v2.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 2, server: 16.163.94.236, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 2, server: 43.206.100.231, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: BR巴西(youtube阿伟科技), server: t.cccao.cyou, port: 16635, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 3, server: 43.198.97.210, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 4, server: hk1.c.e8bb3fc45ae6.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 5, server: 16.162.48.221, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: HK香港(youtube阿伟科技2) 6, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 2, server: jp1.1f4826f463aa.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 3, server: 43.206.100.231, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: NL荷兰(youtube阿伟科技), server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: 171.22.134.2, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 7, server: hk6.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: LU卢森堡(youtube阿伟科技), server: 2606:4700:3037::ac43:d057, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 8, server: HKG.MIFJUN.ORG, port: 8080, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: HKG.MIFJUN.ORG}}, udp: true}
+  - {name: AG阿根廷(youtube阿伟科技), server: 223.167.41.49, port: 63072, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ag01-cdn.myn1des.com}}, udp: true}
+  - {name: FR法国(youtube阿伟科技), server: asintech--id-telegram.duckdns.org, port: 11002, type: vmess, uuid: aa410999-f9c3-4eb6-a929-5b7eff9764c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(youtube阿伟科技) 2, server: 164.132.185.2, port: 49904, type: vmess, uuid: 5b27aee5-4dbb-47f8-a060-02d9425809f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 9, server: 43.198.97.210, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 10, server: hk6.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 11, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 12, server: 16.162.48.221, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: FR法国(youtube阿伟科技) 2, server: hopev2ray2.ddns.net, port: 443, type: vmess, uuid: c232cb40-ed11-11ed-a048-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hopev2ray2.ddns.net, network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 3, server: jp1.1f4826f463aa.sanfen004.me, port: 443, type: vmess, uuid: f17ae953-bb51-4932-a139-66c37122f45e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 4, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 5, server: 43.206.100.231, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技) 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: LU卢森堡(youtube阿伟科技) 2, server: 2606:4700:3037::ac43:d057, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,21 +546,66 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR法国(youtube阿伟科技)
+      - US_分享日记
+      - CN_分享日记
+      - US_分享日记 2
+      - CN_分享日记 2
+      - US_分享日记 3
+      - SG_分享日记
+      - US_分享日记 4
+      - US_分享日记 5
+      - US_分享日记 6
+      - TW_分享日记
+      - US_分享日记 7
+      - RO_分享日记
+      - CN_分享日记 3
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - KR_分享日记
+      - US_分享日记 13
+      - CN_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - US_分享日记 17
+      - US_分享日记 18
+      - NL荷兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技)
       - GB英国(youtube阿伟科技)
-      - HK香港(youtube阿伟科技)
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技) 3
       - HK香港(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技) 2
+      - BR巴西(youtube阿伟科技)
       - HK香港(youtube阿伟科技2) 3
       - HK香港(youtube阿伟科技2) 4
       - HK香港(youtube阿伟科技2) 5
       - HK香港(youtube阿伟科技2) 6
-      - JP日本(youtube阿伟科技)
-      - JP日本(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技) 3
-      - NL荷兰(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 7
       - LU卢森堡(youtube阿伟科技)
+      - HK香港(youtube阿伟科技2) 8
+      - AG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技2) 9
+      - HK香港(youtube阿伟科技2) 10
+      - HK香港(youtube阿伟科技2) 11
+      - HK香港(youtube阿伟科技2) 12
+      - FR法国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技) 3
+      - JP日本(youtube阿伟科技) 4
+      - JP日本(youtube阿伟科技) 5
+      - NL荷兰(youtube阿伟科技) 2
+      - LU卢森堡(youtube阿伟科技) 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
