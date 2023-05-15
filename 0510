@@ -5,285 +5,349 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_分享日记, server: visa.cn, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: idnusanet.vpnexecutive.my.id}}, udp: true}
-  - {name: US_分享日记 2, server: new8.huvicloud.com, port: 443, type: vmess, uuid: a11ca760-9ef9-4a63-95c9-4c5c32d56251, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: new8.huvicloud.com}}, udp: true}
-  - {name: US_分享日记 3, server: 192.74.237.51, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 4, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
-  - {name: US_分享日记 5, server: 45.12.112.114, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AM_分享日记, server: cf1.biger.top, port: 2087, type: vmess, uuid: be358015-1743-4a67-ac40-c51a996fdbaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.biger.top}}, udp: true}
-  - {name: US_分享日记 6, server: 142.0.130.8, port: 53452, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 7, server: 142.4.112.12, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 8, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: 美国(油管:破解资源君), server: 108.162.193.35, port: 80, type: vmess, uuid: bf663a96-d2ee-4c67-e2db-759faf345ffe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer09, headers: {Host: yvsos.vtcss.top}}, udp: true}
-  - {name: US_分享日记 9, server: 192.74.234.78, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: TW_分享日记, server: CHT.MIFJUN.ORG, port: 8082, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 3, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: JP_分享日记, server: cdncf.scyu.app, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 10, server: 172.67.73.39, port: 80, type: vmess, uuid: b8458948-a630-4e6d-809a-230b2223ff3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrayvws, headers: {Host: f.tun4.live}}, udp: true}
-  - {name: 日本(油管:破解资源君), server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 11, server: cf1.biger.club, port: 2087, type: vmess, uuid: be358015-1743-4a67-ac40-c51a996fdbaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cr1.biger.club}}, udp: true}
-  - {name: 美国(油管:破解资源君) 5, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
-  - {name: JP_分享日记 2, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰(youtube阿伟科技), server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: JP_分享日记 3, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 01925169-e2ff-483c-89f2-6e778dcdd450, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
-  - {name: 美国(油管:破解资源君) 6, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: az_jp_east_1.untilmu.com, port: 11627, type: ss, cipher: aes-256-gcm, password: 0a6d8b4e-09ad-4ec8-a2b8-cfff363bcd84, udp: true}
-  - {name: TW台湾(youtube阿伟科技), server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: b18c1d76-c13f-303a-9bd1-58725fc6db38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: fr1.09vpn.com, port: 8443, type: vmess, uuid: 40d591de-3e5d-492d-8587-c695a9d15689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: fr1.09vpn.com}}, udp: true}
+  - {name: JP_分享日记, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 01925169-e2ff-483c-89f2-6e778dcdd450, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
   - {name: SG新加坡(youtube阿伟科技), server: 13.215.177.20, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: 2606:4700:3037::6815:3523, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技), server: 142.0.132.38, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
+  - {name: 印尼(youtube阿伟科技), server: 202.81.231.150, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: idnusanet.vpnexecutive.my.id}}, udp: true}
+  - {name: US美国(youtube阿伟科技) 2, server: cdncf.scyu.app, port: 8080, type: vmess, uuid: d1fca18b-00ce-4024-8cc8-4b49a4dd5e52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: TW_分享日记, server: CHT.MIFJUN.ORG, port: 8082, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 3, server: 45.92.160.186, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 4, server: ::ffff:6c3d:d2f8, port: 443, type: vmess, uuid: 080fcb60-ef57-11ed-b75a-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
+  - {name: TW台湾(youtube阿伟科技), server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: b18c1d76-c13f-303a-9bd1-58725fc6db38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
+  - {name: 日本(油管:破解资源君), server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: AE阿联酋(youtube阿伟科技), server: 5.44.42.44, port: 10000, type: vmess, uuid: e6c3138c-f17f-11ed-b55d-33113f7c07df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnjantit}, udp: true}
+  - {name: 美国(油管:破解资源君), server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
+  - {name: CA加拿大(youtube阿伟科技), server: ca.moop.wiki, port: 80, type: vmess, uuid: 73ac19a7-6676-448b-b435-e998c4d6171f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catre2, headers: {Host: ca.moop.wiki}}, udp: true}
+  - {name: 爱尔兰(youtube阿伟科技), server: 45.77.66.212, port: 443, type: vmess, uuid: C5E2E4E0-92C7-4531-AF46-7173D648B600, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: Dusseldorf.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: FR法国(youtube阿伟科技), server: fr1.09vpn.com, port: 8443, type: vmess, uuid: 40d591de-3e5d-492d-8587-c695a9d15689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: fr1.09vpn.com}}, udp: true}
+  - {name: US_分享日记 2, server: new8.huvicloud.com, port: 443, type: vmess, uuid: a11ca760-9ef9-4a63-95c9-4c5c32d56251, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: new8.huvicloud.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: PL波兰(youtube阿伟科技), server: 146.59.44.159, port: 10000, type: vmess, uuid: 14c59bda-f183-11ed-9732-57a38bce5af4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnjantit}, udp: true}
+  - {name: US美国(youtube阿伟科技) 6, server: 141.98.19.77, port: 10000, type: vmess, uuid: 2a1794b0-f184-11ed-bc8b-00163ed178a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnjantit}, udp: true}
+  - {name: FR法国(youtube阿伟科技) 2, server: fr2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: fr2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: fr2-vmess.greenssh.xyz}}, udp: true}
+  - {name: JP_分享日记 2, server: cdncf.scyu.app, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}, udp: true}
+  - {name: PL波兰(youtube阿伟科技) 2, server: pl2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 7487c25a-e899-44d8-9d71-8b9ab4ff5d26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: pl2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: pl2-vmess.greenssh.xyz}}, udp: true}
+  - {name: DE德国(youtube阿伟科技), server: 5.75.209.121, port: 49534, type: vmess, uuid: e3550c46-f77a-4c89-ce67-73168cd15868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 7, server: tempest-us.aikun.online, port: 443, type: trojan, password: 0d234e81-52f2-44a7-8bcc-b9e737c3830f, skip-cert-verify: true, udp: true}
+  - {name: 意大利(youtube阿伟科技), server: 91.201.65.220, port: 10000, type: vmess, uuid: f9d3d842-f181-11ed-b042-00163e0951db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnjantit}, udp: true}
+  - {name: US美国(youtube阿伟科技) 8, server: shabi.masscloud.cf, port: 443, type: trojan, password: GaON64N6, sni: shabi.masscloud.cf, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 3, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: DE德国(youtube阿伟科技) 2, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: HK香港(youtube阿伟科技), server: awshk1-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技) 2, server: hkt2.amazonwebservicess.com, port: 80, type: vmess, uuid: 4062b33c-be7a-4b69-94f5-4c738a4def8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: hkt2.amazonwebservicess.com}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技), server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技) 3, server: 142.4.114.25, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 4, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: LU卢森堡(youtube阿伟科技2), server: 2606:4700:3037::6815:3523, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: FI芬兰(youtube阿伟科技), server: kamnaf.ml, port: 2095, type: vmess, uuid: 1b7594df-1a43-4961-f3a9-741f8b8bee48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kamnaf.ml}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -306,36 +370,44 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US_分享日记 4
-      - US_分享日记 5
-      - AM_分享日记
-      - US_分享日记 6
-      - US_分享日记 7
-      - US_分享日记 8
-      - 美国(油管:破解资源君)
-      - US_分享日记 9
-      - 美国(油管:破解资源君) 2
-      - TW_分享日记
-      - 美国(油管:破解资源君) 3
       - JP_分享日记
-      - 美国(油管:破解资源君) 4
-      - US_分享日记 10
-      - 日本(油管:破解资源君)
-      - US_分享日记 11
-      - 美国(油管:破解资源君) 5
-      - JP_分享日记 2
-      - NL荷兰(youtube阿伟科技)
-      - JP_分享日记 3
-      - 美国(油管:破解资源君) 6
-      - JP日本(youtube阿伟科技)
-      - TW台湾(youtube阿伟科技)
-      - US美国(youtube阿伟科技2)
       - SG新加坡(youtube阿伟科技)
       - US美国(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 2
+      - US_分享日记
+      - 印尼(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 2
+      - TW_分享日记
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - TW台湾(youtube阿伟科技)
+      - 日本(油管:破解资源君)
+      - AE阿联酋(youtube阿伟科技)
+      - 美国(油管:破解资源君)
+      - CA加拿大(youtube阿伟科技)
+      - 爱尔兰(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - US_分享日记 2
+      - 美国(油管:破解资源君) 2
+      - US美国(youtube阿伟科技) 5
+      - PL波兰(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 6
+      - FR法国(youtube阿伟科技) 2
+      - JP_分享日记 2
+      - PL波兰(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 7
+      - 意大利(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 8
+      - US_分享日记 3
+      - DE德国(youtube阿伟科技) 2
+      - 美国(油管:破解资源君) 3
+      - HK香港(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 2
+      - NL荷兰(youtube阿伟科技)
+      - HK香港(youtube阿伟科技) 3
+      - 美国(油管:破解资源君) 4
+      - LU卢森堡(youtube阿伟科技2)
+      - FI芬兰(youtube阿伟科技)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
