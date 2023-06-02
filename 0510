@@ -5,146 +5,161 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国(yudou66.com 玉豆免费节点), server: 104.31.16.62, port: 443, type: vmess, uuid: 9aa6b5ad-c0fc-47f4-a837-f72179d7b662, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Lsv4s7nS0ErewnEN, headers: {Host: channel3.unlimiteddev.tk}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 190.93.244.234, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
   - {name: 荷兰(yudou66.com 玉豆免费节点), server: 188.114.98.51, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 198.41.196.233, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 141.101.114.121, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 104.24.57.207, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君), server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 198.41.208.112, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 173.245.58.4, port: 8080, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}, udp: true}
   - {name: 英国(yudou66.com 玉豆免费节点), server: 104.24.152.223, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: 104.16.65.211, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: 190.93.244.234, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 9, server: 104.27.197.50, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: HK香港(youtube阿伟科技), server: 18.166.61.124, port: 41542, type: vmess, uuid: 8193defe-c99f-41fd-d38a-c9124fc309ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 10, server: 198.41.208.112, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 荷兰(yudou66.com 玉豆免费节点) 2, server: 188.114.97.210, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 11, server: 104.24.24.48, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 12, server: 104.16.45.208, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 香港(yudou66.com 玉豆免费节点), server: 156.227.6.7, port: 43692, type: vmess, uuid: d3b43b85-1b50-4cb5-9738-8d65bae2c95d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国(yudou66.com 玉豆免费节点) 2, server: 104.25.21.35, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 13, server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 14, server: 190.93.246.183, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 15, server: 190.93.245.64, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 16, server: 190.93.244.235, port: 8080, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君), server: 142.4.126.75, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君), server: 190.93.245.40, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: 104.18.147.36, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 3, server: 104.20.126.209, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}, udp: true}
-  - {name: 美国(油管:破解资源君) 5, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 6, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 8, server: 104.16.216.18, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 9, server: 192.74.242.138, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 10, server: cdn.noice.id, port: 80, type: vmess, uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 8fhq6a.aiossh.my.id}}, udp: true}
-  - {name: 美国(油管:破解资源君) 11, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 12, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 13, server: 190.93.245.228, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 14, server: cdncf.scyu.app, port: 8080, type: vmess, uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 2, server: 188.114.97.67, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 15, server: 104.21.94.37, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: 美国(油管:破解资源君) 16, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 17, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 18, server: cf.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: azstu-it.iiio.wiki}}, udp: true}
-  - {name: 美国(油管:破解资源君) 19, server: 104.25.14.16, port: 8080, type: vmess, uuid: d7cf7b64-bf1c-46bd-cf39-90a31393843b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: DE德国(youtube阿伟科技2), server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 882f3f11-02bc-4ecf-96b6-2da1bebcd7e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wmIMRWSrsFRTES3pFURTK72T, headers: {Host: de9.irteh.fun}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: 185.221.160.42, port: 80, type: vmess, uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oSiR4t7dQow0J9ea3kKkF, headers: {Host: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev}}, udp: true}
-  - {name: LU卢森堡(youtube阿伟科技), server: cf.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: AU澳大利亚(youtube阿伟科技), server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: AU澳大利亚(youtube阿伟科技) 2, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 2, server: pooya.ddns.net, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: sahnama.com}}, udp: true}
-  - {name: GB英国(youtube阿伟科技), server: soul.janbaroon.com, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 3, server: dejs.stablize.top, port: 443, type: trojan, password: cf1df355-e505-44a5-9c80-3fe732de1c71, skip-cert-verify: true, udp: true}
-  - {name: GB英国(youtube阿伟科技) 2, server: 104.25.96.171, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: GHTyoqrBZm.janbaroon.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: KR韩国(youtube阿伟科技), server: chunchuan1.588500.xyz, port: 58853, type: vmess, uuid: 431218b0-8b07-4d71-89a4-c20aa92fce30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ndy58850, headers: {Host: chunchuan1.588500.xyz}}, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 4, server: 139.144.178.223, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 0104738894, udp: true}
-  - {name: SG新加坡(youtube阿伟科技), server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: IN印度(youtube阿伟科技), server: 172.105.40.52, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 1196c1f1-ac69-4d3f-bbbb-722517323170, udp: true}
-  - {name: US美国(youtube阿伟科技2) 3, server: 45.67.215.70, port: 80, type: vmess, uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oSiR4t7dQow0J9ea3kKkF, headers: {Host: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev}}, udp: true}
-  - {name: 挪威(youtube阿伟科技2), server: 195.54.170.225, port: 443, type: vmess, uuid: b42fea65-0046-4594-8a2f-8d38fca87a4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技) 2, server: 18.167.166.162, port: 50053, type: vmess, uuid: 9197c1d7-befa-4137-ae75-7995f93039f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: US美国(youtube阿伟科技2) 4, server: 104.25.121.121, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 5, server: 192.74.237.53, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.71653718.xyz, network: ws, ws-opts: {path: /path/1685439562518, headers: {Host: www.71653718.xyz}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 6, server: 104.21.15.32, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 7, server: 142.0.132.35, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685361567761, headers: {Host: www.45022499.xyz}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 8, server: 108.186.116.178, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(youtube阿伟科技) 3, server: 104.16.22.196, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 9, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 10, server: 142.4.104.195, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 11, server: 199.247.6.98, port: 80, type: vmess, uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oSiR4t7dQow0J9ea3kKkF, headers: {Host: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 12, server: 195.201.217.250, port: 3456, type: vmess, uuid: fec3f0b9-f7af-4f62-b750-5bd0611a9a8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 13, server: 203.30.188.236, port: 80, type: vmess, uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oSiR4t7dQow0J9ea3kKkF, headers: {Host: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev}}, udp: true}
-  - {name: AU澳大利亚(youtube阿伟科技) 3, server: aujs.stablize.top, port: 443, type: trojan, password: 03604138-c4b4-481a-bc82-52a41189415a, skip-cert-verify: true, udp: true}
-  - {name: KR韩国(youtube阿伟科技) 2, server: kr.cc2.zhoushuren.top, port: 58853, type: trojan, password: 431218b0-8b07-4d71-89a4-c20aa92fce30, sni: kr.cc2.zhoushuren.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 14, server: 120.226.50.76, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 5, server: 167.235.61.163, port: 3456, type: vmess, uuid: 68424231-aedd-466b-a171-5571c8183c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 3, server: 104.21.94.37, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: 104.27.197.50, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
   - {name: CA加拿大(youtube阿伟科技), server: 172.105.98.149, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 1196c1f1-ac69-4d3f-bbbb-722517323170, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: 190.93.244.235, port: 8080, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}, udp: true}
+  - {name: 香港(yudou66.com 玉豆免费节点), server: 156.227.6.7, port: 43692, type: vmess, uuid: d3b43b85-1b50-4cb5-9738-8d65bae2c95d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 4, server: cf.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: azstu-it.iiio.wiki}}, udp: true}
+  - {name: GB英国(youtube阿伟科技), server: 188.114.98.205, port: 443, type: vmess, uuid: 2c3a22f0-2087-4f86-b30d-664317f8c820, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tou.vtcss.top, network: ws, ws-opts: {path: /qwer, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: DE德国(youtube阿伟科技2), server: 167.235.61.163, port: 3456, type: vmess, uuid: 68424231-aedd-466b-a171-5571c8183c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技), server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp5.cqjsl.xyz}}, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(youtube阿伟科技), server: 185.87.48.173, port: 17, type: ss, cipher: chacha20-ietf-poly1305, password: IX8Y44tZmVzfUoFprNhTFZFEyNCUjnYOwX7RqgMvmRIA, udp: true}
+  - {name: GB英国(youtube阿伟科技) 2, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: JP日本(youtube阿伟科技), server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 2, server: 49.12.215.188, port: 48796, type: vmess, uuid: 80ce2417-dfe4-4c65-f2a6-180f506195dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技), server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: 104.25.121.121, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 3, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 882f3f11-02bc-4ecf-96b6-2da1bebcd7e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wmIMRWSrsFRTES3pFURTK72T, headers: {Host: de9.irteh.fun}}, udp: true}
+  - {name: GB英国(youtube阿伟科技) 3, server: 104.25.149.94, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 4, server: 194.233.173.48, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6345299262, udp: true}
   - {name: VN越南(youtube阿伟科技), server: cf.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vnpt.iiio.wiki}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 15, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 16, server: 104.27.40.80, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 17, server: 4.zhoushuren.me, port: 58850, type: trojan, password: 431218b0-8b07-4d71-89a4-c20aa92fce30, sni: 4.zhoushuren.me, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 18, server: 104.21.61.58, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 6, server: isna.ir, port: 2096, type: vmess, uuid: a6d88960-424c-452a-a179-2d9fc21fb52d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /m1I9198EOUngg0ijYvaiZt, headers: {Host: tot.love-speed.sbs}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 19, server: 142.4.108.21, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685180220853, headers: {Host: www.42438779.xyz}}, udp: true}
-  - {name: GB英国(youtube阿伟科技) 4, server: 173.245.58.93, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 7, server: tr.gamecentervip.site, port: 443, type: vmess, uuid: d49e2bf0-c652-4a72-b153-b122ab2f23d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 20, server: 66.228.45.235, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 0104738894, udp: true}
-  - {name: US美国(youtube阿伟科技2) 21, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 22, server: 142.4.110.21, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.44716766.xyz, network: ws, ws-opts: {path: /path/1685439562518, headers: {Host: www.44716766.xyz}}, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 8, server: 49.12.215.188, port: 48796, type: vmess, uuid: 80ce2417-dfe4-4c65-f2a6-180f506195dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 23, server: 192.74.229.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685439562518, headers: {Host: www.85351920.xyz}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 24, server: cf.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: dedipath2.iiio.wiki}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 25, server: 142.4.97.77, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: DE德国(youtube阿伟科技2) 9, server: vip.igram.sbs, port: 43757, type: vmess, uuid: 457db1bf-28c7-474e-e37a-32c6b6fac903, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TUR土耳其(youtube阿伟科技), server: turkey.abraak.site, port: 2087, type: vmess, uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 26, server: 104.254.140.245, port: 80, type: vmess, uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oSiR4t7dQow0J9ea3kKkF, headers: {Host: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 27, server: vps29.imhup.com, port: 20000, type: vmess, uuid: 1ed3c3dd-ff8d-4ae4-b4fb-d84a3400c227, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GB英国(youtube阿伟科技) 5, server: 85.159.213.50, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 0104738894, udp: true}
-  - {name: GB英国(youtube阿伟科技) 6, server: 173.245.58.140, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 28, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 29, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 30, server: 142.0.130.242, port: 47988, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 31, server: 172.247.148.85, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 瑞士(youtube阿伟科技2), server: 20.203.136.35, port: 24631, type: vmess, uuid: 0c4a8187-2527-4491-ee35-d8b724ca343b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(youtube阿伟科技) 7, server: 198.41.221.87, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 3, server: 104.21.61.58, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2), server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp4.cqjsl.xyz}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2), server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-uk.iiio.wiki}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 4, server: cf.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: dedipath2.iiio.wiki}}, udp: true}
+  - {name: GB英国(youtube阿伟科技) 4, server: 139.162.243.135, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6345299262, udp: true}
+  - {name: LU卢森堡(youtube阿伟科技), server: cf.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: MM缅甸(youtube阿伟科技2), server: beta.durov.ir, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-jp-win.iiio.wiki}}, udp: true}
+  - {name: GB英国(youtube阿伟科技) 5, server: 173.245.58.93, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: HK香港(youtube阿伟科技) 2, server: 18.166.210.191, port: 35185, type: vmess, uuid: 8a285ca6-88b9-433e-e086-1b07b8ef395d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 5, server: pooya.ddns.net, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: sahnama.com}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技) 2, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
+  - {name: US美国(youtube阿伟科技2) 5, server: 129.146.247.135, port: 14640, type: vmess, uuid: 7949f11e-b1d8-4217-b259-9bc2d2af2c25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU澳大利亚(youtube阿伟科技), server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 6, server: vps29.imhup.com, port: 20000, type: vmess, uuid: 1ed3c3dd-ff8d-4ae4-b4fb-d84a3400c227, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(youtube阿伟科技), server: p1.bxy-fun3.com, port: 23106, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: US美国(youtube阿伟科技2) 7, server: p1.bxy-fun3.com, port: 26106, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 5, server: 172.66.43.240, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}, udp: true}
+  - {name: 美国(油管:破解资源君) 6, server: 173.245.58.140, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 7, server: 198.41.203.57, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
+  - {name: 美国(油管:破解资源君) 8, server: 104.16.65.211, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 9, server: 104.20.126.209, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 10, server: 104.25.96.171, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: GHTyoqrBZm.janbaroon.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 11, server: 38.26.191.98, port: 49920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 12, server: 142.4.104.193, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 13, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 14, server: 142.4.104.195, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 15, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/c3lZ7dp02p?ed=2048", headers: {Host: d2.pgypgykmoljklj.xyz}}, udp: true}
+  - {name: 美国(油管:破解资源君) 16, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us3.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 17, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 18, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 2, server: 198.41.221.87, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 3, server: 190.93.246.183, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 19, server: 142.4.97.77, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 4, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 20, server: cdncf.scyu.app, port: 8080, type: vmess, uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 21, server: 104.21.15.32, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 22, server: 190.93.245.40, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
+  - {name: 美国(油管:破解资源君) 23, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: gzdx.jcnode.top, port: 23001, type: ss, cipher: aes-256-gcm, password: 052bc769-0489-49c7-97f2-51b3bb8e5486, udp: true}
+  - {name: 美国(油管:破解资源君) 24, server: 104.16.45.208, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 25, server: 104.27.40.80, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 26, server: 104.25.21.35, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 27, server: cdn.yuntujisu.ml, port: 2095, type: vmess, uuid: d59b24b1-b475-4d44-be46-a18563a87711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nanous.ytjs114514.ml}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 5, server: vip.igram.sbs, port: 43757, type: vmess, uuid: 457db1bf-28c7-474e-e37a-32c6b6fac903, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 6, server: 190.93.245.228, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 28, server: 104.18.23.26, port: 8080, type: vmess, uuid: dcafb669-fefc-4994-e3a9-5f40ed6aa7cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshtproject, headers: {Host: v2free.sshtproect.shop}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 7, server: turkey.abraak.site, port: 2087, type: vmess, uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 29, server: 104.24.57.207, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 8, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
+  - {name: 美国(油管:破解资源君) 30, server: 104.16.22.196, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 31, server: 142.4.108.21, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685180220853, headers: {Host: www.42438779.xyz}}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 2, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
+  - {name: 欧洲(油管:破解资源君) 9, server: bx.weizai2023.uk.eu.org, port: 443, type: vmess, uuid: e7d1e562-2af9-40ac-9fad-d1d4806ff1e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/mioooo?ed=2048", headers: {Host: 2bh.unioreo.rip}}, udp: true}
+  - {name: 美国(油管:破解资源君) 32, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 33, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 34, server: 172.66.46.15, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 10, server: iepl2.airtcp.vip, port: 51002, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 11, server: 190.93.245.64, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 12, server: 188.114.97.67, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv03, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 35, server: 104.24.24.48, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv05, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 13, server: 61.220.198.99, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 3, server: 60.251.3.74, port: 47712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 36, server: 192.74.229.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685439562518, headers: {Host: www.85351920.xyz}}, udp: true}
+  - {name: 美国(油管:破解资源君) 37, server: 142.4.126.77, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 38, server: 192.74.242.138, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 39, server: 120.226.50.76, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 15, server: 198.41.196.233, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 4, server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 40, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 美国(油管:破解资源君) 41, server: 104.25.14.16, port: 8080, type: vmess, uuid: d7cf7b64-bf1c-46bd-cf39-90a31393843b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 42, server: usa.stablize.top, port: 443, type: trojan, password: a95c1047-189c-4b26-8a54-8580f455827c, sni: usa.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 43, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -155,108 +170,105 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -267,108 +279,105 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -379,107 +388,104 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -490,107 +496,104 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -601,107 +604,104 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -712,108 +712,105 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -824,74 +821,53 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -914,34 +890,52 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国(yudou66.com 玉豆免费节点)
-      - 荷兰(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 荷兰(yudou66.com 玉豆免费节点)
+      - 美国(油管:破解资源君)
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(油管:破解资源君) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 5
       - 英国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - HK香港(youtube阿伟科技)
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 荷兰(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 香港(yudou66.com 玉豆免费节点)
-      - 英国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - CA加拿大(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 7
+      - 香港(yudou66.com 玉豆免费节点)
       - 美国(油管:破解资源君) 4
+      - GB英国(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - 俄罗斯(youtube阿伟科技)
+      - GB英国(youtube阿伟科技) 2
+      - JP日本(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - GB英国(youtube阿伟科技) 3
+      - DE德国(youtube阿伟科技2) 4
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 4
+      - LU卢森堡(youtube阿伟科技)
+      - MM缅甸(youtube阿伟科技2)
+      - GB英国(youtube阿伟科技) 5
+      - HK香港(youtube阿伟科技) 2
+      - DE德国(youtube阿伟科技2) 5
+      - SG新加坡(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技2) 5
+      - AU澳大利亚(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 7
+      - 欧洲(油管:破解资源君)
       - 美国(油管:破解资源君) 5
       - 美国(油管:破解资源君) 6
       - 美国(油管:破解资源君) 7
@@ -952,74 +946,53 @@ proxy-groups:
       - 美国(油管:破解资源君) 12
       - 美国(油管:破解资源君) 13
       - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 2
       - 美国(油管:破解资源君) 15
       - 美国(油管:破解资源君) 16
       - 美国(油管:破解资源君) 17
       - 美国(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
       - 美国(油管:破解资源君) 19
-      - DE德国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2)
-      - LU卢森堡(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技)
-      - AU澳大利亚(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技2) 2
-      - GB英国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 3
-      - GB英国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 2
-      - KR韩国(youtube阿伟科技)
-      - DE德国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - IN印度(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 3
-      - 挪威(youtube阿伟科技2)
-      - HK香港(youtube阿伟科技) 2
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 4
-      - US美国(youtube阿伟科技2) 5
-      - US美国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 8
-      - GB英国(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US美国(youtube阿伟科技2) 13
-      - AU澳大利亚(youtube阿伟科技) 3
-      - KR韩国(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技2) 14
-      - DE德国(youtube阿伟科技2) 5
-      - CA加拿大(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 15
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - DE德国(youtube阿伟科技2) 6
-      - US美国(youtube阿伟科技2) 19
-      - GB英国(youtube阿伟科技) 4
-      - DE德国(youtube阿伟科技2) 7
-      - US美国(youtube阿伟科技2) 20
-      - US美国(youtube阿伟科技2) 21
-      - US美国(youtube阿伟科技2) 22
-      - DE德国(youtube阿伟科技2) 8
-      - US美国(youtube阿伟科技2) 23
-      - US美国(youtube阿伟科技2) 24
-      - US美国(youtube阿伟科技2) 25
-      - DE德国(youtube阿伟科技2) 9
-      - TUR土耳其(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 26
-      - US美国(youtube阿伟科技2) 27
-      - GB英国(youtube阿伟科技) 5
-      - GB英国(youtube阿伟科技) 6
-      - US美国(youtube阿伟科技2) 28
-      - US美国(youtube阿伟科技2) 29
-      - US美国(youtube阿伟科技2) 30
-      - US美国(youtube阿伟科技2) 31
-      - 瑞士(youtube阿伟科技2)
-      - GB英国(youtube阿伟科技) 7
+      - 欧洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 亚洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 亚洲(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 15
+      - 亚洲(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
