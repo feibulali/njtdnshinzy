@@ -5,1325 +5,797 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国(yudou66.com 玉豆免费节点), server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: 8.218.127.249, port: 80, type: vmess, uuid: ff2b46a0-3805-4e6d-df3f-3aaa70f8cbd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@heroku666, headers: {Host: us.herofree66.tk}}, udp: true}
-  - {name: IN_分享日记, server: mehdimoghaddam.fun, port: 38958, type: ss, cipher: 2022-blake3-aes-256-gcm, password: XKFjSiEAKeOciI3O869Z1yRGjFe4fg2biEGm3/B7QoA=:sGnyJl82EFGMWgJNJemDBtCPgQkeJDBJ3PFdGw0Q/OA=, udp: true}
-  - {name: SG新加坡(youtube阿伟科技2), server: sgp.669990.xyz, port: 80, type: vmess, uuid: 92a408b4-1863-427f-8a75-537fd33ec516, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DFZmOHc4HI6cWLADzLF, headers: {Host: sgp.669990.xyz}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技2) 2, server: sgp.669990.xyz, port: 80, type: vmess, uuid: 92a408b4-1863-427f-8a75-537fd33ec516, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DFZmOHc4HI6cWLADzLF, headers: {Host: sgp.669990.xyz}}, udp: true}
-  - {name: NL_分享日记, server: 188.114.97.98, port: 2095, type: vmess, uuid: 43f71098-601d-459b-91f2-7e85a9ac6042, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x2.ylks01.eu.org}}, udp: true}
-  - {name: 欧洲(油管:破解资源君), server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: 198.200.32.25, port: 49988, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】, server: 172.67.35.112, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 2, server: 103.21.244.147, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 3, server: 104.16.101.3, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 4, server: 198.41.193.39, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 5, server: 141.101.121.211, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: US_分享日记, server: 162.159.152.95, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 2, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 6, server: 108.162.196.113, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 7, server: 104.25.254.161, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 荷兰【YouTube-由零開始】, server: 188.114.97.237, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 8, server: 192.74.231.185, port: 49202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 9, server: 104.31.16.58, port: 443, type: vmess, uuid: a10f9d24-bb5d-4622-e75b-f02c348506a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@SeyyedMT @SeyyedMT, headers: {Host: Mci-Rightel-talia-mokhaberat.irancell-irancell.website}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 10, server: 172.67.170.154, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 11, server: 192.74.237.58, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 12, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国【YouTube-由零開始】, server: 51.132.13.41, port: 52484, type: ss, cipher: chacha20-ietf-poly1305, password: G4h2X1AThBilGI1eUrXny6, udp: true}
-  - {name: 美国【YouTube-由零開始】 13, server: 140.99.5.254, port: 41823, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 14, server: www.noice.id, port: 443, type: vmess, uuid: af34de1b-3893-41e1-a6dd-68909f9f126b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 15, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 16, server: quiz.vidio.com, port: 443, type: vmess, uuid: 3f1efe58-f94e-4c8d-8428-8928ad5f075c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 17, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ca/v2wss, headers: {Host: v2-ca1.silverdragon.cn}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 18, server: 173.245.58.38, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 19, server: 137.175.9.173, port: 51413, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 20, server: 104.16.106.123, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 21, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 22, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 23, server: 38.26.135.6, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 24, server: 104.16.47.188, port: 8080, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 25, server: 104.25.85.127, port: 2052, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 26, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 27, server: quiz.vidio.com, port: 443, type: vmess, uuid: f677fa16-164f-42f9-ad9b-7e08c53e1d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 28, server: 104.17.3.81, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 29, server: www.noice.id, port: 443, type: vmess, uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 30, server: 104.16.183.101, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: pWghljmnknq.janbaroon.com}}, udp: true}
-  - {name: 荷兰【YouTube-由零開始】 2, server: 188.114.96.169, port: 8080, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 中国【YouTube-由零開始】, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 31, server: 104.18.178.57, port: 2052, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 荷兰【YouTube-由零開始】 3, server: 188.114.96.130, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 32, server: 104.21.234.189, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 塞浦路斯【YouTube-由零開始】, server: 203.28.8.162, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: 9GS4VWNaRecTqOQ.janbaroon.com}}, udp: true}
-  - {name: 中国【YouTube-由零開始】 2, server: 120.233.43.68, port: 51004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 33, server: 104.20.55.221, port: 2052, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 34, server: 141.101.123.209, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 35, server: 141.101.113.15, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 36, server: 173.245.58.15, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 37, server: 162.159.249.21, port: 8080, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer00, headers: {Host: x2.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 38, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: 荷兰【YouTube-由零開始】 4, server: 188.114.96.37, port: 2052, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 39, server: 104.17.53.191, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 40, server: 104.25.65.219, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 香港【YouTube-由零開始】, server: 43.154.117.178, port: 58602, type: vmess, uuid: 697d24eb-b7f6-45ca-bc20-af78e79c0b0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 41, server: 141.101.120.118, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 42, server: 104.20.141.20, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 43, server: 104.20.14.88, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 44, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 45, server: 104.27.113.212, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 伯利兹【YouTube-由零開始】, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 46, server: 104.16.226.27, port: 2052, type: vmess, uuid: 3f100fa9-a160-4a1c-c40d-e22070ac9785, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer00, headers: {Host: x2.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 47, server: 23.225.117.52, port: 49231, type: vmess, uuid: bb25859e-f6da-4101-989f-b4dd67a22682, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 48, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 49, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 50, server: 104.20.90.178, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 51, server: 162.159.13.166, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 52, server: 162.159.51.134, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 53, server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 54, server: 104.19.110.22, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 55, server: 141.101.122.181, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 56, server: 104.25.137.57, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 57, server: 162.159.57.39, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 58, server: 104.16.235.37, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 59, server: 162.159.15.173, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 中国【YouTube-由零開始】 3, server: 2f36c18cfe76.sanfen004.me, port: 10775, type: vmess, uuid: 15cedb1e-b6e7-4dd8-ac65-422e1a322972, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 60, server: 173.245.59.119, port: 2086, type: vmess, uuid: 4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ylks0, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 61, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 62, server: 143.42.29.176, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 0564206496, udp: true}
-  - {name: 阿曼【YouTube-由零開始】, server: 134.0.219.26, port: 443, type: vmess, uuid: fa773763-0a31-4ee0-9494-141e7ec50eef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: pepsiii.ddns.net}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 63, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 乌克兰【YouTube-由零開始】, server: 212.110.134.7, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: zHGKLbqn6UM.janbaroon.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 64, server: 103.21.244.210, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 哥斯达黎加【YouTube-由零開始】, server: 190.93.247.84, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 65, server: 108.162.198.241, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 66, server: 104.19.139.78, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 哥斯达黎加【YouTube-由零開始】 2, server: 190.93.244.196, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 67, server: 104.27.38.10, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 68, server: 103.21.244.85, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 69, server: 141.101.113.64, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 70, server: 141.101.114.64, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 71, server: 104.21.69.97, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 72, server: 104.18.38.42, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 73, server: 104.16.137.202, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 74, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 75, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大【YouTube-由零開始】, server: 192.46.223.128, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 0564206496, udp: true}
-  - {name: 美国【YouTube-由零開始】 76, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 荷兰【YouTube-由零開始】 5, server: 188.114.98.166, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 77, server: 172.67.244.220, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 78, server: 162.159.49.63, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 法国【YouTube-由零開始】, server: 173.245.49.233, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 79, server: 198.41.216.218, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 80, server: 104.27.39.103, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 81, server: 141.101.123.18, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 82, server: 104.18.168.0, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 83, server: 141.101.120.205, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 84, server: 104.27.17.155, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 85, server: 104.25.56.171, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 86, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 87, server: 172.64.137.195, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 88, server: 104.16.216.1, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 89, server: 108.162.194.103, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 90, server: 104.24.218.6, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 91, server: 104.25.129.208, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 2, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 3, server: 192.74.231.185, port: 49202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(油管:破解资源君), server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 3, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 4, server: 188.114.99.217, port: 2086, type: vmess, uuid: 4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ylks0, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: 104.19.251.120, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国(油管:破解资源君) 3, server: 104.21.77.15, port: 2086, type: vmess, uuid: 4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ylks0, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 5, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: 148.59.74.52, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 5, server: 104.18.83.10, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 美国(油管:破解资源君) 6, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
-  - {name: 美国(油管:破解资源君) 7, server: 198.200.32.25, port: 49988, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 8, server: 104.19.204.9, port: 8080, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 7, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 8, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: uk1.barbecuepie.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 9, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 9, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 10, server: quiz.vidio.com, port: 443, type: vmess, uuid: 3f1efe58-f94e-4c8d-8428-8928ad5f075c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: 美国(油管:破解资源君) 11, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 10, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 12, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 美国(油管:破解资源君) 13, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 12, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 13, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 14, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 美国(油管:破解资源君) 15, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
-  - {name: 美国(油管:破解资源君) 16, server: 104.16.48.44, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: SX8xtGOKv1MaJh.janbaroon.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 17, server: 142.4.112.130, port: 51444, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 18, server: 107.148.195.2, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 19, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 15, server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 16, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 20, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
-  - {name: 美国(油管:破解资源君) 21, server: www.noice.id, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 4, server: 172.64.137.195, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2), server: sgp.669990.xyz, port: 80, type: vmess, uuid: 92a408b4-1863-427f-8a75-537fd33ec516, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DFZmOHc4HI6cWLADzLF, headers: {Host: sgp.669990.xyz}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2) 2, server: sgp.669990.xyz, port: 80, type: vmess, uuid: 92a408b4-1863-427f-8a75-537fd33ec516, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DFZmOHc4HI6cWLADzLF, headers: {Host: sgp.669990.xyz}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 5, server: 141.101.123.18, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 哥斯达黎加【YouTube-由零開始】, server: 190.93.247.84, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
+  - {name: 哥斯达黎加【YouTube-由零開始】 2, server: 190.93.244.196, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 6, server: 104.25.56.171, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 7, server: 104.20.14.88, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 8, server: 104.27.113.212, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 9, server: 104.20.90.178, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 10, server: 104.27.38.10, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 11, server: 104.16.216.1, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 12, server: 108.162.196.113, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 13, server: 104.19.139.78, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 14, server: 141.101.120.205, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 15, server: 108.162.194.103, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_分享日记, server: 162.159.152.95, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_6, server: quiz.vidio.com, port: 443, type: vmess, uuid: f677fa16-164f-42f9-ad9b-7e08c53e1d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: IL_YouTube@欢迎订阅大飞分享_99, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: uk1.barbecuepie.com, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_56, server: 104.25.65.219, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_118, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_16, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_53, server: 104.31.16.58, port: 443, type: vmess, uuid: a10f9d24-bb5d-4622-e75b-f02c348506a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@SeyyedMT @SeyyedMT, headers: {Host: Mci-Rightel-talia-mokhaberat.irancell-irancell.website}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_2, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_15, server: www.noice.id, port: 443, type: vmess, uuid: af34de1b-3893-41e1-a6dd-68909f9f126b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_110, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_216, server: 198.2.206.72, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_YouTube@欢迎订阅大飞分享_142, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_86, server: 192.74.237.58, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_YouTube@欢迎订阅大飞分享_83, server: 45.32.238.111, port: 2087, type: vmess, uuid: d5350465-ab63-4d30-ebda-5cbe0751cbd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_33, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_236, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_129, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: IL_YouTube@欢迎订阅大飞分享_94, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_105, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_136, server: 198.2.207.135, port: 46745, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_132, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: SG_YouTube@欢迎订阅大飞分享_213, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: af34de1b-3893-41e1-a6dd-68909f9f126b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_122, server: 104.16.183.101, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: pWghljmnknq.janbaroon.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_258, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_5, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ca/v2wss, headers: {Host: v2-ca1.silverdragon.cn}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_31, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_25, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_78, server: 89.116.144.73, port: 44354, type: vmess, uuid: 1cc55cbb-dbea-46f8-999e-c887989e97ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_235, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_131, server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_108, server: 148.59.74.52, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_157, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_64, server: 107.148.195.2, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_75, server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_203, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: IL_YouTube@欢迎订阅大飞分享_76, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_19, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
+  - {name: SG_YouTube@欢迎订阅大飞分享_163, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: f677fa16-164f-42f9-ad9b-7e08c53e1d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_105 2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_135, server: 173.245.58.38, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: SG_YouTube@欢迎订阅大飞分享_140, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_59, server: 104.17.3.81, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_120, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_252, server: 104.17.45.139, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: CR_YouTube@欢迎订阅大飞分享_55, server: 190.93.245.33, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: SG_YouTube@欢迎订阅大飞分享_277, server: sg7.zingfast.vn, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /anti13.zingfast.vn, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_36, server: 173.245.58.15, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_210, server: 198.41.193.39, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_109, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_233, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_65, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_54, server: 104.25.254.161, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_126, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_112, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_114, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_245, server: 104.21.73.171, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_246, server: 104.24.218.6, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_41, server: 172.67.170.154, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: NL_YouTube@欢迎订阅大飞分享_98, server: 188.114.97.237, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_216 2, server: 104.18.168.0, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_227, server: 104.27.17.155, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_254, server: 172.67.35.112, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_217, server: 162.159.13.166, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_247, server: 104.17.74.170, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_249, server: 104.16.137.202, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: OM_YouTube@欢迎订阅大飞分享_124, server: 134.0.219.26, port: 443, type: vmess, uuid: fa773763-0a31-4ee0-9494-141e7ec50eef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: pepsiii.ddns.net}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_238, server: 198.2.215.141, port: 46679, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_40, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_73, server: 38.26.135.6, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_113, server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_23, server: 104.19.224.212, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_22, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_239, server: 162.159.57.39, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1346,166 +818,100 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(yudou66.com 玉豆免费节点)
-      - US美国(youtube阿伟科技2)
-      - IN_分享日记
-      - SG新加坡(youtube阿伟科技2)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - SG新加坡(youtube阿伟科技2) 2
-      - NL_分享日记
-      - 欧洲(油管:破解资源君)
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - US美国(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 3
+      - 美国(油管:破解资源君)
       - 美国【YouTube-由零開始】 4
+      - SG新加坡(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2) 2
       - 美国【YouTube-由零開始】 5
-      - US_分享日记
-      - 欧洲(油管:破解资源君) 2
+      - 哥斯达黎加【YouTube-由零開始】
+      - 欧洲(油管:破解资源君)
+      - 哥斯达黎加【YouTube-由零開始】 2
       - 美国【YouTube-由零開始】 6
       - 美国【YouTube-由零開始】 7
-      - 荷兰【YouTube-由零開始】
       - 美国【YouTube-由零開始】 8
       - 美国【YouTube-由零開始】 9
       - 美国【YouTube-由零開始】 10
       - 美国【YouTube-由零開始】 11
       - 美国【YouTube-由零開始】 12
-      - 英国【YouTube-由零開始】
       - 美国【YouTube-由零開始】 13
       - 美国【YouTube-由零開始】 14
       - 美国【YouTube-由零開始】 15
-      - 美国【YouTube-由零開始】 16
-      - 美国【YouTube-由零開始】 17
-      - 美国【YouTube-由零開始】 18
-      - 美国【YouTube-由零開始】 19
-      - 美国【YouTube-由零開始】 20
-      - 美国【YouTube-由零開始】 21
-      - 美国【YouTube-由零開始】 22
-      - 美国【YouTube-由零開始】 23
-      - 美国【YouTube-由零開始】 24
-      - 美国【YouTube-由零開始】 25
-      - 美国【YouTube-由零開始】 26
-      - 美国【YouTube-由零開始】 27
-      - 美国【YouTube-由零開始】 28
-      - 美国【YouTube-由零開始】 29
-      - 美国【YouTube-由零開始】 30
-      - 荷兰【YouTube-由零開始】 2
-      - 中国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 31
-      - 荷兰【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 32
-      - 塞浦路斯【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 33
-      - 美国【YouTube-由零開始】 34
-      - 美国【YouTube-由零開始】 35
-      - 美国【YouTube-由零開始】 36
-      - 美国【YouTube-由零開始】 37
-      - 美国【YouTube-由零開始】 38
-      - 荷兰【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 39
-      - 美国【YouTube-由零開始】 40
-      - 香港【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 41
-      - 美国【YouTube-由零開始】 42
-      - 美国【YouTube-由零開始】 43
-      - 美国【YouTube-由零開始】 44
-      - 美国【YouTube-由零開始】 45
-      - 伯利兹【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 46
-      - 美国【YouTube-由零開始】 47
-      - 美国【YouTube-由零開始】 48
-      - 美国【YouTube-由零開始】 49
-      - 美国【YouTube-由零開始】 50
-      - 美国【YouTube-由零開始】 51
-      - 美国【YouTube-由零開始】 52
-      - 美国【YouTube-由零開始】 53
-      - 美国【YouTube-由零開始】 54
-      - 美国【YouTube-由零開始】 55
-      - 美国【YouTube-由零開始】 56
-      - 美国【YouTube-由零開始】 57
-      - 美国【YouTube-由零開始】 58
-      - 美国【YouTube-由零開始】 59
-      - 中国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 60
-      - 美国【YouTube-由零開始】 61
-      - 美国【YouTube-由零開始】 62
-      - 阿曼【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 63
-      - 乌克兰【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 64
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 65
-      - 美国【YouTube-由零開始】 66
-      - 哥斯达黎加【YouTube-由零開始】 2
-      - 美国【YouTube-由零開始】 67
-      - 美国【YouTube-由零開始】 68
-      - 美国【YouTube-由零開始】 69
-      - 美国【YouTube-由零開始】 70
-      - 美国【YouTube-由零開始】 71
-      - 美国【YouTube-由零開始】 72
-      - 美国【YouTube-由零開始】 73
-      - 美国【YouTube-由零開始】 74
-      - 美国【YouTube-由零開始】 75
-      - 加拿大【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 76
-      - 荷兰【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 77
-      - 美国【YouTube-由零開始】 78
-      - 法国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 79
-      - 美国【YouTube-由零開始】 80
-      - 美国【YouTube-由零開始】 81
-      - 美国【YouTube-由零開始】 82
-      - 美国【YouTube-由零開始】 83
-      - 美国【YouTube-由零開始】 84
-      - 美国【YouTube-由零開始】 85
-      - 美国【YouTube-由零開始】 86
-      - 美国【YouTube-由零開始】 87
-      - 美国【YouTube-由零開始】 88
-      - 美国【YouTube-由零開始】 89
-      - 美国【YouTube-由零開始】 90
-      - 美国【YouTube-由零開始】 91
-      - 美国(油管:破解资源君)
-      - 欧洲(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 4
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 8
-      - 欧洲(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 8
-      - 美国(油管:破解资源君) 9
-      - 欧洲(油管:破解资源君) 9
-      - 美国(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 11
-      - 欧洲(油管:破解资源君) 10
-      - 美国(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 12
-      - 欧洲(油管:破解资源君) 13
-      - 美国(油管:破解资源君) 14
-      - 欧洲(油管:破解资源君) 14
-      - 美国(油管:破解资源君) 15
-      - 美国(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 17
-      - 美国(油管:破解资源君) 18
-      - 美国(油管:破解资源君) 19
-      - 欧洲(油管:破解资源君) 15
-      - 欧洲(油管:破解资源君) 16
-      - 美国(油管:破解资源君) 20
-      - 美国(油管:破解资源君) 21
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_6
+      - IL_YouTube@欢迎订阅大飞分享_99
+      - US_YouTube@欢迎订阅大飞分享_56
+      - US_YouTube@欢迎订阅大飞分享_118
+      - US_YouTube@欢迎订阅大飞分享_16
+      - US_YouTube@欢迎订阅大飞分享_53
+      - US_YouTube@欢迎订阅大飞分享_2
+      - US_YouTube@欢迎订阅大飞分享_15
+      - US_YouTube@欢迎订阅大飞分享_110
+      - US_YouTube@欢迎订阅大飞分享_216
+      - 美国_YouTube@欢迎订阅大飞分享_142
+      - US_YouTube@欢迎订阅大飞分享_86
+      - NL_YouTube@欢迎订阅大飞分享_83
+      - US_YouTube@欢迎订阅大飞分享_33
+      - US_YouTube@欢迎订阅大飞分享_236
+      - US_YouTube@欢迎订阅大飞分享_129
+      - IL_YouTube@欢迎订阅大飞分享_94
+      - US_YouTube@欢迎订阅大飞分享_105
+      - US_YouTube@欢迎订阅大飞分享_136
+      - US_YouTube@欢迎订阅大飞分享_132
+      - SG_YouTube@欢迎订阅大飞分享_213
+      - US_YouTube@欢迎订阅大飞分享_122
+      - US_YouTube@欢迎订阅大飞分享_258
+      - US_YouTube@欢迎订阅大飞分享_5
+      - US_YouTube@欢迎订阅大飞分享_31
+      - US_YouTube@欢迎订阅大飞分享_25
+      - US_YouTube@欢迎订阅大飞分享_78
+      - US_YouTube@欢迎订阅大飞分享_235
+      - US_YouTube@欢迎订阅大飞分享_131
+      - US_YouTube@欢迎订阅大飞分享_108
+      - US_YouTube@欢迎订阅大飞分享_157
+      - US_YouTube@欢迎订阅大飞分享_64
+      - US_YouTube@欢迎订阅大飞分享_75
+      - US_YouTube@欢迎订阅大飞分享_203
+      - IL_YouTube@欢迎订阅大飞分享_76
+      - US_YouTube@欢迎订阅大飞分享_19
+      - SG_YouTube@欢迎订阅大飞分享_163
+      - US_YouTube@欢迎订阅大飞分享_105 2
+      - US_YouTube@欢迎订阅大飞分享_135
+      - SG_YouTube@欢迎订阅大飞分享_140
+      - US_YouTube@欢迎订阅大飞分享_59
+      - US_YouTube@欢迎订阅大飞分享_120
+      - US_YouTube@欢迎订阅大飞分享_252
+      - CR_YouTube@欢迎订阅大飞分享_55
+      - SG_YouTube@欢迎订阅大飞分享_277
+      - US_YouTube@欢迎订阅大飞分享_36
+      - US_YouTube@欢迎订阅大飞分享_210
+      - US_YouTube@欢迎订阅大飞分享_109
+      - US_YouTube@欢迎订阅大飞分享_233
+      - US_YouTube@欢迎订阅大飞分享_65
+      - US_YouTube@欢迎订阅大飞分享_54
+      - US_YouTube@欢迎订阅大飞分享_126
+      - US_YouTube@欢迎订阅大飞分享_112
+      - US_YouTube@欢迎订阅大飞分享_114
+      - US_YouTube@欢迎订阅大飞分享_245
+      - US_YouTube@欢迎订阅大飞分享_246
+      - US_YouTube@欢迎订阅大飞分享_41
+      - NL_YouTube@欢迎订阅大飞分享_98
+      - US_YouTube@欢迎订阅大飞分享_216 2
+      - US_YouTube@欢迎订阅大飞分享_227
+      - US_YouTube@欢迎订阅大飞分享_254
+      - US_YouTube@欢迎订阅大飞分享_217
+      - US_YouTube@欢迎订阅大飞分享_247
+      - US_YouTube@欢迎订阅大飞分享_249
+      - OM_YouTube@欢迎订阅大飞分享_124
+      - US_YouTube@欢迎订阅大飞分享_238
+      - US_YouTube@欢迎订阅大飞分享_40
+      - US_YouTube@欢迎订阅大飞分享_73
+      - US_YouTube@欢迎订阅大飞分享_113
+      - US_YouTube@欢迎订阅大飞分享_23
+      - US_YouTube@欢迎订阅大飞分享_22
+      - US_YouTube@欢迎订阅大飞分享_239
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
