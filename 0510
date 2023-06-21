@@ -76,6 +76,32 @@ proxies:
   - {name: IN印度(youtube阿伟科技2), server: cf.durov.ir, port: 2052, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: doin.iiio.wiki}}, udp: true}
   - {name: DE德国(youtube阿伟科技2) 4, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
   - {name: GB英国(youtube阿伟科技) 2, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: CN_分享日记, server: bj.xn--mcss7nl5nptq.com, port: 18353, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IL_分享日记, server: nl3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: nl3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记, server: 104.16.150.9, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: XWOp2D.janbaroon.com}}, udp: true}
+  - {name: US_分享日记 2, server: 140.99.57.3, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 3, server: 104.16.183.101, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: pWghljmnknq.janbaroon.com}}, udp: true}
+  - {name: US_分享日记 4, server: cdn.noice.id, port: 80, type: vmess, uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tunnelvmess, headers: {Host: sgf1.hijinetwork.cloud}}, udp: true}
+  - {name: UA_分享日记, server: 212.110.134.7, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: zHGKLbqn6UM.janbaroon.com}}, udp: true}
+  - {name: IL_分享日记 2, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: CN_分享日记 2, server: 2f36c18cfe76.sanfen004.me, port: 10775, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR_分享日记, server: 173.245.49.77, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: eEnUb1xKB.janbaroon.com}}, udp: true}
+  - {name: US_分享日记 5, server: 104.16.32.142, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: QkGxa2MSvmu.janbaroon.com}}, udp: true}
+  - {name: IL_分享日记 3, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 6, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
+  - {name: US_分享日记 7, server: 185.148.104.26, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: tNMX29cZ8iQP.janbaroon.com}}, udp: true}
+  - {name: GB_分享日记, server: 51.132.13.41, port: 52484, type: ss, cipher: chacha20-ietf-poly1305, password: G4h2X1AThBilGI1eUrXny6, udp: true}
+  - {name: US_分享日记 8, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
+  - {name: US_分享日记 9, server: cf.durov.ir, port: 2052, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: doin.iiio.wiki}}, udp: true}
+  - {name: US_分享日记 10, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: a6457d28-e328-4202-99fe-0606d7ad69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6rXqecLmchrWkX7cy1ilLjMBLUC, headers: {Host: de18.irteh.fun}}, udp: true}
+  - {name: US_分享日记 11, server: 142.4.110.99, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 12, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
+  - {name: US_分享日记 13, server: 172.247.104.61, port: 54403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IL_分享日记 4, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 14, server: 104.16.48.44, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: SX8xtGOKv1MaJh.janbaroon.com}}, udp: true}
+  - {name: US_分享日记 15, server: 107.167.16.91, port: 45689, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 16, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
+  - {name: CN_分享日记 3, server: us-08-cz2dg2.ferryhwp8ebm.com, port: 7308, type: trojan, password: 97d557df-6f6a-5bad-9483-600aba02da3a, sni: us-08-650.duuk.info, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -153,6 +179,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -230,6 +282,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -307,6 +385,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -383,6 +487,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -459,6 +589,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -535,6 +691,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -612,6 +794,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -705,6 +913,32 @@ proxy-groups:
       - IN印度(youtube阿伟科技2)
       - DE德国(youtube阿伟科技2) 4
       - GB英国(youtube阿伟科技) 2
+      - CN_分享日记
+      - IL_分享日记
+      - US_分享日记
+      - US_分享日记 2
+      - US_分享日记 3
+      - US_分享日记 4
+      - UA_分享日记
+      - IL_分享日记 2
+      - CN_分享日记 2
+      - FR_分享日记
+      - US_分享日记 5
+      - IL_分享日记 3
+      - US_分享日记 6
+      - US_分享日记 7
+      - GB_分享日记
+      - US_分享日记 8
+      - US_分享日记 9
+      - US_分享日记 10
+      - US_分享日记 11
+      - US_分享日记 12
+      - US_分享日记 13
+      - IL_分享日记 4
+      - US_分享日记 14
+      - US_分享日记 15
+      - US_分享日记 16
+      - CN_分享日记 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
