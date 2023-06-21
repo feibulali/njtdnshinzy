@@ -5,589 +5,613 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【YouTube-由零開始】, server: 104.18.158.152, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 2, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: gcore-bwg.1929585.xyz, port: 443, type: vmess, uuid: 4ffb2fa9-d321-4a73-8d5f-1d6c37b4a683, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ab, headers: {Host: gcore-bwg.1929585.xyz}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 3, server: 108.162.196.113, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 4, server: 104.18.127.153, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 德国(yudou66.com 玉豆免费节点), server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: a6457d28-e328-4202-99fe-0606d7ad69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6rXqecLmchrWkX7cy1ilLjMBLUC, headers: {Host: de18.irteh.fun}}, udp: true}
-  - {name: 新加坡(yudou66.com 玉豆免费节点), server: cdn.noice.id, port: 80, type: vmess, uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tunnelvmess, headers: {Host: sgf1.hijinetwork.cloud}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_132, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: uk1.barbecuepie.com, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 5, server: 104.18.206.211, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: task-filed-comfort-bull.trycloudflare.com}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 6, server: 173.245.58.15, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 9, server: nl3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 10, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 11, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 12, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 13, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 14, server: www.noice.id, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 7, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 15, server: 142.4.112.150, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 16, server: speed.cloudflare.com, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: task-filed-comfort-bull.trycloudflare.com}}, udp: true}
-  - {name: 德国(yudou66.com 玉豆免费节点) 2, server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dealers-fuji-capability-finite.trycloudflare.com}}, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 哥斯达黎加【YouTube-由零開始】, server: 190.93.247.76, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 17, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 18, server: 185.48.248.126, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Onsheypy, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39, server: 104.20.14.88, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1, server: www.noice.id, port: 443, type: vmess, uuid: af34de1b-3893-41e1-a6dd-68909f9f126b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6, server: 104.18.115.31, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10, server: beta.durov.ir, port: 8880, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vnpt.iiio.wiki}}, udp: true}
-  - {name: CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7, server: 104.19.224.212, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: speed.cloudflare.com, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: task-filed-comfort-bull.trycloudflare.com}}, udp: true}
   - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: 德国(yudou66.com 玉豆免费节点), server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: a6457d28-e328-4202-99fe-0606d7ad69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6rXqecLmchrWkX7cy1ilLjMBLUC, headers: {Host: de18.irteh.fun}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: nl3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube-由零開始】, server: 104.18.206.211, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 美国(油管:破解资源君), server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube-由零開始】 2, server: 173.245.58.15, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: de2.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 2, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 3, server: 104.18.158.152, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: task-filed-comfort-bull.trycloudflare.com}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 4, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_132, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 8, server: de2.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 9, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: nl3.barbecuepie.com, skip-cert-verify: true, udp: true}
+  - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 10, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 11, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 9, server: gcore-bwg.1929585.xyz, port: 443, type: vmess, uuid: 4ffb2fa9-d321-4a73-8d5f-1d6c37b4a683, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ab, headers: {Host: gcore-bwg.1929585.xyz}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 4, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 5, server: 108.162.196.113, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 哥斯达黎加【YouTube-由零開始】, server: 190.93.247.76, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
   - {name: US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}, udp: true}
-  - {name: CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
-  - {name: 欧洲(油管:破解资源君), server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: nl3.barbecuepie.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 2, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 3, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 4, server: de2.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 5, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 6, server: de2.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 11, server: 185.48.248.126, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Onsheypy, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
   - {name: 美国(油管:破解资源君) 3, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: 172.67.156.138, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 美国(油管:破解资源君) 5, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 8, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 欧洲(油管:破解资源君) 12, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 6, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
-  - {name: 美国(油管:破解资源君) 7, server: 141.193.68.93, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 13, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君) 14, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 12, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 美国【YouTube-由零開始】 6, server: 104.18.127.153, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 12, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: de1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2), server: cn-guangzhou.applebench.tech, port: 41502, type: vmess, uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技2), server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2), server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2), server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 2, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: us-08-cz2dg2.ferryhwp8ebm.com, port: 7308, type: trojan, password: 97d557df-6f6a-5bad-9483-600aba02da3a, sni: us-08-650.duuk.info, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 2, server: fra1.looooooongnet.lol, port: 443, type: vmess, uuid: 4559e95a-7326-4cb5-87dc-af5651025669, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fra1.looooooongnet.lol}}, udp: true}
+  - {name: VN越南(youtube阿伟科技), server: beta.durov.ir, port: 8880, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vnpt.iiio.wiki}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 3, server: 142.4.112.150, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 3, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh1?ed=2048", headers: {Host: usfh1.pqjc.buzz}}, udp: true}
+  - {name: KR韩国(youtube阿伟科技), server: beta.durov.ir, port: 2086, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.iiio.wiki}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2) 2, server: cdn.noice.id, port: 80, type: vmess, uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tunnelvmess, headers: {Host: sgf1.hijinetwork.cloud}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 5, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: GB英国(youtube阿伟科技), server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 6, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn1.com}}, udp: true}
+  - {name: TW台湾(youtube阿伟科技2), server: beta.durov.ir, port: 2082, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.iiio.wiki}}, udp: true}
+  - {name: 沙特阿拉伯(youtube阿伟科技2), server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 4, server: 2f36c18cfe76.sanfen004.me, port: 46518, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(youtube阿伟科技2) 2, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idc8.vpn-akcelluler.my.id, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 3, server: sbn.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 5, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
+  - {name: IN印度(youtube阿伟科技2), server: cf.durov.ir, port: 2052, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: doin.iiio.wiki}}, udp: true}
+  - {name: DE德国(youtube阿伟科技2) 4, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
+  - {name: GB英国(youtube阿伟科技) 2, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -610,74 +634,77 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国【YouTube-由零開始】
-      - 美国【YouTube-由零開始】 2
       - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 德国(yudou66.com 玉豆免费节点)
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - US_YouTube@欢迎订阅大飞分享_132
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国【YouTube-由零開始】 5
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国【YouTube-由零開始】 6
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国【YouTube-由零開始】 7
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 德国(yudou66.com 玉豆免费节点) 2
-      - 亚洲(油管:破解资源君)
-      - 哥斯达黎加【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_39
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(务必注明来意)_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_6
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_10
-      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_16
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_11
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_7
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
       - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_72
-      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
-      - CA_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_1
+      - 德国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国【YouTube-由零開始】
+      - 美国(油管:破解资源君)
+      - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点) 3
       - 欧洲(油管:破解资源君)
       - 欧洲(油管:破解资源君) 2
       - 欧洲(油管:破解资源君) 3
+      - 美国【YouTube-由零開始】 3
+      - 美国(yudou66.com 玉豆免费节点) 4
       - 欧洲(油管:破解资源君) 4
+      - US_YouTube@欢迎订阅大飞分享_132
+      - CN_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_1
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 6
+      - 亚洲(油管:破解资源君)
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_29
       - 欧洲(油管:破解资源君) 5
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_5
       - 欧洲(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
       - 欧洲(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 5
+      - 美国(yudou66.com 玉豆免费节点) 7
       - 欧洲(油管:破解资源君) 8
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234_41
       - 欧洲(油管:破解资源君) 9
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_30
+      - 美国(yudou66.com 玉豆免费节点) 8
       - 欧洲(油管:破解资源君) 10
       - 欧洲(油管:破解资源君) 11
+      - 美国(yudou66.com 玉豆免费节点) 9
+      - 美国【YouTube-由零開始】 4
+      - 美国【YouTube-由零開始】 5
+      - 哥斯达黎加【YouTube-由零開始】
+      - US_欢迎订阅小閑哥频道❤️搭讪私教一对一陪跑请加微信：txyz6234(注明来意)_13
+      - 美国(yudou66.com 玉豆免费节点) 10
+      - 美国(yudou66.com 玉豆免费节点) 11
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(yudou66.com 玉豆免费节点) 12
+      - 美国(yudou66.com 玉豆免费节点) 13
+      - 美国【YouTube-由零開始】 6
       - 欧洲(油管:破解资源君) 12
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 欧洲(油管:破解资源君) 13
-      - 欧洲(油管:破解资源君) 14
+      - HK香港(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 2
+      - VN越南(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技)
+      - SG新加坡(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 5
+      - GB英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技2) 6
+      - TW台湾(youtube阿伟科技2)
+      - 沙特阿拉伯(youtube阿伟科技2)
+      - HK香港(youtube阿伟科技2) 4
+      - TW台湾(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2) 3
+      - HK香港(youtube阿伟科技2) 5
+      - IN印度(youtube阿伟科技2)
+      - DE德国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技) 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
