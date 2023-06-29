@@ -5,1261 +5,749 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_分享日记, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: US_分享日记 2, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: US_分享日记 3, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: 45.86.8.88, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 3d8274d3-a977-4bc2-a461-8086963aafc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: US_分享日记 4, server: 192.74.236.19, port: 41866, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 5, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 3, server: 140.99.128.114, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 6, server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_42, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 4, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: 142.4.126.47, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_YouTube@欢迎订阅大飞分享_108, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 5, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 7, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 6, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 7, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: US_分享日记 8, server: 108.162.192.79, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_110, server: 104.20.25.181, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_分享日记 9, server: amstd.digires.shop, port: 443, type: vmess, uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12796, headers: {Host: amstd.digires.shop}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW台湾(youtube阿伟科技2), server: 1.sg.zz.xxxxx.x-t-fuckword.network, port: 36674, type: vmess, uuid: c9a59e17-7c51-3f7d-8fe9-59c209a6437a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1.sg.zz.xxxxx.x-t-fuckword.network, udp: true}
-  - {name: US_分享日记 10, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 8, server: 120.233.43.36, port: 49944, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国【YouTube-由零開始】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: US_分享日记 11, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰(youtube阿伟科技2), server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 9, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 10, server: 142.4.115.162, port: 56079, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 11, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 12, server: 142.4.110.101, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_42 2, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 12, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 13, server: 198.2.204.243, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 13, server: 38.63.0.78, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 14, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 15, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: 140.99.128.114, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL_分享日记, server: 45.153.203.87, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 14, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_分享日记 15, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_29, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 16, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 17, server: 170.178.167.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 18, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_20, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(yudou66.com 玉豆免费节点), server: cn-to-hk-443.db-link.in, port: 443, type: vmess, uuid: 40cbc750-a182-3fe2-8832-9fa6006354cf, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: free-to-us-01.db-link.in}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 9, server: 137.175.9.203, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君), server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 亚洲(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国(油管:破解资源君) 3, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: bluehost.com, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}, udp: true}
-  - {name: 欧洲(油管:破解资源君), server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 5, server: 142.4.112.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 6, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 7, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 8, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_150, server: 103.21.244.78, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: JP_YouTube@欢迎订阅大飞分享_69, server: 45.88.43.232, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_157, server: 192.74.234.209, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL_YouTube@欢迎订阅大飞分享_190, server: 45.153.203.85, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_26, server: 199.188.111.56, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_154, server: franc.digires.shop, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_91, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: JP_YouTube@欢迎订阅大飞分享_149, server: hk2.downloadvip.cfd, port: 443, type: trojan, password: eafd508e-0aa5-44e8-9e85-b33871f66cae, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_97, server: 107.148.86.165, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_34, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}, udp: true}
-  - {name: FR_YouTube@欢迎订阅大飞分享_135, server: 156.249.18.159, port: 48123, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_167, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_73, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}, udp: true}
-  - {name: NL_YouTube@欢迎订阅大飞分享_55, server: 188.114.98.140, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_78, server: 137.175.1.53, port: 46677, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_71, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_71 2, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_34 2, server: txx.vtcss.top, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_38, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_1, server: uxx.vtcss.top, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_8, server: 198.41.223.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: NL_YouTube@欢迎订阅大飞分享_46, server: 188.114.97.68, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_157 2, server: 103.21.244.206, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_56, server: 108.162.192.157, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: CR_YouTube@欢迎订阅大飞分享_51, server: 190.93.247.246, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_44, server: 104.20.131.218, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_52, server: 104.16.35.46, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: CR_YouTube@欢迎订阅大飞分享_36, server: 190.93.244.48, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_41, server: txx.vtcss.top, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_50, server: 104.24.238.85, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_32, server: 108.162.198.18, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_45, server: 104.19.182.50, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_41 2, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_64, server: 141.101.121.240, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_27, server: 104.27.95.22, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_106, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: JP_YouTube@欢迎订阅大飞分享_102, server: jp2.downloadvip.cfd, port: 443, type: trojan, password: eafd508e-0aa5-44e8-9e85-b33871f66cae, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_40, server: 104.24.236.233, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_80, server: 104.17.99.220, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_60, server: 104.22.50.226, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_72, server: 156.225.67.125, port: 52808, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_164, server: 103.21.244.16, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_54, server: 172.64.52.12, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_35, server: 104.20.230.126, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_17, server: 104.18.2.61, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_58, server: 104.24.159.57, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_26 2, server: 104.24.192.218, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: CR_YouTube@欢迎订阅大飞分享_47, server: 190.93.246.26, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_43, server: 108.162.195.63, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_13, server: 104.27.82.182, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_77, server: uxx.vtcss.top, port: 2053, type: vmess, uuid: e01b2749-22ba-4e02-f6fa-402663cc4775, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_12, server: 104.19.234.33, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_6, server: 104.25.201.195, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: CA_YouTube@欢迎订阅大飞分享_142, server: 23.26.239.163, port: 18420, type: vmess, uuid: 65578c09-f23e-49cc-abee-4ad2a1850f9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_31, server: 104.25.45.26, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_120, server: 23.224.190.226, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CR_YouTube@欢迎订阅大飞分享_49, server: 190.93.246.201, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_63, server: 104.27.102.29, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_53, server: 104.17.34.166, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_61, server: 104.24.190.249, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: CN_YouTube@欢迎订阅大飞分享_97, server: 120.233.43.36, port: 49944, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CR_YouTube@欢迎订阅大飞分享_33, server: 190.93.247.99, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_27 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: NL_YouTube@欢迎订阅大飞分享_59, server: 188.114.99.30, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_35 2, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_5, server: 173.245.58.66, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_90, server: dl8.v001sssv.pw, port: 80, type: vmess, uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl8.v001sssv.pw}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_14, server: 104.27.63.31, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_79, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_65, server: 198.41.206.56, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_48, server: 172.67.77.185, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: SG_YouTube@欢迎订阅大飞分享_56, server: 0kxedm1x8q8lksmj17.xingbayun.buzz, port: 443, type: vmess, uuid: 1ed5bca2-9765-4518-b35a-0808227cb2b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_148, server: 163.123.192.154, port: 443, type: trojan, password: c2b3e7a5-fc06-47f3-a56e-7a8356cef015, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_37, server: 172.67.107.38, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: NL_YouTube@欢迎订阅大飞分享_42, server: 188.114.96.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 3d8274d3-a977-4bc2-a461-8086963aafc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: CN_YouTube@欢迎订阅大飞分享_108, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_71, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_YouTube@欢迎订阅大飞分享_132, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_21, server: uxx.vtcss.top, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_55, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_175, server: 103.21.244.150, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_55 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 美国(油管:破解资源君), server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_157, server: 103.21.244.206, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
   - {name: US_YouTube@欢迎订阅大飞分享_81, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_42 3, server: 172.67.252.221, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: TW台湾(youtube阿伟科技2), server: 1.sg.zz.xxxxx.x-t-fuckword.network, port: 36674, type: vmess, uuid: c9a59e17-7c51-3f7d-8fe9-59c209a6437a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1.sg.zz.xxxxx.x-t-fuckword.network, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_91, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_29, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_175, server: 103.21.244.150, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_38, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_55, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_26, server: 199.188.111.56, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_41, server: txx.vtcss.top, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_34, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}, udp: true}
   - {name: US_YouTube@欢迎订阅大飞分享_121, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR_YouTube@欢迎订阅大飞分享_155, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_188, server: 142.4.115.162, port: 56079, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_25, server: txx.vtcss.top, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_38 2, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube@欢迎订阅大飞分享_30, server: 198.2.203.155, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_42, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_41 2, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 3, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_27, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_150, server: 103.21.244.78, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_分享日记, server: 108.162.192.79, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 142.4.126.47, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 2, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_106, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_90, server: dl8.v001sssv.pw, port: 80, type: vmess, uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl8.v001sssv.pw}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 3, server: 38.63.0.78, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_154, server: franc.digires.shop, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_55 2, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 4, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记 3, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_YouTube@欢迎订阅大飞分享_190, server: 45.153.203.85, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_167, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4, server: 188.114.99.30, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1", server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群, server: 45.88.43.232, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34, server: 104.27.102.29, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39, server: 192.74.250.88, port: 55832, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1, server: uxx.vtcss.top, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3, server: 188.114.98.140, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2, server: 188.114.97.68, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67, server: 140.99.77.57, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33, server: 104.24.190.249, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23, server: 104.20.131.218, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5, server: 190.93.247.246, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8, server: 104.18.2.61, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22, server: 108.162.195.63, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15, server: 108.162.198.18, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}, udp: true}
+  - {name: CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4, server: 190.93.246.201, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20, server: 104.24.236.233, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27, server: 104.16.35.46, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38, server: 104.20.25.181, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30, server: 108.162.192.157, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12, server: 156.225.67.125, port: 52808, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6, server: 104.27.82.182, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35, server: 141.101.121.240, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43, server: uxx.vtcss.top, port: 2053, type: vmess, uuid: e01b2749-22ba-4e02-f6fa-402663cc4775, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2, server: 173.245.58.66, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11, server: txx.vtcss.top, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9, server: uxx.vtcss.top, port: 2086, type: vmess, uuid: 71c070c8-1854-4c61-e471-efc0b753798a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13, server: 104.27.95.22, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1, server: 188.114.96.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3, server: 190.93.246.26, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4, server: 198.41.223.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12, server: 104.24.192.218, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16, server: txx.vtcss.top, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8, server: 198.2.203.155, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31, server: 104.24.159.57, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2", server: 138.124.183.93, port: 27542, type: ss, cipher: chacha20-ietf-poly1305, password: 3f0Gag5bPSpDYwLMahAgp8, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51, server: 142.4.112.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1282,158 +770,94 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_分享日记
-      - US_分享日记 2
-      - US_分享日记 3
-      - US美国(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - US_分享日记 4
-      - US_分享日记 5
-      - US美国(youtube阿伟科技2) 3
-      - US_分享日记 6
-      - US_YouTube@欢迎订阅大飞分享_42
-      - US美国(youtube阿伟科技2) 4
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_YouTube@欢迎订阅大飞分享_108
-      - US美国(youtube阿伟科技2) 5
-      - US_分享日记 7
-      - US美国(youtube阿伟科技2) 6
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - US美国(youtube阿伟科技2) 7
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - US_分享日记 8
-      - US_YouTube@欢迎订阅大飞分享_110
-      - US_分享日记 9
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - TW台湾(youtube阿伟科技2)
-      - US_分享日记 10
-      - US美国(youtube阿伟科技2) 8
       - 美国【YouTube-由零開始】
-      - US_分享日记 11
-      - NL荷兰(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 9
-      - US美国(youtube阿伟科技2) 10
-      - US美国(youtube阿伟科技2) 11
-      - US美国(youtube阿伟科技2) 12
-      - US_YouTube@欢迎订阅大飞分享_42 2
-      - US_分享日记 12
-      - US_分享日记 13
-      - US美国(youtube阿伟科技2) 13
-      - US美国(youtube阿伟科技2) 14
-      - US美国(youtube阿伟科技2) 15
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - NL_分享日记
-      - US_分享日记 14
-      - US_分享日记 15
-      - US_YouTube@欢迎订阅大飞分享_29
-      - US美国(youtube阿伟科技2) 16
-      - US美国(youtube阿伟科技2) 17
-      - US美国(youtube阿伟科技2) 18
-      - US_YouTube@欢迎订阅大飞分享_20
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 香港(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 2
-      - 美国(油管:破解资源君) 3
-      - 美国(油管:破解资源君) 4
-      - 欧洲(油管:破解资源君)
-      - 美国(油管:破解资源君) 5
-      - 美国(油管:破解资源君) 6
-      - 美国(油管:破解资源君) 7
-      - 美国(油管:破解资源君) 8
-      - US_YouTube@欢迎订阅大飞分享_150
-      - JP_YouTube@欢迎订阅大飞分享_69
-      - US_YouTube@欢迎订阅大飞分享_157
-      - NL_YouTube@欢迎订阅大飞分享_190
-      - US_YouTube@欢迎订阅大飞分享_26
-      - US_YouTube@欢迎订阅大飞分享_154
-      - US_YouTube@欢迎订阅大飞分享_91
-      - JP_YouTube@欢迎订阅大飞分享_149
-      - US_YouTube@欢迎订阅大飞分享_97
-      - US_YouTube@欢迎订阅大飞分享_34
-      - FR_YouTube@欢迎订阅大飞分享_135
-      - US_YouTube@欢迎订阅大飞分享_167
-      - US_YouTube@欢迎订阅大飞分享_73
-      - NL_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_78
+      - US美国(youtube阿伟科技2)
+      - CN_YouTube@欢迎订阅大飞分享_108
       - US_YouTube@欢迎订阅大飞分享_71
-      - US_YouTube@欢迎订阅大飞分享_71 2
-      - US_YouTube@欢迎订阅大飞分享_34 2
-      - US_YouTube@欢迎订阅大飞分享_38
-      - US_YouTube@欢迎订阅大飞分享_1
-      - US_YouTube@欢迎订阅大飞分享_8
-      - NL_YouTube@欢迎订阅大飞分享_46
-      - US_YouTube@欢迎订阅大飞分享_157 2
-      - US_YouTube@欢迎订阅大飞分享_56
-      - CR_YouTube@欢迎订阅大飞分享_51
-      - US_YouTube@欢迎订阅大飞分享_44
-      - US_YouTube@欢迎订阅大飞分享_52
-      - CR_YouTube@欢迎订阅大飞分享_36
-      - US_YouTube@欢迎订阅大飞分享_41
-      - US_YouTube@欢迎订阅大飞分享_50
-      - US_YouTube@欢迎订阅大飞分享_32
-      - US_YouTube@欢迎订阅大飞分享_45
-      - US_YouTube@欢迎订阅大飞分享_41 2
-      - US_YouTube@欢迎订阅大飞分享_64
-      - US_YouTube@欢迎订阅大飞分享_27
-      - US_YouTube@欢迎订阅大飞分享_106
-      - JP_YouTube@欢迎订阅大飞分享_102
-      - US_YouTube@欢迎订阅大飞分享_40
-      - US_YouTube@欢迎订阅大飞分享_80
-      - US_YouTube@欢迎订阅大飞分享_60
-      - US_YouTube@欢迎订阅大飞分享_72
-      - US_YouTube@欢迎订阅大飞分享_164
-      - US_YouTube@欢迎订阅大飞分享_54
-      - US_YouTube@欢迎订阅大飞分享_35
-      - US_YouTube@欢迎订阅大飞分享_17
-      - US_YouTube@欢迎订阅大飞分享_58
-      - US_YouTube@欢迎订阅大飞分享_26 2
-      - CR_YouTube@欢迎订阅大飞分享_47
-      - US_YouTube@欢迎订阅大飞分享_43
-      - US_YouTube@欢迎订阅大飞分享_13
-      - US_YouTube@欢迎订阅大飞分享_77
-      - US_YouTube@欢迎订阅大飞分享_12
-      - US_YouTube@欢迎订阅大飞分享_6
-      - CA_YouTube@欢迎订阅大飞分享_142
-      - US_YouTube@欢迎订阅大飞分享_31
-      - US_YouTube@欢迎订阅大飞分享_120
-      - CR_YouTube@欢迎订阅大飞分享_49
-      - US_YouTube@欢迎订阅大飞分享_63
-      - US_YouTube@欢迎订阅大飞分享_53
-      - US_YouTube@欢迎订阅大飞分享_61
-      - CN_YouTube@欢迎订阅大飞分享_97
-      - CR_YouTube@欢迎订阅大飞分享_33
-      - US_YouTube@欢迎订阅大飞分享_27 2
-      - NL_YouTube@欢迎订阅大飞分享_59
-      - US_YouTube@欢迎订阅大飞分享_35 2
-      - US_YouTube@欢迎订阅大飞分享_5
-      - US_YouTube@欢迎订阅大飞分享_90
-      - US_YouTube@欢迎订阅大飞分享_14
-      - US_YouTube@欢迎订阅大飞分享_79
-      - US_YouTube@欢迎订阅大飞分享_65
-      - US_YouTube@欢迎订阅大飞分享_48
-      - SG_YouTube@欢迎订阅大飞分享_56
-      - US_YouTube@欢迎订阅大飞分享_148
-      - US_YouTube@欢迎订阅大飞分享_37
-      - NL_YouTube@欢迎订阅大飞分享_42
       - US_YouTube@欢迎订阅大飞分享_132
-      - US_YouTube@欢迎订阅大飞分享_21
-      - US_YouTube@欢迎订阅大飞分享_55
-      - US_YouTube@欢迎订阅大飞分享_175
-      - US_YouTube@欢迎订阅大飞分享_55 2
+      - 美国(油管:破解资源君)
+      - US_YouTube@欢迎订阅大飞分享_157
       - US_YouTube@欢迎订阅大飞分享_81
-      - US_YouTube@欢迎订阅大飞分享_42 3
+      - 亚洲(油管:破解资源君)
+      - TW台湾(youtube阿伟科技2)
+      - US_YouTube@欢迎订阅大飞分享_91
+      - US_YouTube@欢迎订阅大飞分享_29
+      - US美国(youtube阿伟科技2) 2
+      - US_YouTube@欢迎订阅大飞分享_175
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_YouTube@欢迎订阅大飞分享_41
+      - 美国(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_34
       - US_YouTube@欢迎订阅大飞分享_121
-      - FR_YouTube@欢迎订阅大飞分享_155
-      - US_YouTube@欢迎订阅大飞分享_188
-      - US_YouTube@欢迎订阅大飞分享_25
-      - US_YouTube@欢迎订阅大飞分享_38 2
-      - US_YouTube@欢迎订阅大飞分享_30
+      - US_YouTube@欢迎订阅大飞分享_42
+      - 亚洲(油管:破解资源君) 2
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - 美国(油管:破解资源君) 3
+      - US_YouTube@欢迎订阅大飞分享_27
+      - US_YouTube@欢迎订阅大飞分享_150
+      - US_分享日记
+      - 美国(yudou66.com 玉豆免费节点)
+      - US_分享日记 2
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - US_YouTube@欢迎订阅大飞分享_106
+      - US_YouTube@欢迎订阅大飞分享_90
+      - US美国(youtube阿伟科技2) 3
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_YouTube@欢迎订阅大飞分享_154
+      - US_YouTube@欢迎订阅大飞分享_55 2
+      - US美国(youtube阿伟科技2) 4
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 5
+      - US_分享日记 3
+      - NL_YouTube@欢迎订阅大飞分享_190
+      - US_YouTube@欢迎订阅大飞分享_167
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_39
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_67
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_33
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_23
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_15
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_20
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_38
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_43
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_9
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_13
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_12
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_51
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_62
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_63
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
