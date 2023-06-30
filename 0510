@@ -5,805 +5,813 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国_木鱼花, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_木鱼花_6, server: 104.27.82.182, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_27, server: 104.16.35.46, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_22, server: 108.162.195.63, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_34, server: 104.27.102.29, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: NL_木鱼花_3, server: 188.114.98.140, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_4, server: 198.41.223.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: CR_木鱼花_4, server: 190.93.246.201, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_30, server: 108.162.192.157, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花14, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: US_木鱼花_41, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 3d8274d3-a977-4bc2-a461-8086963aafc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: US_木鱼花1, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}, udp: true}
-  - {name: CR_木鱼花_3, server: 190.93.246.26, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_59, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube_木鱼花26, server: 199.188.111.56, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_木鱼花, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube_木鱼花81, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: US_YouTube_木鱼花38, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube_木鱼花121, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube_木鱼花157, server: 103.21.244.206, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: JP_木鱼花, server: 45.88.43.232, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL_木鱼花_1, server: 188.114.96.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube_木鱼花34, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}, udp: true}
-  - {name: US_木鱼花_31, server: 104.24.159.57, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube_木鱼花90, server: dl8.v001sssv.pw, port: 80, type: vmess, uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl8.v001sssv.pw}}, udp: true}
-  - {name: 美国_木鱼花, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CR_木鱼花_5, server: 190.93.247.246, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_YouTube_木鱼花167, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube_木鱼花150, server: 103.21.244.78, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: "US_木鱼花\r_1", server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: US_木鱼花_8, server: 104.18.2.61, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花 2, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_YouTube_木鱼花41, server: txx.vtcss.top, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_16, server: txx.vtcss.top, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: NL_木鱼花_4, server: 188.114.99.30, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: TW台湾_木鱼花, server: 1.sg.zz.xxxxx.x-t-fuckword.network, port: 36674, type: vmess, uuid: c9a59e17-7c51-3f7d-8fe9-59c209a6437a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1.sg.zz.xxxxx.x-t-fuckword.network, udp: true}
-  - {name: US_木鱼花_11, server: txx.vtcss.top, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_35, server: 141.101.121.240, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_木鱼花_2, server: 173.245.58.66, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: US_YouTube_木鱼花55, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
-  - {name: US_YouTube_木鱼花41 2, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_木鱼花_68, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: US_木鱼花53, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: "US_木鱼花\r_2", server: 138.124.183.93, port: 27542, type: ss, cipher: chacha20-ietf-poly1305, password: 3f0Gag5bPSpDYwLMahAgp8, udp: true}
-  - {name: HK香港_木鱼花, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: KR韩国_木鱼花, server: rusabdfs.76898102.xyz, port: 2052, type: vmess, uuid: 05e6e126-28af-3fee-8ed1-10baaea8bab7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aubcroig, headers: {Host: rusabdfs.76898102.xyz}}, udp: true}
-  - {name: JP日本_木鱼花, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰_木鱼花, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: US美国_木鱼花 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: NL荷兰_木鱼花 2, server: 156.225.67.111, port: 43126, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: DE德国_木鱼花, server: 217.79.184.76, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: downloadde.xn--mes358aby2apfg.com, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡_木鱼花, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰_木鱼花 3, server: 156.245.8.225, port: 49492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 3, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
-  - {name: GB英国_木鱼花, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: NL荷兰_木鱼花 4, server: 156.225.67.234, port: 48123, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 5, server: 45.199.138.76, port: 49598, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 6, server: 198.2.203.53, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 7, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国_木鱼花, server: dl8.v001sssv.pw, port: 80, type: vmess, uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl8.v001sssv.pw}}, udp: true}
-  - {name: US美国_木鱼花 8, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 9, server: datacenter.cm.01.biqibao.site, port: 2052, type: vmess, uuid: dbb2b9c8-9cf7-4791-9cbc-db480c7e2dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /public, headers: {Host: detacenter.01.biqibao.site}}, udp: true}
-  - {name: SG新加坡_木鱼花 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: HK香港_木鱼花 2, server: 2.vipxgyun.com, port: 80, type: vmess, uuid: c282901c-f0fb-3309-9125-60b170d875a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 2.vipxgyun.com}}, udp: true}
-  - {name: US美国_木鱼花 10, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 3d8274d3-a977-4bc2-a461-8086963aafc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: US美国_木鱼花 11, server: 192.74.244.209, port: 54044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 12, server: 38.26.135.6, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW台湾_木鱼花 2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 13, server: 199.188.111.56, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港_木鱼花 3, server: 8.210.154.114, port: 40447, type: vmess, uuid: da8c9ac2-39de-4bed-ee9f-4e4340ade47d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 14, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
-  - {name: US美国_木鱼花 15, server: 45.86.8.102, port: 49004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP日本_木鱼花 2, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: SE瑞典_木鱼花, server: 13.53.127.1, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: TW台湾_木鱼花 3, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 16, server: 163.123.192.60, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港_木鱼花 4, server: 8.210.154.114, port: 40447, type: vmess, uuid: da8c9ac2-39de-4bed-ee9f-4e4340ade47d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP日本_木鱼花 3, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 17, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 18, server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: US美国_木鱼花 19, server: 104.16.35.46, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: AU澳大利亚_木鱼花, server: in06.my1188.org, port: 63003, type: vmess, uuid: f9d5690c-08e9-302a-9654-f7cfee9215ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au01-rich.tencent.best}}, udp: true}
-  - {name: US美国_木鱼花 20, server: 163.123.192.57, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡_木鱼花 3, server: sg.dunia-vpn.com, port: 443, type: vmess, uuid: 2262d59f-92a1-46aa-abd9-ed6e26aa8b54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: sg.dunia-vpn.com}}, udp: true}
-  - {name: US美国_木鱼花 21, server: 104.16.35.135, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
-  - {name: FR法国_木鱼花 2, server: Lille.kotick.site, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: JP日本_木鱼花 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
-  - {name: KR韩国_木鱼花 2, server: kr5.microsoft-orgwly.vip, port: 10023, type: trojan, password: fc9f825b-96d2-4f9b-b003-ae8c65fc5c8d, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大_木鱼花, server: 99.79.195.154, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰_木鱼花 5, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 22, server: 107.148.202.242, port: 59422, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 23, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国_木鱼花 24, server: 171.22.134.8, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君), server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6, server: 104.27.82.182, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27, server: 104.16.35.46, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22, server: 108.162.195.63, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34, server: 104.27.102.29, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3, server: 188.114.98.140, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4, server: 198.41.223.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4, server: 190.93.246.201, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30, server: 108.162.192.157, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 3d8274d3-a977-4bc2-a461-8086963aafc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}, udp: true}
+  - {name: CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3, server: 190.93.246.26, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_26, server: 199.188.111.56, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_分享日记, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_81, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_38, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_121, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_157, server: 103.21.244.206, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群, server: 45.88.43.232, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1, server: 188.114.96.93, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_34, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}, udp: true}
+  - {name: CN_YouTube@欢迎订阅大飞分享_108, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31, server: 104.24.159.57, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_90, server: dl8.v001sssv.pw, port: 80, type: vmess, uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl8.v001sssv.pw}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5, server: 190.93.247.246, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_167, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_150, server: 103.21.244.78, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1", server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8, server: 104.18.2.61, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_分享日记 2, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_41, server: txx.vtcss.top, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16, server: txx.vtcss.top, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4, server: 188.114.99.30, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: TW台湾(youtube阿伟科技2), server: 1.sg.zz.xxxxx.x-t-fuckword.network, port: 36674, type: vmess, uuid: c9a59e17-7c51-3f7d-8fe9-59c209a6437a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1.sg.zz.xxxxx.x-t-fuckword.network, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11, server: txx.vtcss.top, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35, server: 141.101.121.240, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2, server: 173.245.58.66, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_55, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
+  - {name: US_YouTube@欢迎订阅大飞分享_41 2, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2", server: 138.124.183.93, port: 27542, type: ss, cipher: chacha20-ietf-poly1305, password: 3f0Gag5bPSpDYwLMahAgp8, udp: true}
+  - {name: HK香港(youtube阿伟科技2), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: KR韩国(youtube阿伟科技), server: rusabdfs.76898102.xyz, port: 2052, type: vmess, uuid: 05e6e126-28af-3fee-8ed1-10baaea8bab7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aubcroig, headers: {Host: rusabdfs.76898102.xyz}}, udp: true}
+  - {name: JP日本(youtube阿伟科技2), server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2) 2, server: 156.225.67.111, port: 43126, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技2), server: 217.79.184.76, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: downloadde.xn--mes358aby2apfg.com, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2), server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2) 3, server: 156.245.8.225, port: 49492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 3, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
+  - {name: GB英国(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2) 4, server: 156.225.67.234, port: 48123, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 5, server: 45.199.138.76, port: 49598, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 6, server: 198.2.203.53, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 7, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国(youtube阿伟科技2), server: dl8.v001sssv.pw, port: 80, type: vmess, uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl8.v001sssv.pw}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 8, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 9, server: datacenter.cm.01.biqibao.site, port: 2052, type: vmess, uuid: dbb2b9c8-9cf7-4791-9cbc-db480c7e2dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /public, headers: {Host: detacenter.01.biqibao.site}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 2, server: 2.vipxgyun.com, port: 80, type: vmess, uuid: c282901c-f0fb-3309-9125-60b170d875a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 2.vipxgyun.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 10, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 3d8274d3-a977-4bc2-a461-8086963aafc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 11, server: 192.74.244.209, port: 54044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 12, server: 38.26.135.6, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(youtube阿伟科技2) 2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 13, server: 199.188.111.56, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 3, server: 8.210.154.114, port: 40447, type: vmess, uuid: da8c9ac2-39de-4bed-ee9f-4e4340ade47d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 14, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 15, server: 45.86.8.102, port: 49004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP日本(youtube阿伟科技2) 2, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: SE瑞典(youtube阿伟科技2), server: 13.53.127.1, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(youtube阿伟科技2) 3, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 16, server: 163.123.192.60, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技2) 4, server: 8.210.154.114, port: 40447, type: vmess, uuid: da8c9ac2-39de-4bed-ee9f-4e4340ade47d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP日本(youtube阿伟科技2) 3, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 17, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 18, server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: US美国(youtube阿伟科技2) 19, server: 104.16.35.46, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: AU澳大利亚(youtube阿伟科技2), server: in06.my1188.org, port: 63003, type: vmess, uuid: f9d5690c-08e9-302a-9654-f7cfee9215ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au01-rich.tencent.best}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 20, server: 163.123.192.57, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2) 3, server: sg.dunia-vpn.com, port: 443, type: vmess, uuid: 2262d59f-92a1-46aa-abd9-ed6e26aa8b54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: sg.dunia-vpn.com}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 21, server: 104.16.35.135, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
+  - {name: FR法国(youtube阿伟科技2) 2, server: Lille.kotick.site, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: JP日本(youtube阿伟科技2) 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
+  - {name: KR韩国(youtube阿伟科技) 2, server: kr5.microsoft-orgwly.vip, port: 10023, type: trojan, password: fc9f825b-96d2-4f9b-b003-ae8c65fc5c8d, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大(youtube阿伟科技), server: 99.79.195.154, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰(youtube阿伟科技2) 5, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 22, server: 107.148.202.242, port: 59422, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 23, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 24, server: 171.22.134.8, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -826,101 +834,102 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国_木鱼花
-      - US_木鱼花_6
-      - US_木鱼花_27
-      - US_木鱼花_22
-      - US_木鱼花_34
-      - NL_木鱼花_3
-      - US_木鱼花_4
-      - CR_木鱼花_4
-      - US_木鱼花_30
-      - US_木鱼花14
-      - US_木鱼花_41
-      - US美国_木鱼花
-      - US_木鱼花1
-      - CR_木鱼花_3
-      - US_木鱼花_59
-      - US_YouTube_木鱼花26
-      - US_木鱼花
-      - US_YouTube_木鱼花81
-      - US_YouTube_木鱼花38
-      - US_YouTube_木鱼花121
-      - US_YouTube_木鱼花157
-      - JP_木鱼花
-      - NL_木鱼花_1
-      - US_YouTube_木鱼花34
-      - US_木鱼花_31
-      - US_YouTube_木鱼花90
-      - 美国_木鱼花
-      - CR_木鱼花_5
-      - US_YouTube_木鱼花167
-      - US_YouTube_木鱼花150
-      - "US_木鱼花\r_1"
-      - US_木鱼花_8
-      - US_木鱼花 2
-      - US_YouTube_木鱼花41
-      - US_木鱼花_16
-      - NL_木鱼花_4
-      - TW台湾_木鱼花
-      - US_木鱼花_11
-      - US_木鱼花_35
-      - US_木鱼花_2
-      - US_YouTube_木鱼花55
-      - US_YouTube_木鱼花41 2
-      - US_木鱼花_68
-      - US_木鱼花53
-      - "US_木鱼花\r_2"
-      - HK香港_木鱼花
-      - KR韩国_木鱼花
-      - JP日本_木鱼花
-      - NL荷兰_木鱼花
-      - US美国_木鱼花 2
-      - NL荷兰_木鱼花 2
-      - DE德国_木鱼花
-      - SG新加坡_木鱼花
-      - NL荷兰_木鱼花 3
-      - US美国_木鱼花 3
-      - US美国_木鱼花 4
-      - GB英国_木鱼花
-      - NL荷兰_木鱼花 4
-      - US美国_木鱼花 5
-      - US美国_木鱼花 6
-      - US美国_木鱼花 7
-      - FR法国_木鱼花
-      - US美国_木鱼花 8
-      - US美国_木鱼花 9
-      - SG新加坡_木鱼花 2
-      - HK香港_木鱼花 2
-      - US美国_木鱼花 10
-      - US美国_木鱼花 11
-      - US美国_木鱼花 12
-      - TW台湾_木鱼花 2
-      - US美国_木鱼花 13
-      - HK香港_木鱼花 3
-      - US美国_木鱼花 14
-      - US美国_木鱼花 15
-      - JP日本_木鱼花 2
-      - SE瑞典_木鱼花
-      - TW台湾_木鱼花 3
-      - US美国_木鱼花 16
-      - HK香港_木鱼花 4
-      - JP日本_木鱼花 3
-      - US美国_木鱼花 17
-      - US美国_木鱼花 18
-      - US美国_木鱼花 19
-      - AU澳大利亚_木鱼花
-      - US美国_木鱼花 20
-      - SG新加坡_木鱼花 3
-      - US美国_木鱼花 21
-      - FR法国_木鱼花 2
-      - JP日本_木鱼花 4
-      - KR韩国_木鱼花 2
-      - CA加拿大_木鱼花
-      - NL荷兰_木鱼花 5
-      - US美国_木鱼花 22
-      - US美国_木鱼花 23
-      - US美国_木鱼花 24
+      - 美国(油管:破解资源君)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_6
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_27
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_22
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_34
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_30
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_14
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_41
+      - US美国(youtube阿伟科技2)
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_3
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_59
+      - US_YouTube@欢迎订阅大飞分享_26
+      - US_分享日记
+      - US_YouTube@欢迎订阅大飞分享_81
+      - US_YouTube@欢迎订阅大飞分享_38
+      - US_YouTube@欢迎订阅大飞分享_121
+      - US_YouTube@欢迎订阅大飞分享_157
+      - JP_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_1
+      - US_YouTube@欢迎订阅大飞分享_34
+      - CN_YouTube@欢迎订阅大飞分享_108
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_31
+      - US_YouTube@欢迎订阅大飞分享_90
+      - 美国(yudou66.com 玉豆免费节点)
+      - CR_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_5
+      - US_YouTube@欢迎订阅大飞分享_167
+      - US_YouTube@欢迎订阅大飞分享_150
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_1"
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_8
+      - US_分享日记 2
+      - US_YouTube@欢迎订阅大飞分享_41
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_16
+      - NL_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_4
+      - TW台湾(youtube阿伟科技2)
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_11
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_35
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_2
+      - US_YouTube@欢迎订阅大飞分享_55
+      - US_YouTube@欢迎订阅大飞分享_41 2
+      - US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_68
+      - US_ 门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群_53
+      - "US_门徒学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下陪跑请进TG群\r_2"
+      - HK香港(youtube阿伟科技2)
+      - KR韩国(youtube阿伟科技)
+      - JP日本(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 2
+      - NL荷兰(youtube阿伟科技2) 2
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
+      - NL荷兰(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - GB英国(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 4
+      - US美国(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 6
+      - US美国(youtube阿伟科技2) 7
+      - FR法国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 8
+      - US美国(youtube阿伟科技2) 9
+      - SG新加坡(youtube阿伟科技2) 2
+      - HK香港(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 10
+      - US美国(youtube阿伟科技2) 11
+      - US美国(youtube阿伟科技2) 12
+      - TW台湾(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 13
+      - HK香港(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 14
+      - US美国(youtube阿伟科技2) 15
+      - JP日本(youtube阿伟科技2) 2
+      - SE瑞典(youtube阿伟科技2)
+      - TW台湾(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 16
+      - HK香港(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 17
+      - US美国(youtube阿伟科技2) 18
+      - US美国(youtube阿伟科技2) 19
+      - AU澳大利亚(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 20
+      - SG新加坡(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 21
+      - FR法国(youtube阿伟科技2) 2
+      - JP日本(youtube阿伟科技2) 4
+      - KR韩国(youtube阿伟科技) 2
+      - CA加拿大(youtube阿伟科技)
+      - NL荷兰(youtube阿伟科技2) 5
+      - US美国(youtube阿伟科技2) 22
+      - US美国(youtube阿伟科技2) 23
+      - US美国(youtube阿伟科技2) 24
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -955,6 +964,7 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
@@ -970,6 +980,7 @@ rules:
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
  - DOMAIN,tracking.miui.com,🎯 全球直连
  - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN,rewards.hypixel.net,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
@@ -996,11 +1007,13 @@ rules:
  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+ - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
  - DOMAIN-SUFFIX,123juzi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,138lm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,17un.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,2cnt.net,🛑 全球拦截
  - DOMAIN-SUFFIX,3gmimo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,3xx.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,51.la,🛑 全球拦截
@@ -1011,6 +1024,7 @@ rules:
  - DOMAIN-SUFFIX,70e.com,🛑 全球拦截
  - DOMAIN-SUFFIX,86.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,8le8le.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,8ox.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,95558000.com,🛑 全球拦截
  - DOMAIN-SUFFIX,99click.com,🛑 全球拦截
  - DOMAIN-SUFFIX,99youmeng.com,🛑 全球拦截
@@ -1020,25 +1034,33 @@ rules:
  - DOMAIN-SUFFIX,ad-brix.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ad-delivery.net,🛑 全球拦截
  - DOMAIN-SUFFIX,ad-locus.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-plus.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad7.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adadapted.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adadvisor.net,🛑 全球拦截
  - DOMAIN-SUFFIX,adap.tv,🛑 全球拦截
  - DOMAIN-SUFFIX,adbana.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adchina.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adcome.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ader.mobi,🛑 全球拦截
  - DOMAIN-SUFFIX,adform.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,adfuture.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,adhouyi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adinfuse.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adirects.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adjust.io,🛑 全球拦截
  - DOMAIN-SUFFIX,adkmob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adlive.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,adlocus.com,🛑 全球拦截
  - DOMAIN-SUFFIX,admaji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,admin6.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,admon.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,adnyg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adpolestar.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,adpro.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,adpush.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,adquan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adreal.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ads8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adsame.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adsmogo.com,🛑 全球拦截
@@ -1047,23 +1069,31 @@ rules:
  - DOMAIN-SUFFIX,adsunion.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adtrk.me,🛑 全球拦截
  - DOMAIN-SUFFIX,adups.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aduu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,advertising.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adview.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,advmob.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,adwetec.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adwhirl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adwo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adxmi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adyun.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adzerk.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,agrant.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,agrantsem.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aihaoduo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ajapk.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,allyes.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,allyes.com,🛑 全球拦截
  - DOMAIN-SUFFIX,amazon-adsystem.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,analysys.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,angsrvr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,anquan.org,🛑 全球拦截
  - DOMAIN-SUFFIX,anysdk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,appadhoc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,appads.com,🛑 全球拦截
  - DOMAIN-SUFFIX,appboy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appdriver.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,appjiagu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,applifier.com,🛑 全球拦截
  - DOMAIN-SUFFIX,appsflyer.com,🛑 全球拦截
@@ -1071,29 +1101,40 @@ rules:
  - DOMAIN-SUFFIX,baifendian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banmamedia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,baoyatu.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,baycode.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bayimob.com,🛑 全球拦截
  - DOMAIN-SUFFIX,behe.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,bfshan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,biddingos.com,🛑 全球拦截
  - DOMAIN-SUFFIX,biddingx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,bjvvqu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bjxiaohua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bloggerads.net,🛑 全球拦截
  - DOMAIN-SUFFIX,branch.io,🛑 全球拦截
+ - DOMAIN-SUFFIX,bsdev.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,bshare.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,btyou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bugtags.com,🛑 全球拦截
  - DOMAIN-SUFFIX,buysellads.com,🛑 全球拦截
  - DOMAIN-SUFFIX,c0563.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cacafly.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,casee.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cdnmaster.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chance-ad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,chanet.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chartbeat.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chartboost.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chengadx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chmae.com,🛑 全球拦截
  - DOMAIN-SUFFIX,clickadu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,clicki.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,clicktracks.com,🛑 全球拦截
  - DOMAIN-SUFFIX,clickzs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cloudmobi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,cmcore.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cnxad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cnzz.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cnzzlink.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cocounion.com,🛑 全球拦截
  - DOMAIN-SUFFIX,coocaatv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cooguo.com,🛑 全球拦截
@@ -1101,20 +1142,26 @@ rules:
  - DOMAIN-SUFFIX,coremetrics.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cpmchina.co,🛑 全球拦截
  - DOMAIN-SUFFIX,cpx24.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,crasheye.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,crosschannel.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ctrmi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,customer-security.online,🛑 全球拦截
  - DOMAIN-SUFFIX,daoyoudao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,datouniao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ddapp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dianjoy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dianru.com,🛑 全球拦截
  - DOMAIN-SUFFIX,disqusads.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,domob.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,domob.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,domob.org,🛑 全球拦截
  - DOMAIN-SUFFIX,dotmore.com.tw,🛑 全球拦截
  - DOMAIN-SUFFIX,doubleverify.com,🛑 全球拦截
  - DOMAIN-SUFFIX,doudouguo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,doumob.com,🛑 全球拦截
  - DOMAIN-SUFFIX,duanat.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,duiba.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,duomeng.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dxpmedia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,edigitalsurvey.com,🛑 全球拦截
  - DOMAIN-SUFFIX,eduancm.com,🛑 全球拦截
@@ -1124,27 +1171,37 @@ rules:
  - DOMAIN-SUFFIX,feitian001.com,🛑 全球拦截
  - DOMAIN-SUFFIX,feixin2.com,🛑 全球拦截
  - DOMAIN-SUFFIX,flashtalking.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,fraudmetrix.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,g1.tagtic.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gentags.net,🛑 全球拦截
  - DOMAIN-SUFFIX,gepush.com,🛑 全球拦截
  - DOMAIN-SUFFIX,getui.com,🛑 全球拦截
  - DOMAIN-SUFFIX,glispa.com,🛑 全球拦截
  - DOMAIN-SUFFIX,go-mpulse,🛑 全球拦截
  - DOMAIN-SUFFIX,go-mpulse.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,godloveme.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gridsum.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,gridsumdissector.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gridsumdissector.com,🛑 全球拦截
  - DOMAIN-SUFFIX,growingio.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guohead.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guomob.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haoghost.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,hivecn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hypers.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,icast.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,igexin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,il8r.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imageter.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,immob.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,inad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,inmobi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,inmobi.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,inmobicdn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,inmobicdn.net,🛑 全球拦截
  - DOMAIN-SUFFIX,innity.com,🛑 全球拦截
  - DOMAIN-SUFFIX,instabug.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,intely.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iperceptions.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ipinyou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,irs01.com,🛑 全球拦截
@@ -1153,44 +1210,61 @@ rules:
  - DOMAIN-SUFFIX,istreamsche.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jesgoo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jiaeasy.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,jiguang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jimdo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jisucn.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jmgehn.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,jpush.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jusha.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,juzi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,juzilm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kejet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kejet.net,🛑 全球拦截
  - DOMAIN-SUFFIX,keydot.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,keyrun.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kmd365.com,🛑 全球拦截
  - DOMAIN-SUFFIX,krux.net,🛑 全球拦截
  - DOMAIN-SUFFIX,lnk0.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,lnk8.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,localytics.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,lomark.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lotuseed.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lrswl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lufax.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,madhouse.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,madmini.com,🛑 全球拦截
  - DOMAIN-SUFFIX,madserving.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,magicwindow.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mathtag.com,🛑 全球拦截
  - DOMAIN-SUFFIX,maysunmedia.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mbai.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mediaplex.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mediav.com,🛑 全球拦截
  - DOMAIN-SUFFIX,megajoy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mgogo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,miaozhen.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,microad-cn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,miidi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,mijifen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mixpanel.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mjmobi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mng-ads.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,moad.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,moatads.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mobaders.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mobclix.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mobvista.com,🛑 全球拦截
  - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
  - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mpush.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mxpnl.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,myhug.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mzy2014.com,🛑 全球拦截
  - DOMAIN-SUFFIX,networkbench.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ninebox.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ntalker.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nylalobghyhirgh.com,🛑 全球拦截
  - DOMAIN-SUFFIX,o2omobi.com,🛑 全球拦截
@@ -1199,12 +1273,15 @@ rules:
  - DOMAIN-SUFFIX,onetad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,optaim.com,🛑 全球拦截
  - DOMAIN-SUFFIX,optimix.asia,🛑 全球拦截
+ - DOMAIN-SUFFIX,optimix.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,optimizelyapis.com,🛑 全球拦截
  - DOMAIN-SUFFIX,overture.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,p0y.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pagechoice.net,🛑 全球拦截
  - DOMAIN-SUFFIX,pingdom.net,🛑 全球拦截
  - DOMAIN-SUFFIX,plugrush.com,🛑 全球拦截
  - DOMAIN-SUFFIX,popin.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,pro.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,publicidad.net,🛑 全球拦截
  - DOMAIN-SUFFIX,publicidad.tv,🛑 全球拦截
  - DOMAIN-SUFFIX,pubmatic.com,🛑 全球拦截
@@ -1216,6 +1293,7 @@ rules:
  - DOMAIN-SUFFIX,qucaigg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qumi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qxxys.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,reachmax.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,responsys.net,🛑 全球拦截
  - DOMAIN-SUFFIX,revsci.net,🛑 全球拦截
  - DOMAIN-SUFFIX,rlcdn.com,🛑 全球拦截
@@ -1224,6 +1302,7 @@ rules:
  - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
  - DOMAIN-SUFFIX,serving-sys.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sitemeter.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sitescout.com,🛑 全球拦截
@@ -1243,12 +1322,17 @@ rules:
  - DOMAIN-SUFFIX,tansuotv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tanv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tanx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tapjoy.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,th7.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,thoughtleadr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tianmidian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tiqcdn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,touclick.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,trafficjam.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,trafficmp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tuia.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ueadlian.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,uerzyr.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ugdtimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ugvip.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ujian.cc,🛑 全球拦截
@@ -1267,15 +1351,23 @@ rules:
  - DOMAIN-SUFFIX,uuzu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uyunad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vamaker.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,vlion.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,voiceads.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,voiceads.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vpon.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,vungle.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vungle.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,waps.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,wapx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,webterren.com,🛑 全球拦截
  - DOMAIN-SUFFIX,whpxy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,winads.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,winasdaq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wiyun.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wooboo.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wqmobile.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wrating.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wumii.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
@@ -1290,17 +1382,21 @@ rules:
  - DOMAIN-SUFFIX,yiwk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ylunion.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ymapp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ymcdn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yongyuelm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yooli.com,🛑 全球拦截
  - DOMAIN-SUFFIX,youmi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,youxiaoad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yoyi.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yoyi.tv,🛑 全球拦截
  - DOMAIN-SUFFIX,yrxmr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ysjwj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yunjiasu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yunpifu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zampdsp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zamplus.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zcdsp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhidian3g.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhiziyun.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
@@ -1459,15 +1555,23 @@ rules:
  - DOMAIN-SUFFIX,zemanta.com,🛑 全球拦截
  - DOMAIN-SUFFIX,11h5.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1kxun.mobi,🛑 全球拦截
+ - DOMAIN-SUFFIX,26zsd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,519397.com,🛑 全球拦截
  - DOMAIN-SUFFIX,626uc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,915.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appget.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appuu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,coinhive.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,huodonghezi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vcbn65.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,wanfeng1.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wep016.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,win-stock.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zantainet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dh54wf.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,g2q3e.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,114so.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
@@ -1496,6 +1600,8 @@ rules:
  - DOMAIN-SUFFIX,nex.corp.163.com,🍃 应用净化
  - DOMAIN-SUFFIX,oimagea2.ydstatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,pagechoice.net,🍃 应用净化
+ - DOMAIN-SUFFIX,prom.gome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,qchannel0d.cn,🍃 应用净化
  - DOMAIN-SUFFIX,qt002x.corp.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,rlogs.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,static.flv.uuzuonline.com,🍃 应用净化
@@ -1512,12 +1618,33 @@ rules:
  - DOMAIN-SUFFIX,vda.17173.com,🍃 应用净化
  - DOMAIN-SUFFIX,analytics.wanmei.com,🍃 应用净化
  - DOMAIN-SUFFIX,gg.stargame.com,🍃 应用净化
+ - DOMAIN-SUFFIX,dl.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,download.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,houtai.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,jifen.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,jifendownload.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,minipage.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,wan.2345.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,zhushou.2345.cn,🍃 应用净化
  - DOMAIN-SUFFIX,3600.com,🍃 应用净化
+ - DOMAIN-SUFFIX,gamebox.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,jiagu.360.cn,🍃 应用净化
  - DOMAIN-SUFFIX,kuaikan.netmon.360safe.com,🍃 应用净化
+ - DOMAIN-SUFFIX,leak.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,lianmeng.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,pub.se.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,s.so.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,shouji.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,soft.data.weather.360.cn,🍃 应用净化
  - DOMAIN-SUFFIX,stat.360safe.com,🍃 应用净化
+ - DOMAIN-SUFFIX,stat.m.360.cn,🍃 应用净化
  - DOMAIN-SUFFIX,update.360safe.com,🍃 应用净化
+ - DOMAIN-SUFFIX,wan.360.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,58.xgo.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,brandshow.58.com,🍃 应用净化
+ - DOMAIN-SUFFIX,imp.xgo.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,jing.58.com,🍃 应用净化
+ - DOMAIN-SUFFIX,stat.xgo.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,track.58.com,🍃 应用净化
  - DOMAIN-SUFFIX,tracklog.58.com,🍃 应用净化
  - DOMAIN-SUFFIX,acjs.aliyun.com,🍃 应用净化
@@ -1532,6 +1659,7 @@ rules:
  - DOMAIN-SUFFIX,atanx2.alicdn.com,🍃 应用净化
  - DOMAIN-SUFFIX,fav.simba.taobao.com,🍃 应用净化
  - DOMAIN-SUFFIX,g.click.taobao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,g.tbcdn.cn,🍃 应用净化
  - DOMAIN-SUFFIX,gma.alicdn.com,🍃 应用净化
  - DOMAIN-SUFFIX,gtmsdd.alicdn.com,🍃 应用净化
  - DOMAIN-SUFFIX,hydra.alibaba.com,🍃 应用净化
@@ -1570,19 +1698,41 @@ rules:
  - DOMAIN-SUFFIX,wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com,🍃 应用净化
+ - DOMAIN-SUFFIX,33.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,adproxy.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,al.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,alert.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,applogapi.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,c.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,cmx.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,dspmnt.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,pcd.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,push.app.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,pvx.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,rd.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,rdx.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,stats.autohome.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,a.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,a.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.duapps.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.player.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,adm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,adm.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,adscdn.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,adscdn.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,adx.xiaodutv.com,🍃 应用净化
  - DOMAIN-SUFFIX,ae.bdstatic.com,🍃 应用净化
+ - DOMAIN-SUFFIX,afd.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,afd.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,als.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,als.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,anquan.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,anquan.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,antivirus.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,api.mobula.sdk.duapps.com,🍃 应用净化
+ - DOMAIN-SUFFIX,appc.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,appc.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,as.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,as.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,baichuan.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
@@ -1592,22 +1742,30 @@ rules:
  - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,btlaunch.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,c.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,c.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cb.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cb.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cbjs.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cbjs.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cbjslog.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cbjslog.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cjhq.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cjhq.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cleaner.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.bes.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.hm.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.qianqian.com,🍃 应用净化
  - DOMAIN-SUFFIX,cm.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cpro.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.tieba.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.zhidao.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cpro2.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cpro2.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpu-admin.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,crs.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,crs.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,datax.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,dl-vip.bav.baidu.com,🍃 应用净化
@@ -1620,15 +1778,19 @@ rules:
  - DOMAIN-SUFFIX,dlsw.br.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,download.bav.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,download.sd.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,drmcmm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,drmcmm.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,dup.baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,dxp.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,dzl.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,e.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,e.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,eclick.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,eclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ecma.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,ecmb.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,ecmc.bdimg.com,🍃 应用净化
+ - DOMAIN-SUFFIX,eiv.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,eiv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,em.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ers.baidu.com,🍃 应用净化
@@ -1640,44 +1802,60 @@ rules:
  - DOMAIN-SUFFIX,g.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,gimg.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,guanjia.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,hc.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,hc.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,hm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,hm.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,hmma.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,hmma.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,hpd.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,hpd.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,idm-su.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,iebar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ikcode.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,imageplus.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,imageplus.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,img.taotaosou.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,img01.taotaosou.cn,🍃 应用净化
  - DOMAIN-SUFFIX,itsdata.map.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,j.br.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,kstj.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,log.music.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,log.nuomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,m1.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ma.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ma.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,mg09.zhaopin.com,🍃 应用净化
  - DOMAIN-SUFFIX,mipcache.bdstatic.com,🍃 应用净化
+ - DOMAIN-SUFFIX,mobads-logs.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,mobads-logs.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,mobads.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,mobads.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,mpro.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,mtj.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,mtj.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,neirong.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,nsclick.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,nsclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,nsclickvideo.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,openrcv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,pc.videoclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,pos.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pups.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,pups.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,pups.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,push.music.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,push.zhanzhang.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,qchannel0d.cn,🍃 应用净化
  - DOMAIN-SUFFIX,qianclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,release.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,res.limei.com,🍃 应用净化
  - DOMAIN-SUFFIX,res.mi.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,rigel.baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,river.zhidao.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,rj.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,rj.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,rp.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,rp.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,rplog.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,s.baidu.com,🍃 应用净化
@@ -1687,34 +1865,45 @@ rules:
  - DOMAIN-SUFFIX,share.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobartop.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,spcode.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,spcode.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,stat.v.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,su.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,su.bdstatic.com,🍃 应用净化
+ - DOMAIN-SUFFIX,tk.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tk.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tkweb.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tob-cms.bj.bcebos.com,🍃 应用净化
  - DOMAIN-SUFFIX,toolbar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tracker.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tuijian.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,tuisong.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ucstat.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ulic.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ulog.imap.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,union.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,union.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,unionimage.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,utility.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,utility.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,utk.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,utk.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,videopush.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,videopush.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,vv84.bj.bcebos.com,🍃 应用净化
  - DOMAIN-SUFFIX,w.gdown.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,w.x.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,wangmeng.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,wangmeng.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,weishi.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,wenku-cms.bj.bcebos.com,🍃 应用净化
  - DOMAIN-SUFFIX,wisepush.video.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,wm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,znsv.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,zz.bdstatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,zzy1.quyaoya.com,🍃 应用净化
@@ -1723,9 +1912,12 @@ rules:
  - DOMAIN-SUFFIX,aishowbger.com,🍃 应用净化
  - DOMAIN-SUFFIX,api.itaoxiaoshuo.com,🍃 应用净化
  - DOMAIN-SUFFIX,assets.ps.easou.com,🍃 应用净化
+ - DOMAIN-SUFFIX,bbcoe.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cj.qidian.com,🍃 应用净化
  - DOMAIN-SUFFIX,dkeyn.com,🍃 应用净化
  - DOMAIN-SUFFIX,drdwy.com,🍃 应用净化
+ - DOMAIN-SUFFIX,e.aa985.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,e.v02u9.cn,🍃 应用净化
  - DOMAIN-SUFFIX,e701.net,🍃 应用净化
  - DOMAIN-SUFFIX,ehxyz.com,🍃 应用净化
  - DOMAIN-SUFFIX,ethod.gzgmjcx.com,🍃 应用净化
@@ -1736,7 +1928,9 @@ rules:
  - DOMAIN-SUFFIX,m.ourlj.com,🍃 应用净化
  - DOMAIN-SUFFIX,m.txtxr.com,🍃 应用净化
  - DOMAIN-SUFFIX,m.vsxet.com,🍃 应用净化
+ - DOMAIN-SUFFIX,miam4.cn,🍃 应用净化
  - DOMAIN-SUFFIX,o.if.qidian.com,🍃 应用净化
+ - DOMAIN-SUFFIX,p.vq6nsu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,picture.duokan.com,🍃 应用净化
  - DOMAIN-SUFFIX,push.zhangyue.com,🍃 应用净化
  - DOMAIN-SUFFIX,pyerc.com,🍃 应用净化
@@ -1790,6 +1984,7 @@ rules:
  - DOMAIN-SUFFIX,doubleclick.net,🍃 应用净化
  - DOMAIN-SUFFIX,google-analytics.com,🍃 应用净化
  - DOMAIN-SUFFIX,googleadservices.com,🍃 应用净化
+ - DOMAIN-SUFFIX,googleadsserving.cn,🍃 应用净化
  - DOMAIN-SUFFIX,googlecommerce.com,🍃 应用净化
  - DOMAIN-SUFFIX,googlesyndication.com,🍃 应用净化
  - DOMAIN-SUFFIX,mobileads.google.com,🍃 应用净化
@@ -1832,12 +2027,23 @@ rules:
  - DOMAIN-SUFFIX,tj.kugou.com,🍃 应用净化
  - DOMAIN-SUFFIX,update.mobile.kugou.com,🍃 应用净化
  - DOMAIN-SUFFIX,apk.shouji.koowo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,deliver.kuwo.cn,🍃 应用净化
  - DOMAIN-SUFFIX,g.koowo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,g.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,kwmsg.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,log.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,mobilead.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,msclick2.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,msphoneclick.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,updatepage.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,wa.kuwo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,webstat.kuwo.cn,🍃 应用净化
  - DOMAIN-SUFFIX,aider-res.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,api-flow.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,api-game.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,api-push.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,aries.mzres.com,🍃 应用净化
+ - DOMAIN-SUFFIX,bro.flyme.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cal.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ebook.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,ebook.res.meizu.com,🍃 应用净化
@@ -1848,6 +2054,8 @@ rules:
  - DOMAIN-SUFFIX,push.res.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,reader.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,reader.res.meizu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,t-e.flyme.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,t-flow.flyme.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tongji-res1.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tongji.meizu.com,🍃 应用净化
  - DOMAIN-SUFFIX,umid.orion.meizu.com,🍃 应用净化
@@ -1905,6 +2113,7 @@ rules:
  - DOMAIN,adsmind.apdcdn.tc.qq.com,🍃 应用净化
  - DOMAIN,adsmind.gdtimg.com,🍃 应用净化
  - DOMAIN,adsmind.tc.qq.com,🍃 应用净化
+ - DOMAIN,pgdt.gtimg.cn,🍃 应用净化
  - DOMAIN,pgdt.gtimg.com,🍃 应用净化
  - DOMAIN,pgdt.ugdtimg.com,🍃 应用净化
  - DOMAIN,splashqqlive.gtimg.com,🍃 应用净化
@@ -1928,9 +2137,40 @@ rules:
  - DOMAIN-SUFFIX,uu.qq.com,🍃 应用净化
  - DOMAIN-SUFFIX,ebp.renren.com,🍃 应用净化
  - DOMAIN-SUFFIX,jebe.renren.com,🍃 应用净化
+ - DOMAIN-SUFFIX,jebe.xnimg.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,adbox.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,add.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,adimg.mobile.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,adm.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,alitui.weibo.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,biz.weibo.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,cre.dp.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,dcads.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,dd.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,dmp.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,game.weibo.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,leju.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,log.mix.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,mobileads.dx.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,newspush.sinajs.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,pay.mobile.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,sax.mobile.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,sax.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,saxd.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,🍃 应用净化
  - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,sdkclick.mobile.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,slog.sina.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,trends.mobile.sina.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tui.weibo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,u1.img.mobile.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,wax.weibo.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,wbapp.mobile.sina.cn,🍃 应用净化
  - DOMAIN-SUFFIX,wbapp.uve.weibo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,wbclick.mobile.sina.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,wbpctips.mobile.sina.cn,🍃 应用净化
  - DOMAIN-SUFFIX,zymo.mps.weibo.com,🍃 应用净化
  - DOMAIN-SUFFIX,123.sogou.com,🍃 应用净化
  - DOMAIN-SUFFIX,123.sogoucdn.com,🍃 应用净化
@@ -1965,9 +2205,19 @@ rules:
  - DOMAIN-SUFFIX,syndication.twitter.com,🍃 应用净化
  - DOMAIN-SUFFIX,tellapart.com,🍃 应用净化
  - DOMAIN-SUFFIX,urls.api.twitter.com,🍃 应用净化
+ - DOMAIN-SUFFIX,adslot.uc.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,api.mp.uc.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,applog.uc.cn,🍃 应用净化
  - DOMAIN-SUFFIX,client.video.ucweb.com,🍃 应用净化
  - DOMAIN-SUFFIX,cms.ucweb.com,🍃 应用净化
+ - DOMAIN-SUFFIX,dispatcher.upmc.uc.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,huichuan.sm.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,log.cs.pp.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,m.uczzd.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,patriot.cs.pp.cn,🍃 应用净化
  - DOMAIN-SUFFIX,puds.ucweb.com,🍃 应用净化
+ - DOMAIN-SUFFIX,server.m.pp.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,track.uc.cn,🍃 应用净化
  - DOMAIN-SUFFIX,u.uc123.com,🍃 应用净化
  - DOMAIN-SUFFIX,u.ucfly.com,🍃 应用净化
  - DOMAIN-SUFFIX,uc.ucweb.com,🍃 应用净化
@@ -1978,17 +2228,29 @@ rules:
  - DOMAIN-SUFFIX,push.feng.com,🍃 应用净化
  - DOMAIN-SUFFIX,we.tm,🍃 应用净化
  - DOMAIN-SUFFIX,yes1.feng.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.docer.wps.cn,🍃 应用净化
  - DOMAIN-SUFFIX,adm.zookingsoft.com,🍃 应用净化
  - DOMAIN-SUFFIX,bannera.kingsoft-office-service.com,🍃 应用净化
  - DOMAIN-SUFFIX,bole.shangshufang.ksosoft.com,🍃 应用净化
  - DOMAIN-SUFFIX,counter.kingsoft.com,🍃 应用净化
+ - DOMAIN-SUFFIX,docerad.wps.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,gou.wps.cn,🍃 应用净化
  - DOMAIN-SUFFIX,hoplink.ksosoft.com,🍃 应用净化
  - DOMAIN-SUFFIX,ic.ksosoft.com,🍃 应用净化
+ - DOMAIN-SUFFIX,img.gou.wpscdn.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,info.wps.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,ios-informationplatform.wps.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,minfo.wps.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,mo.res.wpscdn.cn,🍃 应用净化
  - DOMAIN-SUFFIX,news.docer.com,🍃 应用净化
+ - DOMAIN-SUFFIX,notify.wps.cn,🍃 应用净化
  - DOMAIN-SUFFIX,pc.uf.ksosoft.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pcfg.wps.cn,🍃 应用净化
  - DOMAIN-SUFFIX,pixiu.shangshufang.ksosoft.com,🍃 应用净化
+ - DOMAIN-SUFFIX,push.wps.cn,🍃 应用净化
  - DOMAIN-SUFFIX,rating6.kingsoft-office-service.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.wps.kingsoft.com,🍃 应用净化
+ - DOMAIN-SUFFIX,wpsweb-dc.wps.cn,🍃 应用净化
  - DOMAIN-SUFFIX,c.51y5.net,🍃 应用净化
  - DOMAIN-SUFFIX,cdsget.51y5.net,🍃 应用净化
  - DOMAIN-SUFFIX,news-imgpb.51y5.net,🍃 应用净化
@@ -2027,6 +2289,9 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,logger.baofeng.com,🍃 应用净化
  - DOMAIN-SUFFIX,xs.houyi.baofeng.net,🍃 应用净化
  - DOMAIN-SUFFIX,dotcounter.douyutv.com,🍃 应用净化
@@ -2067,6 +2332,7 @@ rules:
  - IP-CIDR,124.192.153.42/32,🍃 应用净化,no-resolve
  - DOMAIN-SUFFIX,gug.ku6cdn.com,🍃 应用净化
  - DOMAIN-SUFFIX,pq.stat.ku6.com,🍃 应用净化
+ - DOMAIN-SUFFIX,st.vq.ku6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,static.ku6.com,🍃 应用净化
  - DOMAIN-SUFFIX,1.letvlive.com,🍃 应用净化
  - DOMAIN-SUFFIX,2.letvlive.com,🍃 应用净化
@@ -2125,6 +2391,7 @@ rules:
  - DOMAIN-SUFFIX,afp.pplive.com,🍃 应用净化
  - DOMAIN-SUFFIX,app.aplus.pptv.com,🍃 应用净化
  - DOMAIN-SUFFIX,as.aplus.pptv.com,🍃 应用净化
+ - DOMAIN-SUFFIX,asimgs.pplive.cn,🍃 应用净化
  - DOMAIN-SUFFIX,de.as.pptv.com,🍃 应用净化
  - DOMAIN-SUFFIX,jp.as.pptv.com,🍃 应用净化
  - DOMAIN-SUFFIX,pp2.pptv.com,🍃 应用净化
@@ -2211,13 +2478,16 @@ rules:
  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🍃 应用净化
  - DOMAIN-SUFFIX,nichibenren.or.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nicorette.co.kr,🍃 应用净化
+ - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🍃 应用净化
  - DOMAIN-SUFFIX,youtube.112.2o7.net,🍃 应用净化
+ - DOMAIN-SUFFIX,youtube.2cnt.net,🍃 应用净化
  - DOMAIN-SUFFIX,acsystem.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,ads.cdn.tvb.com,🍃 应用净化
  - DOMAIN-SUFFIX,ads.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,afp.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,c.algovid.com,🍃 应用净化
  - DOMAIN-SUFFIX,gg.jtertp.com,🍃 应用净化
+ - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🍃 应用净化
  - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🍃 应用净化
  - DOMAIN-SUFFIX,logstat.t.sfht.com,🍃 应用净化
  - DOMAIN-SUFFIX,match.rtbidder.net,🍃 应用净化
@@ -2225,20 +2495,36 @@ rules:
  - DOMAIN-SUFFIX,pop.uusee.com,🍃 应用净化
  - DOMAIN-SUFFIX,static.duoshuo.com,🍃 应用净化
  - DOMAIN-SUFFIX,t.cr-nielsen.com,🍃 应用净化
+ - DOMAIN-SUFFIX,terren.cntv.cn,🍃 应用净化
  - DOMAIN-SUFFIX,1.win7china.com,🍃 应用净化
  - DOMAIN-SUFFIX,168.it168.com,🍃 应用净化
  - DOMAIN-SUFFIX,2.win7china.com,🍃 应用净化
+ - DOMAIN-SUFFIX,801.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,801.tianyaui.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,803.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,803.tianyaui.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,806.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,806.tianyaui.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,808.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,808.tianyaui.cn,🍃 应用净化
  - DOMAIN-SUFFIX,92x.tumblr.com,🍃 应用净化
+ - DOMAIN-SUFFIX,a1.itc.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad-channel.wikawika.xyz,🍃 应用净化
  - DOMAIN-SUFFIX,ad-display.wikawika.xyz,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.12306.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.3.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.95306.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.caiyunapp.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.cctv.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.cmvideo.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.csdn.net,🍃 应用净化
  - DOMAIN-SUFFIX,ad.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.house365.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ad.thepaper.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.unimhk.com,🍃 应用净化
  - DOMAIN-SUFFIX,adadmin.house365.com,🍃 应用净化
  - DOMAIN-SUFFIX,adhome.1fangchan.com,🍃 应用净化
+ - DOMAIN-SUFFIX,adm.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ads.csdn.net,🍃 应用净化
  - DOMAIN-SUFFIX,ads.feedly.com,🍃 应用净化
  - DOMAIN-SUFFIX,ads.genieessp.com,🍃 应用净化
@@ -2254,16 +2540,26 @@ rules:
  - DOMAIN-SUFFIX,bat.bing.com,🍃 应用净化
  - DOMAIN-SUFFIX,bd1.52che.com,🍃 应用净化
  - DOMAIN-SUFFIX,bd2.52che.com,🍃 应用净化
+ - DOMAIN-SUFFIX,bdj.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,bdj.tianyaui.cn,🍃 应用净化
  - DOMAIN-SUFFIX,beacon.tingyun.com,🍃 应用净化
  - DOMAIN-SUFFIX,cdn.jiuzhilan.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.cheshi-img.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.cheshi.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.ganji.com,🍃 应用净化
+ - DOMAIN-SUFFIX,click.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,click.tianyaui.cn,🍃 应用净化
  - DOMAIN-SUFFIX,client-api.ele.me,🍃 应用净化
  - DOMAIN-SUFFIX,collector.githubapp.com,🍃 应用净化
  - DOMAIN-SUFFIX,counter.csdn.net,🍃 应用净化
+ - DOMAIN-SUFFIX,d0.xcar.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,de.soquair.com,🍃 应用净化
+ - DOMAIN-SUFFIX,dol.tianya.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,dol.tianyaui.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,dw.xcar.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,e.nexac.com,🍃 应用净化
+ - DOMAIN-SUFFIX,eq.10jqka.com.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,exp.17wo.cn,🍃 应用净化
  - DOMAIN-SUFFIX,game.51yund.com,🍃 应用净化
  - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,grand.ele.me,🍃 应用净化
@@ -2277,7 +2573,9 @@ rules:
  - DOMAIN-SUFFIX,media.cheshi.com,🍃 应用净化
  - DOMAIN-SUFFIX,mobile-pubt.ele.me,🍃 应用净化
  - DOMAIN-SUFFIX,mobileads.msn.com,🍃 应用净化
+ - DOMAIN-SUFFIX,n.cosbot.cn,🍃 应用净化
  - DOMAIN-SUFFIX,newton-api.ele.me,🍃 应用净化
+ - DOMAIN-SUFFIX,ozone.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,pdl.gionee.com,🍃 应用净化
  - DOMAIN-SUFFIX,pica-juicy.picacomic.com,🍃 应用净化
  - DOMAIN-SUFFIX,pixel.wp.com,🍃 应用净化
@@ -2285,9 +2583,12 @@ rules:
  - DOMAIN-SUFFIX,push.wandoujia.com,🍃 应用净化
  - DOMAIN-SUFFIX,pv.cheshi-img.com,🍃 应用净化
  - DOMAIN-SUFFIX,pv.cheshi.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pv.xcar.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,qdp.qidian.com,🍃 应用净化
+ - DOMAIN-SUFFIX,res.gwifi.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,🍃 应用净化
  - DOMAIN-SUFFIX,sta.ganji.com,🍃 应用净化
+ - DOMAIN-SUFFIX,stat.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,stat.it168.com,🍃 应用净化
  - DOMAIN-SUFFIX,stats.chinaz.com,🍃 应用净化
  - DOMAIN-SUFFIX,stats.developingperspective.com,🍃 应用净化
@@ -2295,6 +2596,7 @@ rules:
  - DOMAIN-SUFFIX,tracker.yhd.com,🍃 应用净化
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
+ - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
  - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -2359,8 +2661,10 @@ rules:
  - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
@@ -2401,12 +2705,14 @@ rules:
  - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -2457,12 +2763,14 @@ rules:
  - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
@@ -2613,6 +2921,7 @@ rules:
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🌍 国外媒体
@@ -2625,6 +2934,7 @@ rules:
  - DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
  - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
  - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
@@ -2880,6 +3190,7 @@ rules:
  - DOMAIN-SUFFIX,blogspot.com,🚀 节点选择
  - DOMAIN-SUFFIX,blogspot.hk,🚀 节点选择
  - DOMAIN-SUFFIX,blogspot.jp,🚀 节点选择
+ - DOMAIN-SUFFIX,bloomberg.cn,🚀 节点选择
  - DOMAIN-SUFFIX,bloomberg.com,🚀 节点选择
  - DOMAIN-SUFFIX,box.com,🚀 节点选择
  - DOMAIN-SUFFIX,cachefly.net,🚀 节点选择
@@ -3039,7 +3350,9 @@ rules:
  - DOMAIN-SUFFIX,g.co,🚀 节点选择
  - DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
  - DOMAIN-SUFFIX,goo.gl,🚀 节点选择
+ - DOMAIN-SUFFIX,googleapis.cn,🚀 节点选择
  - DOMAIN-SUFFIX,googleapis.com,🚀 节点选择
+ - DOMAIN-SUFFIX,gstatic.cn,🚀 节点选择
  - DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🚀 节点选择
  - DOMAIN-SUFFIX,gvt1.com,🚀 节点选择
@@ -3213,7 +3526,9 @@ rules:
  - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
  - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
  - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
+ - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
+ - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
  - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
  - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
@@ -3231,6 +3546,7 @@ rules:
  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
@@ -3314,12 +3630,15 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
  - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
@@ -3344,6 +3663,7 @@ rules:
  - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
+ - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
  - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
@@ -3372,6 +3692,7 @@ rules:
  - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
  - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
  - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
  - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
  - DOMAIN-SUFFIX,udache.com,🎯 全球直连
@@ -3455,10 +3776,16 @@ rules:
  - DOMAIN-SUFFIX,leju.com,🎯 全球直连
  - DOMAIN-SUFFIX,miaopai.com,🎯 全球直连
  - DOMAIN-SUFFIX,sina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sina.com.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,sina.cn,🎯 全球直连
  - DOMAIN-SUFFIX,sinaapp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sinaapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,sinaimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sinaimg.cn,🎯 全球直连
  - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weibo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weibocdn.cn,🎯 全球直连
  - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
  - DOMAIN-SUFFIX,go2map.com,🎯 全球直连
  - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
@@ -3479,6 +3806,8 @@ rules:
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -3560,6 +3889,8 @@ rules:
  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
  - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
  - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
  - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
@@ -3606,6 +3937,7 @@ rules:
  - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
  - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
  - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
  - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
  - DOMAIN-SUFFIX,j99.info,🎯 全球直连
@@ -3628,6 +3960,7 @@ rules:
  - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
  - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
  - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
  - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
  - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
@@ -3643,6 +3976,7 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
  - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
  - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
+ - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
  - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
@@ -3655,6 +3989,7 @@ rules:
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
  - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
  - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
@@ -3711,6 +4046,10 @@ rules:
  - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
  - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
  - DOMAIN-SUFFIX,coolapkmarket.com,🎯 全球直连
  - DOMAIN-SUFFIX,csdn.net,🎯 全球直连
@@ -4125,4 +4464,5 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+ - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
