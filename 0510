@@ -6,99 +6,99 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: JP日本(youtube木鱼花13), server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: jpjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 美国(木鱼花51), server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
+  - {name: 美国(木鱼花20), server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
   - {name: US美国(youtube木鱼花13), server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
   - {name: 美国(木鱼花15), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: 美国(木鱼花15) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: US美国(youtube木鱼花13) 2, server: 198.2.218.206, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(木鱼花51), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 亚洲(木鱼花20), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: NL荷兰(youtube木鱼花13), server: 154.85.1.123, port: 40298, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国木鱼花28, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 亚洲(木鱼花51) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国(木鱼花51) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 美国木鱼花28 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国木鱼花28 3, server: 162.159.22.96, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 亚洲(木鱼花20) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 美国(木鱼花20) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 美国木鱼花67 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 美国木鱼花67 3, server: 162.159.22.96, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
   - {name: 香港(木鱼花15), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 亚洲(木鱼花51) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 亚洲(木鱼花20) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
   - {name: CA加拿大(youtube木鱼花13), server: 104.18.29.109, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}, udp: true}
-  - {name: 新加坡木鱼花28, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
+  - {name: 新加坡木鱼花67, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
   - {name: 美国(木鱼花15) 3, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
   - {name: US美国(youtube木鱼花13) 3, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
   - {name: US美国(youtube木鱼花13) 4, server: 104.194.233.43, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国木鱼花28 4, server: 198.41.216.156, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 亚洲(木鱼花51) 4, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(木鱼花51) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 哥斯达黎加木鱼花28, server: 190.93.245.6, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 4, server: 198.41.216.156, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 亚洲(木鱼花20) 4, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(木鱼花20) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 哥斯达黎加木鱼花67, server: 190.93.245.6, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
   - {name: US美国(youtube木鱼花13) 5, server: 104.194.233.43, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰木鱼花28, server: 188.114.96.186, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 荷兰木鱼花28 2, server: 188.114.96.237, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 荷兰木鱼花67, server: 188.114.96.186, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 荷兰木鱼花67 2, server: 188.114.96.237, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
   - {name: US美国(youtube木鱼花13) 6, server: 107.148.194.233, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯(youtube木鱼花13), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: LU卢森堡(youtube木鱼花13), server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰木鱼花28 3, server: 188.114.97.14, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 5, server: 104.18.26.178, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 6, server: 104.24.242.34, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 欧洲(木鱼花51), server: dongtaiwang2.com, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 美国木鱼花28 7, server: 104.20.184.232, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 美国(木鱼花51) 3, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大木鱼花28, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
+  - {name: 荷兰木鱼花67 3, server: 188.114.97.14, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 5, server: 104.18.26.178, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 6, server: 104.24.242.34, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 欧洲(木鱼花20), server: dongtaiwang2.com, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
+  - {name: 美国木鱼花67 7, server: 104.20.184.232, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: 美国(木鱼花20) 3, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大木鱼花67, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
   - {name: SG新加坡(youtube木鱼花13), server: 143.42.77.66, port: 43043, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 4087959416, udp: true}
   - {name: LU卢森堡(youtube木鱼花13) 2, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国木鱼花28, server: 173.245.49.42, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 9, server: 104.16.24.210, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 10, server: 104.16.217.38, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 荷兰木鱼花28 4, server: 188.114.96.85, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 哥斯达黎加木鱼花28 2, server: 190.93.247.44, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国(木鱼花51) 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
+  - {name: 法国木鱼花67, server: 173.245.49.42, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 9, server: 104.16.24.210, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 10, server: 104.16.217.38, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 荷兰木鱼花67 4, server: 188.114.96.85, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 哥斯达黎加木鱼花67 2, server: 190.93.247.44, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 美国(木鱼花20) 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
   - {name: IN印度(youtube木鱼花13), server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: in.stablize.top, skip-cert-verify: true, udp: true}
   - {name: LU卢森堡(youtube木鱼花13) 3, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: LU卢森堡(youtube木鱼花13) 4, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(木鱼花15) 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 亚洲(木鱼花51) 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: 亚洲(木鱼花20) 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
   - {name: US美国(youtube木鱼花13) 7, server: 170.178.167.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(木鱼花15) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 美国木鱼花28 11, server: 104.21.201.17, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 香港木鱼花28, server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国木鱼花67 11, server: 104.21.201.17, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 香港木鱼花67, server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(木鱼花15) 6, server: 198.41.196.38, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国(木鱼花51) 5, server: 188.114.99.170, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国(木鱼花20) 5, server: 188.114.99.170, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
   - {name: 美国(木鱼花15) 7, server: 104.18.110.194, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 12, server: 104.20.115.11, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国(木鱼花51) 6, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
-  - {name: 美国木鱼花28 13, server: 162.159.36.24, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 14, server: 198.41.201.152, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 15, server: 104.16.24.155, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 16, server: 104.18.110.194, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 17, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 美国木鱼花28 18, server: 173.245.59.198, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 亚洲(木鱼花51) 7, server: qzcn2-01.dajuzi.cc, port: 15596, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 哥斯达黎加木鱼花28 3, server: 190.93.247.83, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 19, server: 104.19.218.112, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 法国木鱼花28 2, server: 173.245.49.207, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 12, server: 104.20.115.11, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国(木鱼花20) 6, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
+  - {name: 美国木鱼花67 13, server: 162.159.36.24, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 14, server: 198.41.201.152, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 15, server: 104.16.24.155, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 16, server: 104.18.110.194, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 17, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 美国木鱼花67 18, server: 173.245.59.198, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 亚洲(木鱼花20) 7, server: qzcn2-01.dajuzi.cc, port: 15596, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 哥斯达黎加木鱼花67 3, server: 190.93.247.83, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 19, server: 104.19.218.112, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 法国木鱼花67 2, server: 173.245.49.207, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
   - {name: NL荷兰(youtube木鱼花13) 2, server: 156.245.8.83, port: 48123, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(木鱼花15) 8, server: 104.18.73.133, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 20, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 哥斯达黎加木鱼花28 4, server: 190.93.246.114, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 亚洲(木鱼花51) 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国(木鱼花51) 7, server: 142.4.110.24, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(木鱼花51) 8, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
+  - {name: 美国木鱼花67 20, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 哥斯达黎加木鱼花67 4, server: 190.93.246.114, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 亚洲(木鱼花20) 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 美国(木鱼花20) 7, server: 142.4.110.24, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(木鱼花20) 8, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
   - {name: NL荷兰(youtube木鱼花13) 3, server: 156.225.67.132, port: 50884, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国(youtube木鱼花13) 8, server: 140.99.149.46, port: 53082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国(youtube木鱼花13) 9, server: 140.99.149.46, port: 53082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国木鱼花28 21, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰木鱼花28 5, server: 188.114.96.133, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 22, server: 104.27.108.243, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 23, server: 104.19.146.123, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 法国木鱼花28 3, server: 173.245.49.115, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 24, server: 104.19.249.117, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 荷兰木鱼花28 6, server: 188.114.97.246, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 25, server: 104.20.224.54, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 26, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
+  - {name: 美国木鱼花67 21, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰木鱼花67 5, server: 188.114.96.133, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 22, server: 104.27.108.243, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 23, server: 104.19.146.123, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 法国木鱼花67 3, server: 173.245.49.115, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 24, server: 104.19.249.117, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 荷兰木鱼花67 6, server: 188.114.97.246, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 25, server: 104.20.224.54, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 26, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
   - {name: 美国(木鱼花15) 9, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
-  - {name: 法国木鱼花28 4, server: 173.245.49.171, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国木鱼花28 27, server: 172.64.134.40, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 亚洲(木鱼花51) 9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 欧洲(木鱼花51) 2, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
+  - {name: 法国木鱼花67 4, server: 173.245.49.171, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 美国木鱼花67 27, server: 172.64.134.40, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: 亚洲(木鱼花20) 9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 欧洲(木鱼花20) 2, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
   - {name: US美国(youtube木鱼花13) 10, server: 107.167.29.235, port: 46321, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -107,99 +107,99 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: ♻️ 自动选择
     type: url-test
@@ -208,99 +208,99 @@ proxy-groups:
     tolerance: 50
     proxies:
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: 🌍 国外媒体
     type: select
@@ -309,99 +309,99 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: 📲 电报信息
     type: select
@@ -409,99 +409,99 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: Ⓜ️ 微软服务
     type: select
@@ -509,99 +509,99 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: 🍎 苹果服务
     type: select
@@ -609,99 +609,99 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: 📢 谷歌FCM
     type: select
@@ -710,99 +710,99 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
   - name: 🎯 全球直连
     type: select
@@ -827,99 +827,99 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JP日本(youtube木鱼花13)
-      - 美国(木鱼花51)
+      - 美国(木鱼花20)
       - US美国(youtube木鱼花13)
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
       - US美国(youtube木鱼花13) 2
-      - 亚洲(木鱼花51)
+      - 亚洲(木鱼花20)
       - NL荷兰(youtube木鱼花13)
-      - 美国木鱼花28
-      - 亚洲(木鱼花51) 2
-      - 美国(木鱼花51) 2
-      - 美国木鱼花28 2
-      - 美国木鱼花28 3
+      - 美国木鱼花67
+      - 亚洲(木鱼花20) 2
+      - 美国(木鱼花20) 2
+      - 美国木鱼花67 2
+      - 美国木鱼花67 3
       - 香港(木鱼花15)
-      - 亚洲(木鱼花51) 3
+      - 亚洲(木鱼花20) 3
       - CA加拿大(youtube木鱼花13)
-      - 新加坡木鱼花28
+      - 新加坡木鱼花67
       - 美国(木鱼花15) 3
       - US美国(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 4
-      - 美国木鱼花28 4
-      - 亚洲(木鱼花51) 4
-      - 亚洲(木鱼花51) 5
-      - 哥斯达黎加木鱼花28
+      - 美国木鱼花67 4
+      - 亚洲(木鱼花20) 4
+      - 亚洲(木鱼花20) 5
+      - 哥斯达黎加木鱼花67
       - US美国(youtube木鱼花13) 5
-      - 荷兰木鱼花28
-      - 荷兰木鱼花28 2
+      - 荷兰木鱼花67
+      - 荷兰木鱼花67 2
       - US美国(youtube木鱼花13) 6
       - 俄罗斯(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13)
-      - 荷兰木鱼花28 3
-      - 美国木鱼花28 5
-      - 美国木鱼花28 6
-      - 欧洲(木鱼花51)
-      - 美国木鱼花28 7
-      - 美国木鱼花28 8
-      - 美国(木鱼花51) 3
-      - 加拿大木鱼花28
+      - 荷兰木鱼花67 3
+      - 美国木鱼花67 5
+      - 美国木鱼花67 6
+      - 欧洲(木鱼花20)
+      - 美国木鱼花67 7
+      - 美国木鱼花67 8
+      - 美国(木鱼花20) 3
+      - 加拿大木鱼花67
       - SG新加坡(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 2
-      - 法国木鱼花28
-      - 美国木鱼花28 9
-      - 美国木鱼花28 10
-      - 荷兰木鱼花28 4
-      - 哥斯达黎加木鱼花28 2
-      - 美国(木鱼花51) 4
+      - 法国木鱼花67
+      - 美国木鱼花67 9
+      - 美国木鱼花67 10
+      - 荷兰木鱼花67 4
+      - 哥斯达黎加木鱼花67 2
+      - 美国(木鱼花20) 4
       - IN印度(youtube木鱼花13)
       - LU卢森堡(youtube木鱼花13) 3
       - LU卢森堡(youtube木鱼花13) 4
       - 美国(木鱼花15) 4
-      - 亚洲(木鱼花51) 6
+      - 亚洲(木鱼花20) 6
       - US美国(youtube木鱼花13) 7
       - 美国(木鱼花15) 5
-      - 美国木鱼花28 11
-      - 香港木鱼花28
+      - 美国木鱼花67 11
+      - 香港木鱼花67
       - 美国(木鱼花15) 6
-      - 美国(木鱼花51) 5
+      - 美国(木鱼花20) 5
       - 美国(木鱼花15) 7
-      - 美国木鱼花28 12
-      - 美国(木鱼花51) 6
-      - 美国木鱼花28 13
-      - 美国木鱼花28 14
-      - 美国木鱼花28 15
-      - 美国木鱼花28 16
-      - 美国木鱼花28 17
-      - 美国木鱼花28 18
-      - 亚洲(木鱼花51) 7
-      - 哥斯达黎加木鱼花28 3
-      - 美国木鱼花28 19
-      - 法国木鱼花28 2
+      - 美国木鱼花67 12
+      - 美国(木鱼花20) 6
+      - 美国木鱼花67 13
+      - 美国木鱼花67 14
+      - 美国木鱼花67 15
+      - 美国木鱼花67 16
+      - 美国木鱼花67 17
+      - 美国木鱼花67 18
+      - 亚洲(木鱼花20) 7
+      - 哥斯达黎加木鱼花67 3
+      - 美国木鱼花67 19
+      - 法国木鱼花67 2
       - NL荷兰(youtube木鱼花13) 2
       - 美国(木鱼花15) 8
-      - 美国木鱼花28 20
-      - 哥斯达黎加木鱼花28 4
-      - 亚洲(木鱼花51) 8
-      - 美国(木鱼花51) 7
-      - 美国(木鱼花51) 8
+      - 美国木鱼花67 20
+      - 哥斯达黎加木鱼花67 4
+      - 亚洲(木鱼花20) 8
+      - 美国(木鱼花20) 7
+      - 美国(木鱼花20) 8
       - NL荷兰(youtube木鱼花13) 3
       - US美国(youtube木鱼花13) 8
       - US美国(youtube木鱼花13) 9
-      - 美国木鱼花28 21
-      - 荷兰木鱼花28 5
-      - 美国木鱼花28 22
-      - 美国木鱼花28 23
-      - 法国木鱼花28 3
-      - 美国木鱼花28 24
-      - 荷兰木鱼花28 6
-      - 美国木鱼花28 25
-      - 美国木鱼花28 26
+      - 美国木鱼花67 21
+      - 荷兰木鱼花67 5
+      - 美国木鱼花67 22
+      - 美国木鱼花67 23
+      - 法国木鱼花67 3
+      - 美国木鱼花67 24
+      - 荷兰木鱼花67 6
+      - 美国木鱼花67 25
+      - 美国木鱼花67 26
       - 美国(木鱼花15) 9
-      - 法国木鱼花28 4
-      - 美国木鱼花28 27
-      - 亚洲(木鱼花51) 9
-      - 欧洲(木鱼花51) 2
+      - 法国木鱼花67 4
+      - 美国木鱼花67 27
+      - 亚洲(木鱼花20) 9
+      - 欧洲(木鱼花20) 2
       - US美国(youtube木鱼花13) 10
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
