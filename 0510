@@ -9,10 +9,8 @@ proxies:
   - {name: 新加坡【YouTube-由零開始】, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
   - {name: JP日本(youtube阿伟科技), server: tk-005.xiaoxiaobujidao.xyz, port: 8443, type: trojan, password: 0a78837f-c9ad-3d6a-92dc-9d7cf813a0d4, sni: tk-005.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
   - {name: IN_分享日记, server: 139.59.1.39, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MWiIVYCyO8FfybKWhjt9Sz, udp: true}
-  - {name: JP_分享日记, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: c68e3c20-da73-4791-b4d8-7011a98ba06b, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: CN_分享日记, server: cn2-2-nc.go001.buzz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: f6f282b5-9dcf-4f5f-9961-47665984f773, udp: true}
-  - {name: SG_分享日记, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: c68e3c20-da73-4791-b4d8-7011a98ba06b, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: SG_分享日记 2, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: c68e3c20-da73-4791-b4d8-7011a98ba06b, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技), server: 170.187.198.19, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169, udp: true}
+  - {name: DE德国(youtube阿伟科技), server: 143.42.63.214, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,10 +21,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -37,10 +33,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,10 +45,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -64,10 +56,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -77,10 +67,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -90,10 +78,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -104,10 +90,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -134,10 +118,8 @@ proxy-groups:
       - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
       - IN_分享日记
-      - JP_分享日记
-      - CN_分享日记
-      - SG_分享日记
-      - SG_分享日记 2
+      - SG新加坡(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
