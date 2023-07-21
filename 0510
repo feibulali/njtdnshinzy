@@ -5,93 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【YouTube-由零開始】, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡【YouTube-由零開始】, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
   - {name: JP日本(youtube阿伟科技), server: tk-005.xiaoxiaobujidao.xyz, port: 8443, type: trojan, password: 0a78837f-c9ad-3d6a-92dc-9d7cf813a0d4, sni: tk-005.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
-  - {name: IN_分享日记, server: 139.59.1.39, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MWiIVYCyO8FfybKWhjt9Sz, udp: true}
   - {name: SG新加坡(youtube阿伟科技), server: 170.187.198.19, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169, udp: true}
-  - {name: DE德国(youtube阿伟科技), server: 143.42.63.214, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169, udp: true}
+  - {name: 美国【YouTube-由零開始】, server: 143.42.63.214, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169, udp: true}
+  - {name: 美国【YouTube-由零開始】 2, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 印度(yudou66.com 玉豆免费节点), server: 139.59.1.39, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MWiIVYCyO8FfybKWhjt9Sz, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us2.pqjc.site, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,12 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国【YouTube-由零開始】
-      - 新加坡【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
-      - IN_分享日记
       - SG新加坡(youtube阿伟科技)
-      - DE德国(youtube阿伟科技)
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 印度(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
