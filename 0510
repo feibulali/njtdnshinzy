@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-11-05 01:43:42
+# 创建时间：2023-11-05 02:53:50
 # 使用模版：V2RaySE 默认模版
-# 节点数量：26
+# 节点数量：52
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,221 +86,389 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"YouTube面具人哈乐_美国_25","type":"vmess","server":"156.225.67.106","port":30000,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1698671600986","headers":{"host":"www.41758112.xyz"}}}
-  - {"name":"YouTube面具人哈乐_美国_31","type":"vmess","server":"156.225.67.106","port":30000,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1698671600986","headers":{"host":"www.41758112.xyz"}}}
-  - {"name":"YouTube面具人哈乐_美国_18","type":"vmess","server":"172.67.215.230","port":2095,"cipher":"auto","uuid":"1F7C900A-6AD7-41CF-A37E-85873E566C40","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site","headers":{"host":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"}}}
-  - {"name":"美国(玉豆免费节点 yudou66.com)_1","type":"vmess","server":"156.225.67.106","port":30000,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1698671600986","headers":{"host":"www.41758112.xyz"}}}
-  - {"name":"美国(玉豆免费节点 yudou66.com)_2","type":"vless","server":"172.64.111.9","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
-  - {"name":"美国(玉豆免费节点 yudou66.com)_3","type":"vless","server":"edtunnel-b6t.pages.dev","port":443,"uuid":"c688395a-b36b-4071-974b-bc91ac2ad2c4","tls":true,"servername":"edtunnel-b6t.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edtunnel-b6t.pages.dev"}}}
-  - {"name":"美国(玉豆免费节点 yudou66.com)_4","type":"vless","server":"162.159.36.66","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
-  - {"name":"美国(玉豆免费节点 yudou66.com)_5","type":"vless","server":"173.245.58.34","port":443,"uuid":"6e34f2c5-6c71-4010-c292-10d05ef4a9a2","tls":true,"servername":"admin.quranmajid.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"admin.quranmajid.eu.org"}}}
-  - {"name":"英国(玉豆免费节点 yudou66.com)","type":"vless","server":"storeships.toptechnonews.com","port":443,"uuid":"cede337b-9ea5-40e5-a8b1-690bf49ff41d","tls":true,"servername":"storeships.toptechnonews.com","network":"ws","ws-opts":{"path":"/nimws"}}
-  - {"name":"US_分享日记_1","type":"vless","server":"172.67.192.245","port":443,"uuid":"62a2236a-17cb-4aad-a6fa-bd1bbebe78ca","tls":true,"servername":"sharivar.hub.iranserver.askdhbasikjbas.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"sharivar.hub.iranserver.askdhbasikjbas.shop"}}}
-  - {"name":"US_分享日记_2","type":"vless","server":"104.21.33.228","port":443,"uuid":"962a733d-26d7-108d-7fa6-a8102ffea8eb","tls":true,"servername":"vowelquran18.xyz","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"vowelquran18.xyz"}}}
-  - {"name":"US_分享日记_3","type":"vless","server":"172.67.192.245","port":443,"uuid":"14c8b3b2-e91f-4549-975c-fa42e278a318","tls":true,"servername":"armanibashfreeapp2.iranserver.askdhbasikjbas.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"armanibashfreeapp2.iranserver.askdhbasikjbas.shop"}}}
-  - {"name":"US_分享日记_4","type":"vless","server":"172.67.139.147","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
-  - {"name":"美国_1","type":"vless","server":"172.64.201.156","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"bed05.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"bed05.ylkszy.eu.org"}}}
-  - {"name":"美国_2","type":"vless","server":"172.64.106.86","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_3","type":"vless","server":"104.25.208.48","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_4","type":"vless","server":"104.21.29.54","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"木鱼花12_美国_18","type":"vmess","server":"172.67.215.230","port":2095,"cipher":"auto","uuid":"1F7C900A-6AD7-41CF-A37E-85873E566C40","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site","headers":{"host":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"}}}
+  - {"name":"美国(木鱼花15)_1","type":"vless","server":"edtunnel-b6t.pages.dev","port":443,"uuid":"c688395a-b36b-4071-974b-bc91ac2ad2c4","tls":true,"servername":"edtunnel-b6t.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edtunnel-b6t.pages.dev"}}}
+  - {"name":"US_木鱼花14_1","type":"vless","server":"172.67.192.245","port":443,"uuid":"62a2236a-17cb-4aad-a6fa-bd1bbebe78ca","tls":true,"servername":"sharivar.hub.iranserver.askdhbasikjbas.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"sharivar.hub.iranserver.askdhbasikjbas.shop"}}}
+  - {"name":"US_木鱼花14_2","type":"vless","server":"172.67.139.147","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"name":"美国_1","type":"vless","server":"104.21.29.54","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
   - {"name":"荷兰","type":"vless","server":"188.114.99.54","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_5","type":"vless","server":"162.159.35.0","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_6","type":"vless","server":"162.159.44.49","port":2083,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_7","type":"vless","server":"198.41.196.104","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_8","type":"vless","server":"162.159.35.0","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_9","type":"vless","server":"162.159.44.49","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"美国_10","type":"vless","server":"198.41.196.104","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
-  - {"name":"巴西_1","type":"trojan","server":"23.227.38.19","port":443,"udp":true,"password":"3f23c1eb-ace4-49ec-a7f0-f591b006b95a","sni":"jus1.jsjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jsjc/us1","headers":{"host":"jus1.jsjc.sbs"}}}
-  - {"name":"巴西_2","type":"trojan","server":"23.227.38.29","port":443,"udp":true,"password":"3f23c1eb-ace4-49ec-a7f0-f591b006b95a","sni":"jus2.jsjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jsjc/us2","headers":{"host":"jus2.jsjc.sbs"}}}
+  - {"name":"美国_2","type":"vless","server":"162.159.35.0","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_3","type":"vless","server":"162.159.35.0","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_4","type":"vless","server":"198.41.197.81","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_5","type":"vless","server":"172.64.40.159","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_6","type":"vless","server":"162.159.35.0","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_7","type":"vless","server":"162.159.44.49","port":2083,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_8","type":"vless","server":"172.64.40.159","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_9","type":"vless","server":"172.64.106.86","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_10","type":"vless","server":"198.41.196.104","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_11","type":"vless","server":"198.41.196.104","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_12","type":"vless","server":"198.41.196.104","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_13","type":"vless","server":"162.159.44.49","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_14","type":"vless","server":"104.24.46.63","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_15","type":"vless","server":"104.25.208.48","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"哥斯达黎加_1","type":"vless","server":"190.93.244.176","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_16","type":"vless","server":"108.162.193.250","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_17","type":"vless","server":"162.159.193.218","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_18","type":"vless","server":"104.20.248.124","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_19","type":"vless","server":"104.25.110.213","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"bed05.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"bed05.ylkszy.eu.org"}}}
+  - {"name":"哥斯达黎加_2","type":"vless","server":"190.93.245.100","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"bed05.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"bed05.ylkszy.eu.org"}}}
+  - {"name":"美国_20","type":"vless","server":"104.24.178.71","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_21","type":"vless","server":"104.25.86.39","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_22","type":"vless","server":"172.67.115.16","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr05.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"kr05.ylks01.eu.org"}}}
+  - {"name":"美国_23","type":"vless","server":"172.64.201.156","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"bed05.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"bed05.ylkszy.eu.org"}}}
+  - {"name":"US_木鱼花14_3","type":"vless","server":"172.67.56.140","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"name":"US_木鱼花14_4","type":"vless","server":"104.21.33.228","port":443,"uuid":"962a733d-26d7-108d-7fa6-a8102ffea8eb","tls":true,"servername":"vowelquran18.xyz","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"vowelquran18.xyz"}}}
+  - {"name":"US_木鱼花14_5","type":"vless","server":"104.21.57.240","port":443,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","tls":true,"servername":"sdgf.bdfstt.sbs","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sdgf.bdfstt.sbs"}}}
+  - {"name":"US_木鱼花14_6","type":"vless","server":"172.67.192.245","port":443,"uuid":"14c8b3b2-e91f-4549-975c-fa42e278a318","tls":true,"servername":"armanibashfreeapp2.iranserver.askdhbasikjbas.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"armanibashfreeapp2.iranserver.askdhbasikjbas.shop"}}}
+  - {"name":"US_木鱼花14_7","type":"vless","server":"172.67.56.144","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"name":"US_木鱼花14_8","type":"vless","server":"104.24.145.43","port":2083,"uuid":"b3c67462-87f5-442e-8cdc-fc298e397815","tls":true,"servername":"vip1.futurevpn.fun","network":"ws","ws-opts":{"path":"/","headers":{"host":"vip1.futurevpn.fun"}}}
+  - {"name":"US_木鱼花14_9","type":"vless","server":"104.21.76.160","port":443,"uuid":"1fbd7633-8800-4de0-87fb-c656017f4099","tls":true,"servername":"aurora.nextgentechnews.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"aurora.nextgentechnews.com"}}}
+  - {"name":"US_木鱼花14_10","type":"vless","server":"172.67.197.103","port":443,"uuid":"1fbd7633-8800-4de0-87fb-c656017f4099","tls":true,"servername":"aurora.nextgentechnews.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"aurora.nextgentechnews.com"}}}
+  - {"name":"美国_木鱼花16_386","type":"vless","server":"jp05.wang66.homes","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp05.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"加拿大_木鱼花16_22","type":"trojan","server":"23.227.38.29","port":443,"udp":true,"password":"3f23c1eb-ace4-49ec-a7f0-f591b006b95a","sni":"jus2.jsjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jsjc/us2","headers":{"host":"jus2.jsjc.sbs"}}}
+  - {"name":"美国_木鱼花16_311","type":"vless","server":"sg05.wang66.homes","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg05.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"加拿大_木鱼花16_15","type":"trojan","server":"23.227.38.19","port":443,"udp":true,"password":"3f23c1eb-ace4-49ec-a7f0-f591b006b95a","sni":"jus1.jsjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jsjc/us1","headers":{"host":"jus1.jsjc.sbs"}}}
+  - {"name":"美国_木鱼花16_174","type":"vless","server":"hk05.ylks.link","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk05.ylks.link","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国(木鱼花15)_2","type":"vless","server":"172.67.95.232","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"name":"美国(木鱼花15)_3","type":"vless","server":"172.67.194.57","port":443,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","tls":true,"servername":"sdgf.bdfstt.sbs","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sdgf.bdfstt.sbs"}}}
+  - {"name":"美国(木鱼花15)_4","type":"vless","server":"162.159.36.66","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"name":"美国(木鱼花15)_5","type":"vless","server":"172.64.111.9","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","tls":true,"servername":"edge.020770.xyz","network":"ws","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"name":"美国(木鱼花15)_6","type":"vless","server":"173.245.58.34","port":443,"uuid":"6e34f2c5-6c71-4010-c292-10d05ef4a9a2","tls":true,"servername":"admin.quranmajid.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"admin.quranmajid.eu.org"}}}
+  - {"name":"英国(木鱼花15)","type":"vless","server":"storeships.toptechnonews.com","port":443,"uuid":"cede337b-9ea5-40e5-a8b1-690bf49ff41d","tls":true,"servername":"storeships.toptechnonews.com","network":"ws","ws-opts":{"path":"/nimws"}}
+  - {"name":"美国(木鱼花15)_7","type":"vmess","server":"156.225.67.106","port":30000,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1698671600986","headers":{"host":"www.41758112.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -323,32 +491,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube面具人哈乐_美国_25
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_18
-      - 美国(玉豆免费节点 yudou66.com)_1
-      - 美国(玉豆免费节点 yudou66.com)_2
-      - 美国(玉豆免费节点 yudou66.com)_3
-      - 美国(玉豆免费节点 yudou66.com)_4
-      - 美国(玉豆免费节点 yudou66.com)_5
-      - 英国(玉豆免费节点 yudou66.com)
-      - US_分享日记_1
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
+      - 木鱼花12_美国_18
+      - 美国(木鱼花15)_1
+      - US_木鱼花14_1
+      - US_木鱼花14_2
       - 美国_1
+      - 荷兰
       - 美国_2
       - 美国_3
       - 美国_4
-      - 荷兰
       - 美国_5
       - 美国_6
       - 美国_7
       - 美国_8
       - 美国_9
       - 美国_10
-      - 巴西_1
-      - 巴西_2
+      - 美国_11
+      - 美国_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 哥斯达黎加_1
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 哥斯达黎加_2
+      - 美国_20
+      - 美国_21
+      - 美国_22
+      - 美国_23
+      - US_木鱼花14_3
+      - US_木鱼花14_4
+      - US_木鱼花14_5
+      - US_木鱼花14_6
+      - US_木鱼花14_7
+      - US_木鱼花14_8
+      - US_木鱼花14_9
+      - US_木鱼花14_10
+      - 美国_木鱼花16_386
+      - 加拿大_木鱼花16_22
+      - 美国_木鱼花16_311
+      - 加拿大_木鱼花16_15
+      - 美国_木鱼花16_174
+      - 美国(木鱼花15)_2
+      - 美国(木鱼花15)_3
+      - 美国(木鱼花15)_4
+      - 美国(木鱼花15)_5
+      - 美国(木鱼花15)_6
+      - 英国(木鱼花15)
+      - 美国(木鱼花15)_7
 
 rules:
 # 本地/局域网地址
@@ -2113,7 +2305,6 @@ rules:
   - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
-# 内容：SteamCN
 # 数量：15条
   - DOMAIN,csgo.wmsj.cn,🎯 全球直连
   - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
@@ -2647,7 +2838,6 @@ rules:
 # Facebook
 # Github
 # Google
-# GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
 # Instagram
 # Kakao Talk
 # Line
@@ -3083,8 +3273,6 @@ rules:
   - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
 # 直连列表
 # MyList
-# CN域名直连(中国|公司|网络)
-# 中国国内常见域名关键词直连
 # 360
 # 4399
 # 58
@@ -3114,7 +3302,6 @@ rules:
 # Sina
 # Sohu Sogo
 # Sony
-# SteamCN
 # Tencent
 # Vip 唯品会
 # Ximalaya 喜马拉雅
@@ -3749,7 +3936,6 @@ rules:
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
-# 中国云服务商ip端
 # 阿里
 # 腾讯 qq
 # 百度 Baidu
@@ -3977,5 +4163,4 @@ rules:
   - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
-  - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
