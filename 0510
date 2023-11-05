@@ -9,7 +9,7 @@ proxies:
   - {name: 木鱼花12_美国_61, server: 156.225.67.106, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698671600986, headers: {Host: www.41758112.xyz}}, udp: true}
   - {name: 木鱼花12_美国_62, server: 156.225.67.106, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698671600986, headers: {Host: www.41758112.xyz}}, udp: true}
   - {name: 木鱼花12_美国_48, server: zzus01.gutingting.com, port: 20220, type: trojan, password: 44379cb3-d1a6-4824-ba0a-2c86a7a5bc77, sni: zzus01.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: flics-tcp-3.14.84.61, server: 3.14.84.61, port: 39921, type: vmess, uuid: e8548257-0b24-4289-932c-44fd283d0141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 木鱼花19_美国129, server: 3.14.84.61, port: 39921, type: vmess, uuid: e8548257-0b24-4289-932c-44fd283d0141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany, server: hackteam.link, port: 8443, type: vmess, uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hackteam.link}}, udp: true}
   - {name: 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23, server: hackteam.link, port: 2053, type: vmess, uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hackteam.link}}, udp: true}
   - {name: "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1", server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: f01aea88-9486-401c-b0be-dc03e06330b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us-new02.gujuji.top, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
@@ -28,7 +28,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -47,7 +47,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -66,7 +66,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -84,7 +84,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -102,7 +102,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -120,7 +120,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -139,7 +139,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
@@ -174,7 +174,7 @@ proxy-groups:
       - 木鱼花12_美国_61
       - 木鱼花12_美国_62
       - 木鱼花12_美国_48
-      - flics-tcp-3.14.84.61
+      - 木鱼花19_美国129
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany
       - 木鱼花21-12|⚡️@DeamNet_🔻 🇩🇪Germany 23
       - "木鱼花21-12|美国 - 威奇托 - Cloudflare, Inc. #1"
