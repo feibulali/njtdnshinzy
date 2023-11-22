@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-11-21 19:01:19
+# 创建时间：2023-11-21 22:22:09
 # 使用模版：V2RaySE 默认模版
-# 节点数量：58
+# 节点数量：61
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -144,6 +144,9 @@ proxies:
   - {"name":"科技网络 🇺🇸_63","type":"vmess","server":"107.148.25.135","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1700571207277","headers":{"host":"www.19940750.xyz"}}}
   - {"name":"科技网络 🇺🇸_29","type":"vmess","server":"104.219.212.194","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1700571207277","headers":{"host":"www.73492164.xyz"}}}
   - {"name":"科技网络 🇳🇱_4","type":"vmess","server":"46.182.107.14","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1700491002157","headers":{"host":"www.42077230.xyz"}}}
+  - {"name":"🇩🇪 _DE_德国","type":"vmess","server":"45.155.249.17","port":80,"cipher":"auto","uuid":"9fd713f3-0896-4d67-8a97-038b388ee017","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇳🇱 _NL_荷兰","type":"vmess","server":"154.85.1.130","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1698843555400"}}
+  - {"name":"🇺🇸 _US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"156.225.67.96","port":443,"cipher":"auto","uuid":"5a4d69ad-20a9-4941-b223-87bbd09f5f52","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1696251693048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -208,6 +211,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -272,6 +278,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -336,6 +345,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: 📲 电报信息
     type: select
     proxies:
@@ -399,6 +411,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -462,6 +477,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -525,6 +543,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -605,6 +626,9 @@ proxy-groups:
       - 科技网络 🇺🇸_63
       - 科技网络 🇺🇸_29
       - 科技网络 🇳🇱_4
+      - 🇩🇪 _DE_德国
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
 
 rules:
 # 本地/局域网地址
