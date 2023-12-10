@@ -5,61 +5,52 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_木鱼花14, server: cover.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}, udp: true}
-  - {name: US_木鱼花14 2, server: 64.176.37.216, port: 45930, type: vmess, uuid: b2930b0d-02b4-45dc-8025-a3c19879d4ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_木鱼花14, server: 210.61.206.196, port: 18206, type: vmess, uuid: 32c29370-cff3-49be-a565-b3f16dfbb85d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_木鱼花14 2, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
-  - {name: TW_木鱼花14 3, server: 210.61.206.229, port: 21433, type: vmess, uuid: 39d39017-f955-4b10-b269-d166ec6b17c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: IN_木鱼花14, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: TW_木鱼花14 4, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_木鱼花14 3, server: www.wuda.cf, port: 443, type: vmess, uuid: 472f6769-ba21-4e93-852e-9e57e470b533, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: h449-fr2.kxnn.eu.org}}, udp: true}
-  - {name: US_木鱼花14 4, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: e2b13230-2e75-4946-bd07-f700aef9e90d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
-  - {name: US_木鱼花14 5, server: 64.176.59.68, port: 59350, type: vmess, uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_木鱼花14 6, server: cloudflare.cfgo.cc, port: 443, type: vmess, uuid: 8c269947-2d6f-45f6-8f58-921b52b79820, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: h185-fr2.kxnn.eu.org}}, udp: true}
-  - {name: US_木鱼花14 7, server: 64.176.47.69, port: 58703, type: vmess, uuid: 3a79de33-bfa0-4d5a-d681-3bffb3ea0e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_木鱼花14 5, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
-  - {name: US_木鱼花14 8, server: 64.176.58.7, port: 14431, type: vmess, uuid: ff681ba6-55f5-4e79-8f40-ad6bbdf14044, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯联邦, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: singapore.com, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}, udp: true}
-  - {name: 美国 2, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v006.ssrsub.com}}, udp: true}
-  - {name: 美国 3, server: singapore.com, port: 8880, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v001.ssrsub.com}}, udp: true}
-  - {name: 美国 4, server: moon.chanell.mci.v-x4ssd.space, port: 8080, type: vmess, uuid: 6ad7afd7-6958-478e-9fff-88f16f9a2008, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: moon.chanell.mci.v-x4ssd.space}}, udp: true}
-  - {name: 美国 5, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v001.ssrsub.com}}, udp: true}
-  - {name: 美国 6, server: 157.254.231.45, port: 38461, type: vmess, uuid: 8f53d96b-cb13-4197-cd44-37db95809de5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 7, server: 103.179.142.117, port: 24640, type: vmess, uuid: 119a25bf-e35e-44c2-8b81-287ea8b2cac0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 8, server: 147.189.161.106, port: 30823, type: vmess, uuid: d992809a-ce81-482b-c39d-7cfb60ef2b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 卢森堡, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 9, server: cf-lt.sharecentre.online, port: 8880, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v001.ssrsub.com}}, udp: true}
-  - {name: 俄罗斯联邦 2, server: 46.29.166.124, port: 47412, type: vmess, uuid: 291a5c6a-447e-4fc7-b3d7-28ebec5cbcd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(木鱼花25), server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4, udp: true}
-  - {name: 美国(木鱼花25) 2, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b748e3bf-ee2e-49e2-a78e-ab0f0ee4e444, udp: true}
-  - {name: 美国(木鱼花25) 3, server: 148.135.72.169, port: 8080, type: vmess, uuid: e514c3c9-703d-4e94-e71f-73f9f34897ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 148.135.72.169}}, udp: true}
-  - {name: 美国(木鱼花25) 4, server: 148.135.72.169, port: 8080, type: vmess, uuid: e514c3c9-703d-4e94-e71f-73f9f34897ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 5, server: free-relay.m.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: b748e3bf-ee2e-49e2-a78e-ab0f0ee4e444, udp: true}
-  - {name: 美国(木鱼花25) 6, server: 103.179.143.40, port: 58108, type: vmess, uuid: 372015b8-1cb7-4131-e8f9-6155209d19ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 英国(木鱼花25), server: 103.179.143.40, port: 58108, type: vmess, uuid: 372015b8-1cb7-4131-e8f9-6155209d19ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.179.143.40}}, udp: true}
-  - {name: 美国(木鱼花25) 7, server: 103.114.202.158, port: 29035, type: vmess, uuid: 03025434-099d-450d-d7d0-4908d92f82fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.114.202.158}}, udp: true}
-  - {name: 美国(木鱼花25) 8, server: 74.48.183.246, port: 40310, type: vmess, uuid: 6371ee48-8b19-4a4c-a399-88f692228ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 74.48.183.246}}, udp: true}
-  - {name: 美国(木鱼花25) 9, server: 103.198.26.198, port: 17943, type: vmess, uuid: 9f679a91-388b-4858-ea7d-8d0ff576f4b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.198.26.198}}, udp: true}
-  - {name: 美国(木鱼花25) 10, server: 171.221.21.13, port: 8081, type: vmess, uuid: f7469e78-d8dc-49fb-c07d-3335dd60b105, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 11, server: 64.176.46.36, port: 111, type: vmess, uuid: 7235eb19-ab55-4f0d-cb0a-a620930a5b59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 12, server: 103.114.202.157, port: 36874, type: vmess, uuid: 69c5eeea-375b-4e06-a3cd-5734c39fbadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.114.202.157}}, udp: true}
-  - {name: 美国(木鱼花25) 13, server: 171.221.21.13, port: 8081, type: vmess, uuid: f7469e78-d8dc-49fb-c07d-3335dd60b105, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 171.221.21.13}}, udp: true}
-  - {name: 荷兰(木鱼花25), server: 79.132.128.60, port: 21524, type: vmess, uuid: 839102ad-842f-43e5-e589-ac10a3c78571, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 14, server: 103.198.26.198, port: 17943, type: vmess, uuid: 9f679a91-388b-4858-ea7d-8d0ff576f4b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 荷兰(木鱼花25) 2, server: 93.174.89.111, port: 58394, type: vmess, uuid: 7c76ed33-70c5-4ee6-e4a7-66fefd44c1b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 台湾(木鱼花25), server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
-  - {name: 美国(木鱼花25) 15, server: 64.176.46.36, port: 111, type: vmess, uuid: 7235eb19-ab55-4f0d-cb0a-a620930a5b59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 64.176.46.36}}, udp: true}
-  - {name: 美国(木鱼花25) 16, server: zzhk01.51tu.pro, port: 29801, type: ss, cipher: chacha20-ietf-poly1305, password: 0774fe93-fc7a-405a-a1a0-00d05ebf219a, udp: true}
-  - {name: 加拿大(木鱼花25), server: 74.48.183.246, port: 40310, type: vmess, uuid: 6371ee48-8b19-4a4c-a399-88f692228ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 17, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}, udp: true}
-  - {name: 美国(木鱼花25) 18, server: 37.152.186.109, port: 31341, type: vmess, uuid: 9d379161-cbeb-4ef6-f023-ca174175ea62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 19, server: 103.99.11.137, port: 53052, type: vmess, uuid: ecc4a0a7-40bc-4159-e70b-057483bee244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.99.11.137}}, udp: true}
-  - {name: 美国(木鱼花25) 20, server: 103.99.11.137, port: 53052, type: vmess, uuid: ecc4a0a7-40bc-4159-e70b-057483bee244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 印度(木鱼花25), server: 103.114.202.157, port: 36874, type: vmess, uuid: 69c5eeea-375b-4e06-a3cd-5734c39fbadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 21, server: 37.152.186.109, port: 31341, type: vmess, uuid: 9d379161-cbeb-4ef6-f023-ca174175ea62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 37.152.186.109}}, udp: true}
-  - {name: 美国(木鱼花25) 22, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(木鱼花25) 23, server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21402, type: trojan, password: 7b01f853-1c72-47db-8f57-151d491b3bf9, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US_木鱼花14, server: 64.176.58.7, port: 14431, type: vmess, uuid: ff681ba6-55f5-4e79-8f40-ad6bbdf14044, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube木鱼花37美国032, server: zfc.windowsupdate1.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpyx.651568.xyz}}, udp: true}
+  - {name: 美国, server: cfyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpyx.651568.xyz}}, udp: true}
+  - {name: US_木鱼花14 2, server: 185.189.32.56, port: 8881, type: ss, cipher: aes-128-gcm, password: f51a6da6-8d69-4fe9-8ac3-0eddec9821c9, udp: true}
+  - {name: US_木鱼花14 3, server: 38.105.25.23, port: 8881, type: ss, cipher: aes-128-gcm, password: 576da2e7-e517-49f3-a3ea-c2efb1f4a213, udp: true}
+  - {name: DE_木鱼花14, server: 3.78.92.181, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: Youtube木鱼花37US00236, server: sefarat24.com, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: lv1.xv2ray.net}}, udp: true}
+  - {name: Youtube木鱼花13德国010, server: 5.104.108.120, port: 443, type: trojan, password: af61ca1c-fb6c-427b-b298-0791a43a968b, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube木鱼花13德国06, server: 5.104.108.109, port: 443, type: trojan, password: af61ca1c-fb6c-427b-b298-0791a43a968b, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(木鱼花15), server: 37.152.186.109, port: 31341, type: vmess, uuid: 9d379161-cbeb-4ef6-f023-ca174175ea62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US_木鱼花14 4, server: scadn.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpyx.651568.xyz}}, udp: true}
+  - {name: 美国 2, server: zfc.windowsupdate1.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}, udp: true}
+  - {name: Youtube木鱼花37NL0051, server: 93.123.17.159, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: TW_木鱼花14, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
+  - {name: US_木鱼花14 5, server: zfc.windowsupdate1.com, port: 8080, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kryx.651568.xyz}}, udp: true}
+  - {name: Youtube木鱼花37美国016, server: scadn.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}, udp: true}
+  - {name: AU_木鱼花14, server: cfyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}, udp: true}
+  - {name: Youtube木鱼花37NL00231, server: 93.123.17.143, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: Youtube木鱼花37US00135, server: x1.forwardv2raytelegramchannel.fun, port: 443, type: vmess, uuid: 7b6a9847-1e7b-40f6-bf44-abd01f35d6fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /10651/@FORWADV2RAY, headers: {Host: x1.forwardv2raytelegramchannel.fun}}, udp: true}
+  - {name: Youtube木鱼花37US00134, server: 118ejob.ir, port: 80, type: vmess, uuid: 6078fdaf-e556-4b8a-9868-05e3b73f2158, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: il1.xv2ray.net}}, udp: true}
+  - {name: Youtube木鱼花37NL00209, server: 93.123.17.137, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: US_木鱼花14 6, server: 104.18.62.248, port: 2052, type: vmess, uuid: 5081e895-00ec-4ef5-9005-e63dc56a02f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/public?ed=2048", headers: {Host: uk1.vvv123.store}}, udp: true}
+  - {name: 美国(木鱼花15) 2, server: 37.152.186.109, port: 31341, type: vmess, uuid: 9d379161-cbeb-4ef6-f023-ca174175ea62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 37.152.186.109}}, udp: true}
+  - {name: CA_木鱼花14, server: conn-o0q15o.nodes.fireflysolutions.cloud, port: 38656, type: trojan, password: db7f083f-e152-4a82-9cbb-fbbaef67a4ac, sni: conn-o0q15o.nodes.fireflysolutions.cloud, skip-cert-verify: true, udp: true}
+  - {name: US_木鱼花14 7, server: scadn.yydsii.com, port: 8080, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kryx.651568.xyz}}, udp: true}
+  - {name: Youtube木鱼花37US0099, server: 92.223.118.20, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: Youtube木鱼花37IT00234, server: 45.82.101.8, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: Youtube木鱼花37SG00224, server: 92.223.116.222, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: Youtube木鱼花37IT0016, server: 45.82.101.6, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: Youtube木鱼花37TW0044, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
+  - {name: TW_木鱼花14 2, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
+  - {name: Youtube木鱼花37CZ00232, server: 92.223.74.21, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: 美国 3, server: 64.176.55.150, port: 45889, type: vmess, uuid: 9811a3ee-f8d4-43f8-9bcb-8a8f0a85e1d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube木鱼花37美国097996, server: singapore.com, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}, udp: true}
+  - {name: Youtube木鱼花37MD00211, server: 91.243.87.4, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: Youtube木鱼花37美国0221, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: Youtube木鱼花37美国0210, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}, udp: true}
+  - {name: Youtube木鱼花37NL0027, server: 93.123.17.146, port: 443, type: vmess, uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: software.myftp.biz}}, udp: true}
+  - {name: 台湾(木鱼花15), server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
+  - {name: 印度尼西亚, server: 103.177.94.138, port: 22843, type: vmess, uuid: 009bae05-80bb-4e27-d2c1-efea629e95ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 4, server: a.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}, udp: true}
+  - {name: 俄罗斯联邦, server: 46.29.166.124, port: 47412, type: vmess, uuid: 291a5c6a-447e-4fc7-b3d7-28ebec5cbcd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube木鱼花37美国0198, server: singapore.com, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}, udp: true}
+  - {name: MY_木鱼花14, server: 103.158.74.24, port: 8881, type: ss, cipher: aes-128-gcm, password: c44b01a6-2a53-4913-95e2-8df1f61869f7, udp: true}
+  - {name: 美国(木鱼花15) 3, server: 148.135.72.169, port: 8080, type: vmess, uuid: e514c3c9-703d-4e94-e71f-73f9f34897ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 148.135.72.169}}, udp: true}
+  - {name: 美国(木鱼花15) 4, server: 64.176.46.36, port: 111, type: vmess, uuid: 7235eb19-ab55-4f0d-cb0a-a620930a5b59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 64.176.46.36}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -67,60 +58,51 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -128,60 +110,51 @@ proxy-groups:
     tolerance: 50
     proxies:
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -189,240 +162,204 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -430,60 +367,51 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -507,60 +435,51 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US_木鱼花14
-      - US_木鱼花14 2
-      - TW_木鱼花14
-      - TW_木鱼花14 2
-      - TW_木鱼花14 3
-      - IN_木鱼花14
-      - TW_木鱼花14 4
-      - US_木鱼花14 3
-      - US_木鱼花14 4
-      - US_木鱼花14 5
-      - US_木鱼花14 6
-      - US_木鱼花14 7
-      - TW_木鱼花14 5
-      - US_木鱼花14 8
-      - 俄罗斯联邦
+      - Youtube木鱼花37美国032
       - 美国
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - DE_木鱼花14
+      - Youtube木鱼花37US00236
+      - Youtube木鱼花13德国010
+      - Youtube木鱼花13德国06
+      - 美国(木鱼花15)
+      - US_木鱼花14 4
       - 美国 2
+      - Youtube木鱼花37NL0051
+      - TW_木鱼花14
+      - US_木鱼花14 5
+      - Youtube木鱼花37美国016
+      - AU_木鱼花14
+      - Youtube木鱼花37NL00231
+      - Youtube木鱼花37US00135
+      - Youtube木鱼花37US00134
+      - Youtube木鱼花37NL00209
+      - US_木鱼花14 6
+      - 美国(木鱼花15) 2
+      - CA_木鱼花14
+      - US_木鱼花14 7
+      - Youtube木鱼花37US0099
+      - Youtube木鱼花37IT00234
+      - Youtube木鱼花37SG00224
+      - Youtube木鱼花37IT0016
+      - Youtube木鱼花37TW0044
+      - TW_木鱼花14 2
+      - Youtube木鱼花37CZ00232
       - 美国 3
+      - Youtube木鱼花37美国097996
+      - Youtube木鱼花37MD00211
+      - Youtube木鱼花37美国0221
+      - Youtube木鱼花37美国0210
+      - Youtube木鱼花37NL0027
+      - 台湾(木鱼花15)
+      - 印度尼西亚
       - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 卢森堡
-      - 美国 9
-      - 俄罗斯联邦 2
-      - 美国(木鱼花25)
-      - 美国(木鱼花25) 2
-      - 美国(木鱼花25) 3
-      - 美国(木鱼花25) 4
-      - 美国(木鱼花25) 5
-      - 美国(木鱼花25) 6
-      - 英国(木鱼花25)
-      - 美国(木鱼花25) 7
-      - 美国(木鱼花25) 8
-      - 美国(木鱼花25) 9
-      - 美国(木鱼花25) 10
-      - 美国(木鱼花25) 11
-      - 美国(木鱼花25) 12
-      - 美国(木鱼花25) 13
-      - 荷兰(木鱼花25)
-      - 美国(木鱼花25) 14
-      - 荷兰(木鱼花25) 2
-      - 台湾(木鱼花25)
-      - 美国(木鱼花25) 15
-      - 美国(木鱼花25) 16
-      - 加拿大(木鱼花25)
-      - 美国(木鱼花25) 17
-      - 美国(木鱼花25) 18
-      - 美国(木鱼花25) 19
-      - 美国(木鱼花25) 20
-      - 印度(木鱼花25)
-      - 美国(木鱼花25) 21
-      - 美国(木鱼花25) 22
-      - 美国(木鱼花25) 23
+      - 俄罗斯联邦
+      - Youtube木鱼花37美国0198
+      - MY_木鱼花14
+      - 美国(木鱼花15) 3
+      - 美国(木鱼花15) 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
