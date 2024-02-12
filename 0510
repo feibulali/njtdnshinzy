@@ -5,143 +5,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 科技网络 🇺🇸_1, server: 142.4.103.179, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.84675006.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_26, server: 38.11.74.144, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.37445571.xyz}}, udp: true}
-  - {name: 科技网络 🇳🇱_30, server: 154.85.1.157, port: 41000, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.54241651.xyz}}, udp: true}
-  - {name: 科技网络 🇳🇱_38, server: 46.182.107.65, port: 41000, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.15697065.xyz}}, udp: true}
-  - {name: 科技网络 _45, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: 科技网络 🇺🇸_80, server: 38.12.82.99, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.65825524.xyz}}, udp: true}
-  - {name: 科技网络 _98, server: 104.21.94.99, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
-  - {name: 科技网络 🇺🇸_108, server: 142.4.97.67, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.31033708.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_109, server: 142.4.102.45, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.44974019.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_131, server: 198.2.196.165, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.54701745.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_153, server: 38.14.107.242, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.23179753.xyz}}, udp: true}
-  - {name: 科技网络 🇳🇱_170, server: 45.199.138.249, port: 41001, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.55092941.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_173, server: 137.175.40.6, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.75596620.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_176, server: 38.63.17.189, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.84206290.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_192, server: 108.186.222.172, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.60218590.xyz}}, udp: true}
-  - {name: 科技网络 _206, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 科技网络 🇺🇸_207, server: 38.48.141.201, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.83429197.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_208, server: 107.148.203.71, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.88016387.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_217, server: 142.4.113.118, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.94152251.xyz}}, udp: true}
-  - {name: 科技网络 _220, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 科技网络 🇺🇸_227, server: 108.186.196.170, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.86222404.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_246, server: 192.74.241.46, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.78814579.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_260, server: 142.4.108.194, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.17383957.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_261, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: 科技网络 🇺🇸_268, server: 198.2.213.171, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.54699295.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_270, server: 137.175.21.165, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.86052077.xyz}}, udp: true}
-  - {name: 科技网络 🇸🇬_275, server: 92.223.116.207, port: 443, type: vmess, uuid: 29a47c42-6c3a-46d0-a184-2c1a6ea192ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: kosar37.sytes.net}}, udp: true}
-  - {name: 科技网络 🇺🇸_279, server: 108.186.164.74, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.98382183.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_303, server: 38.14.101.247, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.41912208.xyz}}, udp: true}
-  - {name: 科技网络 🇳🇱_320, server: 154.85.0.193, port: 41001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181721272114, headers: {Host: www.71310405.xyz}}, udp: true}
+  - {name: JP_木鱼花14, server: 2jpmax05.233235.xyz, port: 666, type: trojan, password: 7c18cd10-243d-49f1-9d5f-90febae16653, sni: 2jpmax05.233235.xyz, skip-cert-verify: true, udp: true}
+  - {name: 木鱼花19-🏁RELAY-172.64.108.233-1897, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}, udp: true}
+  - {name: US_木鱼花14, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}, udp: true}
+  - {name: US_木鱼花14 2, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}, udp: true}
+  - {name: US_木鱼花14 3, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: US_木鱼花14 4, server: 172.67.204.84, port: 8880, type: vmess, uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server28.beheshtbaneh.com}}, udp: true}
+  - {name: US_木鱼花14 5, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
+  - {name: US_木鱼花14 6, server: 104.25.123.189, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
+  - {name: US_木鱼花14 7, server: dl1.fanqiecloud.top, port: 2095, type: vmess, uuid: 2744e13c-30ee-4e47-b338-076855db88c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-de2.fanqiecloud.top}}, udp: true}
+  - {name: US_木鱼花14 8, server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: JP_木鱼花14 2, server: jp-tokyo.xn--jvr80dc3xeqn.com, port: 41752, type: vmess, uuid: 9a0fc9bd-0267-4986-b7c2-6b0cb12947b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp-tokyo.xn--jvr80dc3xeqn.com}}, udp: true}
+  - {name: US_木鱼花14 9, server: 104.22.44.68, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
+  - {name: NL_木鱼花14, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: US_木鱼花14 10, server: fastly.com, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}, udp: true}
+  - {name: US_木鱼花14 11, server: 104.21.73.14, port: 8880, type: vmess, uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /adenc35.fixedlfoat.top/linkws, headers: {Host: yaghoob55freenodes.repaco69437403.workers.dev}}, udp: true}
+  - {name: US_木鱼花14 12, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: NL_木鱼花14 2, server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: NL_木鱼花14 3, server: 188.114.99.19, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
+  - {name: NL_木鱼花14 4, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: US_木鱼花14 13, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: US_木鱼花14 14, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: US_木鱼花14 15, server: 104.24.177.9, port: 443, type: vmess, uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hdfy6d6.jahangirkh.eu.org/lRkGCkYS9X5GDNJYMWXN7kCm3lL, headers: {Host: cpisub2.CpiOnliNE.Cc}}, udp: true}
+  - {name: US_木鱼花14 16, server: zula.ir, port: 8880, type: vmess, uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server28.beheshtbaneh.com}}, udp: true}
+  - {name: US_木鱼花14 17, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: US_木鱼花14 18, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: US_木鱼花14 19, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
+  - {name: US_木鱼花14 20, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: US_木鱼花14 21, server: 172.67.81.238, port: 443, type: vmess, uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hdfy6d1.cpionline.cc/lRkGCkYS9X5GDNJYMWXN7kCm3lL, headers: {Host: cpisub2.cpIONlIne.CC}}, udp: true}
+  - {name: NL_木鱼花14 5, server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: FR_木鱼花14, server: 173.245.49.87, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
+  - {name: US_木鱼花14 22, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}, udp: true}
+  - {name: US_木鱼花14 23, server: 104.21.73.14, port: 8880, type: vmess, uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /adenc35.fixedlfoat.top/linkws, headers: {Host: yaghoob55freenodes.repaco69437403.workers.dev}}, udp: true}
+  - {name: NL_木鱼花14 6, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: US_木鱼花14 24, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: NL_木鱼花14 7, server: 188.114.97.53, port: 443, type: vmess, uuid: 8c929251-406f-4b32-9173-07ccd242cb58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: fr1-vmess.sshmax.xyz}}, udp: true}
+  - {name: US_木鱼花14 25, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_木鱼花14 26, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
+  - {name: NL_木鱼花14 8, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
+  - {name: US_木鱼花14 27, server: 132.145.132.227, port: 37121, type: vmess, uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US_木鱼花14 28, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
+  - {name: US_木鱼花14 29, server: 150.107.201.179, port: 51923, type: vmess, uuid: 53fb3ce2-278f-400f-d40f-4bdc12d1da8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_木鱼花14 9, server: 91.242.229.69, port: 2086, type: vmess, uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nl1.xv2ray.net}}, udp: true}
+  - {name: UA_木鱼花14, server: 95.164.89.225, port: 38153, type: vmess, uuid: 70a694c8-ba65-4d1d-942d-4fc489da1b5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW_木鱼花14, server: 118.167.68.3, port: 4443, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW_木鱼花14 2, server: 118.167.68.3, port: 4443, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_木鱼花14 30, server: 38.14.107.242, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1707385668735, headers: {Host: www.23179753.xyz}}, udp: true}
+  - {name: JP_木鱼花14 3, server: jp01.hajimihajimihajimi.online, port: 80, type: vmess, uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp01.hajimihajimihajimi.online}}, udp: true}
+  - {name: CH_木鱼花14, server: kr-seoul-oracle-4fccf5.ip1.shop, port: 49898, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: kr-seoul-oracle-4fccf5.ip1.shop}}, udp: true}
+  - {name: US_木鱼花14 31, server: dl1.fanqiecloud.top, port: 2052, type: vmess, uuid: 2744e13c-30ee-4e47-b338-076855db88c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-fr2.fanqiecloud.top}}, udp: true}
+  - {name: US_木鱼花14 32, server: 142.4.97.68, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1707385668735, headers: {Host: www.31033708.xyz}}, udp: true}
+  - {name: US_木鱼花14 33, server: 172.67.184.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: janett.click}}, udp: true}
+  - {name: HK_木鱼花14, server: 1.chlmxfcjy.top, port: 443, type: vmess, uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: h197-fr.kxnn.eu.org}}, udp: true}
+  - {name: US_木鱼花14 34, server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: 2744e13c-30ee-4e47-b338-076855db88c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-hk2a.fanqiecloud.top}}, udp: true}
+  - {name: US_木鱼花14 35, server: janett.click, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: janett.click}}, udp: true}
+  - {name: US_木鱼花14 36, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: janett.click}}, udp: true}
+  - {name: US_木鱼花14 37, server: dl4.fanqiecloud.top, port: 2052, type: vmess, uuid: 2744e13c-30ee-4e47-b338-076855db88c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-sby2.fanqiecloud.top}}, udp: true}
+  - {name: US_木鱼花14 38, server: dl3.fanqiecloud.top, port: 2052, type: vmess, uuid: 2744e13c-30ee-4e47-b338-076855db88c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-it.fanqiecloud.top}}, udp: true}
+  - {name: TW_木鱼花14 3, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_木鱼花14 39, server: 172.67.132.209, port: 443, type: vmess, uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pl1-vmess.sshmax.xyz}}, udp: true}
+  - {name: US_木鱼花14 40, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048", headers: {Host: pq.kmoljklj.top}}, udp: true}
+  - {name: HK_木鱼花14 2, server: 156.245.8.185, port: 41000, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.20163322.xyz}}, udp: true}
+  - {name: US_木鱼花14 41, server: 38.11.206.253, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1707385668735, headers: {Host: www.43444988.xyz}}, udp: true}
+  - {name: US_木鱼花14 42, server: 104.21.20.155, port: 443, type: vmess, uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL, headers: {Host: hdfy6c3.foriran.trade}}, udp: true}
+  - {name: TW_木鱼花14 4, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_木鱼花14 43, server: chrome.cloudflare-dns.com, port: 443, type: vmess, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: a4.bbbbbbbb.tk}}, udp: true}
+  - {name: US_木鱼花14 44, server: 38.11.74.144, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1707385668735, headers: {Host: www.37445571.xyz}}, udp: true}
+  - {name: US_木鱼花14 45, server: 104.21.13.125, port: 443, type: vmess, uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pl1-vmess.sshmax.xyz}}, udp: true}
+  - {name: US_木鱼花14 46, server: 104.21.51.208, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nina.bond}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +312,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +390,221 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +620,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_26
-      - 科技网络 🇳🇱_30
-      - 科技网络 🇳🇱_38
-      - 科技网络 _45
-      - 科技网络 🇺🇸_80
-      - 科技网络 _98
-      - 科技网络 🇺🇸_108
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_131
-      - 科技网络 🇺🇸_153
-      - 科技网络 🇳🇱_170
-      - 科技网络 🇺🇸_173
-      - 科技网络 🇺🇸_176
-      - 科技网络 🇺🇸_192
-      - 科技网络 _206
-      - 科技网络 🇺🇸_207
-      - 科技网络 🇺🇸_208
-      - 科技网络 🇺🇸_217
-      - 科技网络 _220
-      - 科技网络 🇺🇸_227
-      - 科技网络 🇺🇸_246
-      - 科技网络 🇺🇸_260
-      - 科技网络 🇺🇸_261
-      - 科技网络 🇺🇸_268
-      - 科技网络 🇺🇸_270
-      - 科技网络 🇸🇬_275
-      - 科技网络 🇺🇸_279
-      - 科技网络 🇺🇸_303
-      - 科技网络 🇳🇱_320
+      - JP_木鱼花14
+      - 木鱼花19-🏁RELAY-172.64.108.233-1897
+      - US_木鱼花14
+      - US_木鱼花14 2
+      - US_木鱼花14 3
+      - US_木鱼花14 4
+      - US_木鱼花14 5
+      - US_木鱼花14 6
+      - US_木鱼花14 7
+      - US_木鱼花14 8
+      - JP_木鱼花14 2
+      - US_木鱼花14 9
+      - NL_木鱼花14
+      - US_木鱼花14 10
+      - US_木鱼花14 11
+      - US_木鱼花14 12
+      - NL_木鱼花14 2
+      - NL_木鱼花14 3
+      - NL_木鱼花14 4
+      - US_木鱼花14 13
+      - US_木鱼花14 14
+      - US_木鱼花14 15
+      - US_木鱼花14 16
+      - US_木鱼花14 17
+      - US_木鱼花14 18
+      - US_木鱼花14 19
+      - US_木鱼花14 20
+      - US_木鱼花14 21
+      - NL_木鱼花14 5
+      - FR_木鱼花14
+      - US_木鱼花14 22
+      - US_木鱼花14 23
+      - NL_木鱼花14 6
+      - US_木鱼花14 24
+      - NL_木鱼花14 7
+      - US_木鱼花14 25
+      - US_木鱼花14 26
+      - NL_木鱼花14 8
+      - US_木鱼花14 27
+      - US_木鱼花14 28
+      - US_木鱼花14 29
+      - NL_木鱼花14 9
+      - UA_木鱼花14
+      - TW_木鱼花14
+      - TW_木鱼花14 2
+      - US_木鱼花14 30
+      - JP_木鱼花14 3
+      - CH_木鱼花14
+      - US_木鱼花14 31
+      - US_木鱼花14 32
+      - US_木鱼花14 33
+      - HK_木鱼花14
+      - US_木鱼花14 34
+      - US_木鱼花14 35
+      - US_木鱼花14 36
+      - US_木鱼花14 37
+      - US_木鱼花14 38
+      - TW_木鱼花14 3
+      - US_木鱼花14 39
+      - US_木鱼花14 40
+      - HK_木鱼花14 2
+      - US_木鱼花14 41
+      - US_木鱼花14 42
+      - TW_木鱼花14 4
+      - US_木鱼花14 43
+      - US_木鱼花14 44
+      - US_木鱼花14 45
+      - US_木鱼花14 46
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10582,5 +10924,4 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 全球直连
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
- - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
