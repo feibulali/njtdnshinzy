@@ -5,549 +5,381 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 木鱼花19-🏁RELAY-172.64.108.233-1897, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}, udp: true}
-  - {name: 木鱼花96 _349, server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花96 🇨🇳_271, server: data-jp-v1.usabooks.com.cn, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}, udp: true}
-  - {name: 木鱼花96 _93, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花96 🇳🇱_189, server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: US_木鱼花14, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 德国(木鱼花15), server: 104.21.225.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 美国(木鱼花15), server: 104.21.230.50, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 美国(木鱼花15) 2, server: 104.21.228.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 美国(木鱼花15) 3, server: 104.21.225.197, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 德国(木鱼花15) 2, server: 104.21.225.167, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 德国(木鱼花15) 3, server: 104.21.225.118, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 美国(木鱼花15) 4, server: 104.21.237.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 美国(木鱼花15) 5, server: 104.21.231.55, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 俄罗斯(木鱼花15), server: 172.67.204.84, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(木鱼花15) 6, server: 104.21.225.154, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 德国(木鱼花15) 4, server: 104.21.225.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 美国(木鱼花15) 7, server: 104.21.232.41, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 新加坡, server: 8.222.159.252, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 新加坡 2, server: 8.222.167.147, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 日本, server: 141.147.178.135, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 新加坡 3, server: 8.222.249.190, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 新加坡 4, server: 8.222.215.228, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花96 🇳🇱_45, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 木鱼花96 _332, server: 104.21.237.65, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花96 _135, server: 104.21.225.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花96 _141, server: 104.21.236.63, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花96 🇺🇸_5, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
-  - {name: 木鱼花96 🇯🇵_191, server: 141.147.181.148, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花96 🇳🇱_315, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花96 _347, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花96 🇳🇱_120, server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花96 _320, server: 104.21.234.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花96 🇯🇵_115, server: 131.186.63.127, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花96 _41, server: cz2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 3669d547-ee0c-477d-8e47-c4400965db74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: cz2-vmess.sshmax.xyz}}, udp: true}
-  - {name: 木鱼花96 🇨🇳_17, server: data-hk-v1.shwjfkw.cn, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
-  - {name: 木鱼花96 _176, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: 木鱼花23 US0028686, server: 104.21.225.131, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 木鱼花97 _93, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 木鱼花97 _347, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 木鱼花97 🇨🇳_17, server: data-hk-v1.shwjfkw.cn, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
   - {name: 木鱼花23 AE00249, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
-  - {name: 木鱼花23 US00150, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花23 US0078, server: 104.21.224.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花23 US00297, server: 104.21.233.67, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
   - {name: 木鱼花23 US00191, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花23 US00181, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: 木鱼花23 NL0059, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花23 US004040, server: 104.21.225.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花23 NL00261, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
   - {name: 木鱼花23 NL00112, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 木鱼花23 US00142, server: www.velvetmountain.xyz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}, udp: true}
   - {name: 木鱼花23 US00147, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花23 US00219, server: 104.21.225.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
   - {name: 木鱼花23 US0081, server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花23 US00131, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 木鱼花23 AU00194, server: au-melbourne-oracle-3adc2a.ip1.shop, port: 48204, type: vmess, uuid: 38b483a4-ab07-4433-d957-4a64168891f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 木鱼花23 US00105, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: SG_木鱼花14, server: 8.222.237.131, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: US_木鱼花14 2, server: 104.21.228.42, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: US_木鱼花14 3, server: 104.21.230.33, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: US_木鱼花14 4, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: SG_木鱼花14 2, server: 8.222.174.108, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: US_木鱼花14 5, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048", headers: {Host: pq.kmoljklj.top}}, udp: true}
-  - {name: US_木鱼花14 6, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: SG_木鱼花14 3, server: 8.222.150.197, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 木鱼花97 🇨🇳_271, server: data-jp-v1.usabooks.com.cn, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}, udp: true}
+  - {name: 德国(木鱼花15), server: 104.21.225.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 木鱼花23 US00181, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: US_木鱼花14, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 木鱼花97 🇺🇸_5, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: 木鱼花23 US00142, server: www.velvetmountain.xyz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}, udp: true}
+  - {name: 木鱼花97 🇳🇱_315, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 木鱼花97 🇳🇱_189, server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 木鱼花97 🇨🇳_175, server: m.cnmjcn.com, port: 16622, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com}}, udp: true}
+  - {name: 美国(木鱼花15), server: 172.67.180.248, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}, udp: true}
+  - {name: 美国(木鱼花15) 2, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com}}, udp: true}
+  - {name: 法国(木鱼花15), server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com}}, udp: true}
+  - {name: 美国(木鱼花15) 3, server: m.cnmjcn.com, port: 16622, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
+  - {name: 美国(木鱼花15) 4, server: yes.cnmjcn.net, port: 16622, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
+  - {name: 美国(木鱼花15) 5, server: official.taipeicitygovernment.ivano-frankivsk.ua, port: 8443, type: trojan, password: 18d443f9-ad28-3c96-b13d-9127c46e06b7, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
+  - {name: 美国(木鱼花15) 6, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
+  - {name: 法国(木鱼花15) 2, server: yes.cnmjcn.net, port: 16645, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com}}, udp: true}
+  - {name: 美国(木鱼花15) 7, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: e418915e-6459-414d-bc76-bbcbda621f0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com}}, udp: true}
+  - {name: 美国(木鱼花15) 8, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
+  - {name: 木鱼花23 美国0493, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
+  - {name: 木鱼花23 美国01154, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
+  - {name: US_木鱼花14 2, server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
+  - {name: US_木鱼花14 3, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: US_木鱼花14 4, server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: NL_木鱼花14, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: NL_木鱼花14 2, server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: US_木鱼花14 5, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: SG_木鱼花14, server: 8.222.215.228, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: JP_木鱼花14, server: 141.147.178.135, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: SG_木鱼花14 2, server: 8.222.159.252, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: SG_木鱼花14 3, server: 8.222.167.147, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: SG_木鱼花14 4, server: 8.222.237.131, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: SG_木鱼花14 5, server: 8.222.174.108, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -570,69 +402,48 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 木鱼花19-🏁RELAY-172.64.108.233-1897
-      - 木鱼花96 _349
-      - 木鱼花96 🇨🇳_271
-      - 木鱼花96 _93
-      - 木鱼花96 🇳🇱_189
-      - US_木鱼花14
+      - 木鱼花97 _93
+      - 木鱼花97 _347
+      - 木鱼花97 🇨🇳_17
+      - 木鱼花23 AE00249
+      - 木鱼花23 US00191
+      - 木鱼花23 NL0059
+      - 木鱼花23 NL00112
+      - 木鱼花23 US00147
+      - 木鱼花23 US0081
+      - 木鱼花97 🇨🇳_271
       - 德国(木鱼花15)
+      - 木鱼花23 US00181
+      - US_木鱼花14
+      - 木鱼花97 🇺🇸_5
+      - 木鱼花23 US00142
+      - 木鱼花97 🇳🇱_315
+      - 木鱼花97 🇳🇱_189
+      - 木鱼花97 🇨🇳_175
       - 美国(木鱼花15)
       - 美国(木鱼花15) 2
+      - 法国(木鱼花15)
       - 美国(木鱼花15) 3
-      - 德国(木鱼花15) 2
-      - 德国(木鱼花15) 3
       - 美国(木鱼花15) 4
       - 美国(木鱼花15) 5
-      - 俄罗斯(木鱼花15)
       - 美国(木鱼花15) 6
-      - 德国(木鱼花15) 4
+      - 法国(木鱼花15) 2
       - 美国(木鱼花15) 7
-      - 新加坡
-      - 新加坡 2
-      - 日本
-      - 新加坡 3
-      - 新加坡 4
-      - 木鱼花96 🇳🇱_45
-      - 木鱼花96 _332
-      - 木鱼花96 _135
-      - 木鱼花96 _141
-      - 木鱼花96 🇺🇸_5
-      - 木鱼花96 🇯🇵_191
-      - 木鱼花96 🇳🇱_315
-      - 木鱼花96 _347
-      - 木鱼花96 🇳🇱_120
-      - 木鱼花96 _320
-      - 木鱼花96 🇯🇵_115
-      - 木鱼花96 _41
-      - 木鱼花96 🇨🇳_17
-      - 木鱼花96 _176
-      - 木鱼花23 US0028686
-      - 木鱼花23 AE00249
-      - 木鱼花23 US00150
-      - 木鱼花23 US0078
-      - 木鱼花23 US00297
-      - 木鱼花23 US00191
-      - 木鱼花23 US00181
-      - 木鱼花23 NL0059
-      - 木鱼花23 US004040
-      - 木鱼花23 NL00261
-      - 木鱼花23 NL00112
-      - 木鱼花23 US00142
-      - 木鱼花23 US00147
-      - 木鱼花23 US00219
-      - 木鱼花23 US0081
-      - 木鱼花23 US00131
-      - 木鱼花23 AU00194
-      - 木鱼花23 US00105
-      - SG_木鱼花14
+      - 美国(木鱼花15) 8
+      - 木鱼花23 美国0493
+      - 木鱼花23 美国01154
       - US_木鱼花14 2
       - US_木鱼花14 3
       - US_木鱼花14 4
-      - SG_木鱼花14 2
+      - NL_木鱼花14
+      - NL_木鱼花14 2
       - US_木鱼花14 5
-      - US_木鱼花14 6
+      - SG_木鱼花14
+      - JP_木鱼花14
+      - SG_木鱼花14 2
       - SG_木鱼花14 3
+      - SG_木鱼花14 4
+      - SG_木鱼花14 5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
