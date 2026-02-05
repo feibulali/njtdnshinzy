@@ -5,813 +5,645 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国, server: 84.247.166.18, port: 21049, type: ss, cipher: chacha20-ietf-poly1305, password: a48b9ca92abebb9f, udp: true}
-  - {name: 🇺🇸 美国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"}, udp: true}
-  - {name: 🇫🇷 法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: AZERB.NET}}, udp: true}
-  - {name: 🇺🇸 美国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10"}, udp: true}
-  - {name: 🇺🇸 美国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: AZERB.NET}}, udp: true}
-  - {name: 🇺🇸 美国 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: TURK1.NET.NET}}, udp: true}
-  - {name: 🇺🇸 美国 6, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}, udp: true}
-  - {name: 🇺🇸 美国 7, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}, udp: true}
+  - {name: 中国, server: 219.76.135.98, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: AZERB.NET}}, udp: true}
+  - {name: 🇺🇸 美国 2, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: Azerb.NET}}, udp: true}
+  - {name: 🇺🇸 美国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"}, udp: true}
+  - {name: 🇫🇷 法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "?ed=2048"}, udp: true}
+  - {name: 🇺🇸 美国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
+  - {name: 🇺🇸 美国 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 6, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: TABRIZ.NET}}, udp: true}
+  - {name: 🇺🇸 美国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10"}, udp: true}
+  - {name: 🇺🇸 美国 8, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10"}, udp: true}
+  - {name: 🇺🇸 美国 9, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}, udp: true}
+  - {name: 🇺🇸 美国 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
   - {name: 🇫🇷 法国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
-  - {name: 🇺🇸 美国 8, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇫🇷 法国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
-  - {name: 🇺🇸 美国 9, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: Azerb.NET}}, udp: true}
-  - {name: 🇫🇷 法国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "?ed=2048"}, udp: true}
-  - {name: 🇺🇸 美国 10, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: TABRIZ.NET}}, udp: true}
-  - {name: 🇺🇸 美国 11, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 6, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"}, udp: true}
+  - {name: 🇺🇸 美国 12, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: TURK1.NET.NET}}, udp: true}
+  - {name: 🇺🇸 美国 13, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
+  - {name: 🇺🇸 美国 14, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: AZERB.NET}}, udp: true}
+  - {name: 🇺🇸 美国 15, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}, udp: true}
+  - {name: 🇬🇧 英国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 16, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 12, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 13, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 14, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 15, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 16, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 17, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 17, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: TURK.NET}}, udp: true}
+  - {name: 🇬🇧 英国 3, server: 172.67.219.254, port: 443, type: vmess, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /KHtPvNZl371C8NsbbZ1wwDhJ3, headers: {Host: 42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io}}, udp: true}
   - {name: 🇺🇸 美国 18, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 19, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 20, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 21, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 22, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 23, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 6, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 7, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 19, server: bbgtr.7777198.xyz, port: 80, type: vmess, uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GgigazFGDLgFWDItkD5XgXAL, headers: {Host: BBGTR.7777198.XYZ}}, udp: true}
+  - {name: 🇺🇸 美国 20, server: ooiuyt.890699.xyz, port: 443, type: trojan, password: 98b419ef-83a2-4d1b-a23d-566b7f24477b, sni: OOIuyT.890699.xYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /Klh0x8wtLpTGA5AqzZ2Mj, headers: {Host: OOIuyT.890699.xYZ}}, udp: true}
+  - {name: 🇺🇸 美国 21, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 22, server: hhhhhhhhj.191266.xyz, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: hhhhhhhhj.191266.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 23, server: eEfrT.890699.xYz, port: 80, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, headers: {Host: eEFRT.890699.XYz}}, udp: true}
   - {name: 🇺🇸 美国 24, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 25, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 25, server: YyYYuUI.iRAn1912.dpDNs.oRG, port: 443, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: YYyYUui.iran1912.dpdNS.OrG}}, udp: true}
+  - {name: 🇬🇧 英国 7, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 26, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 27, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 9, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 10, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 28, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 11, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 29, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 30, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 31, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 32, server: 154.83.2.156, port: 2086, type: vmess, uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v205.19740822.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 33, server: HHhjki.TAIwaN2028.indEvS.in, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: hHHJkI.taiwAn2028.iNDEVs.in}}, udp: true}
-  - {name: 🇺🇸 美国 34, server: YyYYuUI.iRAn1912.dpDNs.oRG, port: 443, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: YYyYUui.iran1912.dpdNS.OrG}}, udp: true}
-  - {name: 🇭🇰 香港, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f3582fb3-6a0e-482b-a560-8c19dd40cce9, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 35, server: fffffg.890602.pp.ua, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: fffffg.890602.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 36, server: CCCVFffF.191288.Xyz, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: cCCVfffF.191288.xyZ}}, udp: true}
-  - {name: 🇺🇸 美国 37, server: CCCVFffF.191288.Xyz, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: cCCVfffF.191288.xyZ}}, udp: true}
-  - {name: 🇺🇸 美国 38, server: bbbnmkl.2030.pp.ua, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: bbbnmkl.2030.pp.ua}}, udp: true}
-  - {name: 🇭🇰 香港 2, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: a7b319ff-1222-4f21-8e24-9d8f91244b89, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 39, server: HHhjki.TAIwaN2028.indEvS.in, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: hHHJkI.taiwAn2028.iNDEVs.in}}, udp: true}
-  - {name: 🇺🇸 美国 40, server: v3.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true}
-  - {name: 🇺🇸 美国 41, server: bbbnmkl.2030.pp.ua, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: bbbnmkl.2030.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 42, server: gggnnjui.191292.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: gggnnjui.191292.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 43, server: jjjmki.930.pp.ua, port: 443, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: jjjmki.930.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 44, server: mmmki.890634.xYZ, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: Mmmki.890634.XYz}}, udp: true}
+  - {name: 🇺🇸 美国 26, server: 60a22220-8a8f-46e7-82ba-76d42df68c34.661.qzz.io, port: 443, type: trojan, password: 0c6b96bc-5e3a-4500-8497-6dead1965609, sni: 60a22220-8A8f-46e7-82bA-76D42Df68c34.661.qZZ.Io, skip-cert-verify: true, network: ws, ws-opts: {path: /MkQ4MzFOyssdW9ksbbZ1wwDhJ3, headers: {Host: 60a22220-8A8f-46e7-82bA-76D42Df68c34.661.qZZ.Io}}, udp: true}
+  - {name: 🇺🇸 美国 27, server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io, port: 443, type: trojan, password: 0c6b96bc-5e3a-4500-8497-6dead1965609, sni: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io, skip-cert-verify: true, network: ws, ws-opts: {path: /MkQ4MzFOyssdW9ksbbZ1wwDhJ3, headers: {Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io}}, udp: true}
+  - {name: 🇺🇸 美国 28, server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io, port: 443, type: vmess, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /KHtPvNZl371C8NsbbZ1wwDhJ3, headers: {Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io}}, udp: true}
+  - {name: 🇺🇸 美国 29, server: CCCVFffF.191288.Xyz, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: cCCVfffF.191288.xyZ}}, udp: true}
+  - {name: 🇺🇸 美国 30, server: eed4.7777125.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: eed4.7777125.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 31, server: jjji.2030.pp.ua, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: jjji.2030.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: jjji.2030.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 32, server: 172.67.193.64, port: 443, type: vmess, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /KHtPvNZl371C8NsbbZ1wwDhJ3, headers: {Host: 858C-EA07c71F67F1.X19890604.qZZ.IO}}, udp: true}
+  - {name: 🇺🇸 美国 33, server: bbbnmkl.2030.pp.ua, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: bbbnmkl.2030.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 34, server: tttyu.2030.pp.ua, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: tttyu.2030.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 35, server: rrrgt.2030.pp.ua, port: 80, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: rrrgt.2030.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 36, server: rrrrrrr5.191262.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: rrrrrrr5.191262.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: rrrrrrr5.191262.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 37, server: HHhjki.TAIwaN2028.indEvS.in, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: hHHJkI.taiwAn2028.iNDEVs.in}}, udp: true}
+  - {name: 🇺🇸 美国 38, server: vip2.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true}
+  - {name: 🇭🇰 香港, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: a7b319ff-1222-4f21-8e24-9d8f91244b89, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 39, server: mmmju.890634.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: mmmju.890634.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 40, server: jjjk.191268.xyz, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: jjjk.191268.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 41, server: vVVbNHj.191288.xYz, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: VvVBnHj.191288.XYZ}}, udp: true}
+  - {name: 🇺🇸 美国 42, server: mmKk.wWW890604.dpdns.OrG, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: mmKk.wWW890604.DPdNS.OrG}}, udp: true}
+  - {name: 🇺🇸 美国 43, server: bbbnmkl.2030.pp.ua, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: bbbnmkl.2030.pp.ua}}, udp: true}
+  - {name: 🇭🇰 香港 2, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 42bf0597-7ac9-4842-a0d9-c6bb39ef3f94, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: a7b319ff-1222-4f21-8e24-9d8f91244b89, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 0e1a4026-89b4-4f9c-b7c4-8fb2933c30db, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 63dbd122-6932-43ea-9c0e-06ed91f0d3d3, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 44, server: vip3.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true}
+  - {name: 🇭🇰 香港 5, server: 203.198.84.150, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 45, server: fffffg.890602.pp.ua, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: fffffg.890602.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 46, server: YyYYuUI.iRAn1912.dpDNs.oRG, port: 443, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: YYyYUui.iran1912.dpdNS.OrG}}, udp: true}
-  - {name: 🇩🇪 德国, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true}
-  - {name: 🇺🇸 美国 47, server: jjjmki.930.pp.ua, port: 443, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: jjjmki.930.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 48, server: gggnnjui.191292.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: gggnnjui.191292.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 49, server: jjjuu.191292.xyz, port: 443, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: jjjuu.191292.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 50, server: vip3.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true}
-  - {name: 🇭🇰 香港 3, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 63dbd122-6932-43ea-9c0e-06ed91f0d3d3, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0e1a4026-89b4-4f9c-b7c4-8fb2933c30db, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 51, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
-  - {name: 🇺🇸 美国 52, server: jjjk.191268.xyz, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: jjjk.191268.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 53, server: rrrgt.2030.pp.ua, port: 80, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: rrrgt.2030.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 54, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 55, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 56, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: TURK.NET}}, udp: true}
-  - {name: 🇺🇸 美国 57, server: mmmki.890634.xYZ, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: Mmmki.890634.XYz}}, udp: true}
-  - {name: 🇺🇸 美国 58, server: jjjk.191268.xyz, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: jjjk.191268.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 59, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"}, udp: true}
-  - {name: 🇫🇷 法国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
-  - {name: 🇺🇸 美国 60, server: eed4.7777125.xyz, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 61, server: eed4.7777125.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: eed4.7777125.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 62, server: eed4.7777125.xyz, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 63, server: bbbnhju.huangshang.online, port: 443, type: trojan, password: b9bb332d-5e0d-41af-adac-49362dde8661, sni: bbbnhju.huangshang.online, skip-cert-verify: true, network: ws, ws-opts: {path: /QmR662lkasAQbt5Q2GkKGWRMg, headers: {Host: bbbnhju.huangshang.online}}, udp: true}
-  - {name: 🇺🇸 美国 64, server: jjji.2030.pp.ua, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: jjji.2030.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: jjji.2030.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 65, server: eed4.7777125.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: eed4.7777125.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 66, server: llloooiu.191292.xyz, port: 443, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: llloooiu.191292.xyz}}, udp: true}
-  - {name: 🇬🇧 英国 12, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 67, server: bbbnhju.huangshang.online, port: 443, type: trojan, password: b9bb332d-5e0d-41af-adac-49362dde8661, sni: bbbnhju.huangshang.online, skip-cert-verify: true, network: ws, ws-opts: {path: /QmR662lkasAQbt5Q2GkKGWRMg, headers: {Host: bbbnhju.huangshang.online}}, udp: true}
-  - {name: 🇺🇸 美国 68, server: rrrrrrr5.191262.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: rrrrrrr5.191262.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: rrrrrrr5.191262.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 69, server: rrrrrrr5.191262.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: rrrrrrr5.191262.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: rrrrrrr5.191262.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 70, server: llloooiu.191292.xyz, port: 443, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: llloooiu.191292.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 71, server: jjji.2030.pp.ua, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: jjji.2030.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: jjji.2030.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 72, server: rrrgt.2030.pp.ua, port: 80, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: rrrgt.2030.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 46, server: v3.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true}
+  - {name: 🇺🇸 美国 47, server: mMmKi.890634.xyZ, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: MMmKI.890634.XyZ}}, udp: true}
+  - {name: 🇺🇸 美国 48, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 6a8c843d-d692-44cd-894e-e9114d3a006e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 6, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0e1a4026-89b4-4f9c-b7c4-8fb2933c30db, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大, server: tuntro006.instconn.com, port: 443, type: trojan, password: 63b21d86-a49c-4936-a634-0b5af3e30433, sni: torontorm1.686911.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 49, server: bbbnmkl.2030.pp.ua, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: bbbnmkl.2030.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 50, server: yyyyu.taiwan2026.indevs.in, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: yyyyu.taiwan2026.indevs.in, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: yyyyu.taiwan2026.indevs.in}}, udp: true}
+  - {name: 🇺🇸 美国 51, server: eed4.7777125.xyz, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 52, server: mmmki.890634.xYZ, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, headers: {Host: Mmmki.890634.XYz}}, udp: true}
+  - {name: 🇺🇸 美国 53, server: eett.taiwan2026.indevs.in, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: eett.taiwan2026.indevs.in, skip-cert-verify: true, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: eett.taiwan2026.indevs.in}}, udp: true}
+  - {name: 🇺🇸 美国 54, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: TABRIZ.NET}}, udp: true}
+  - {name: 🇺🇸 美国 55, server: gggnnjui.191292.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, headers: {Host: gggnnjui.191292.xyz}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -834,102 +666,81 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中国
       - 🇺🇸 美国
       - 🇺🇸 美国 2
-      - 🇫🇷 法国
       - 🇺🇸 美国 3
+      - 🇫🇷 法国
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇫🇷 法国 2
       - 🇺🇸 美国 8
-      - 🇫🇷 法国 3
       - 🇺🇸 美国 9
-      - 🇫🇷 法国 4
       - 🇺🇸 美国 10
+      - 🇫🇷 法国 2
       - 🇺🇸 美国 11
-      - 🇫🇷 法国 5
-      - 🇫🇷 法国 6
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
       - 🇺🇸 美国 15
+      - 🇬🇧 英国
       - 🇺🇸 美国 16
+      - 🇬🇧 英国 2
       - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
       - 🇬🇧 英国 3
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
+      - 🇺🇸 美国 18
       - 🇬🇧 英国 4
       - 🇬🇧 英国 5
+      - 🇬🇧 英国 6
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
       - 🇺🇸 美国 21
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
-      - 🇬🇧 英国 6
-      - 🇬🇧 英国 7
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇬🇧 英国 7
       - 🇬🇧 英国 8
+      - 🇬🇧 英国 9
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国 9
-      - 🇬🇧 英国 10
       - 🇺🇸 美国 28
-      - 🇬🇧 英国 11
       - 🇺🇸 美国 29
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
       - 🇺🇸 美国 34
-      - 🇭🇰 香港
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
       - 🇺🇸 美国 38
-      - 🇭🇰 香港 2
+      - 🇭🇰 香港
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
       - 🇺🇸 美国 43
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇨🇳 台湾
+      - 🇭🇰 香港 4
       - 🇺🇸 美国 44
+      - 🇭🇰 香港 5
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇩🇪 德国
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
+      - 🇭🇰 香港 6
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 49
       - 🇺🇸 美国 50
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
       - 🇺🇸 美国 51
       - 🇺🇸 美国 52
       - 🇺🇸 美国 53
       - 🇺🇸 美国 54
       - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇫🇷 法国 7
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇬🇧 英国 12
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
